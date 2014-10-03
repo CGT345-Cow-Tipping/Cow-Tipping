@@ -1,0 +1,172 @@
+Log file open, 10/01/14 16:58:54
+LogInit:Display: Running engine for game: CowTipping
+LogInit: Version: 4.3.1-2226335+++depot+UE4-Releases+4.3
+LogInit: API Version: 2215663
+LogInit: Compiled (64-bit): Jul 21 2014 22:28:08
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.3
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.3/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.01-20.58.54:560][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.01-20.58.54:591][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.01-20.58.54:605][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.01-20.58.54:612][  0]LogInit: Object subsystem initialized
+[2014.10.01-20.58.54:614][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.01-20.58.54:614][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.01-20.58.54:623][  0]LogInit: Computer: KNOY340PC23
+[2014.10.01-20.58.54:623][  0]LogInit: User: lopfer
+[2014.10.01-20.58.54:624][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.01-20.58.54:624][  0]LogInit: High frequency timer resolution =3.125058 MHz
+[2014.10.01-20.58.54:624][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx) Virtual=8192.0GB
+[2014.10.01-20.58.54:624][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.01-20.58.54:624][  0]LogMemory: Process Physical Memory: 60.34 MB used, 60.34 MB peak
+[2014.10.01-20.58.54:624][  0]LogMemory: Process Virtual Memory: 37.11 MB used, 37.11 MB peak
+[2014.10.01-20.58.54:624][  0]LogMemory: Physical Memory: 7044.40 MB used, 12271.22 MB total
+[2014.10.01-20.58.54:624][  0]LogMemory: Virtual Memory: 245.93 MB used, 8388608.00 MB total
+[2014.10.01-20.58.54:662][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 4000  (Feature Level 11_0)
+[2014.10.01-20.58.54:662][  0]LogD3D11RHI: Adapter has 1999MB of dedicated video memory, 0MB of dedicated system memory, and 5879MB of shared system memory, 1 output[s]
+[2014.10.01-20.58.54:662][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.01-20.58.54:668][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.01-20.58.54:676][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.01-20.58.54:776][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.01-20.58.55:656][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.01-20.58.55:842][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.01-20.58.55:901][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.01-20.58.55:955][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/lopfer/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.10.01-20.58.55:955][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lopfer/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc
+[2014.10.01-20.58.55:955][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Purdue/Fall14/CGT345/FinalProject/CowTipping/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.01-20.58.55:955][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.01-20.58.55:972][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.01-20.58.55:984][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lopfer/AppData/Local/UnrealEngine/4.3/DerivedDataCache: Writable
+[2014.10.01-20.58.56:181][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.01-20.58.56:181][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.01-20.58.56:576][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.01-20.58.57:482][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.01-20.58.57:482][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DummySprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.01-20.58.57:528][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.01-20.58.57:634][  0]SourceControl: Info Source control is disabled
+[2014.10.01-20.58.57:634][  0]SourceControl: Info Source control is disabled
+[2014.10.01-20.58.57:644][  0]SourceControl: Info Source control is disabled
+[2014.10.01-20.58.57:823][  0]BlueprintLog: New page: Editor Load
+[2014.10.01-20.58.57:887][  0]LogObj: 20191 objects as part of root set at end of initial load.
+[2014.10.01-20.58.57:887][  0]LogUObjectAllocator: 3997432 out of 0 bytes used by permanent object pool.
+[2014.10.01-20.58.58:047][  0]LogEngine: Initializing Engine...
+[2014.10.01-20.58.58:156][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.01-20.58.58:203][  0]LogInit: FAudioDevice initialized.
+[2014.10.01-20.58.58:228][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.01-20.58.58:253][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/lopfer/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.10.01-20.58.58:259][  0]LogInit: Texture streaming: Enabled
+[2014.10.01-20.58.58:301][  0]LogInit: Transaction tracking system initialized
+[2014.10.01-20.58.58:446][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2014.10.01-20.58.58:690][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.01-20.58.58:767][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.01-20.58.58:957][  0]LogConsoleResponse:Display: 
+[2014.10.01-20.58.59:254][  0]SourceControl: Info Source control is disabled
+[2014.10.01-20.58.59:255][  0]Cmd: MAP LOAD FILE="E:/Purdue/Fall14/CGT345/FinalProject/CowTipping/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.01-20.58.59:255][  0]LightingResults: New page: Lighting Build
+[2014.10.01-20.58.59:267][  0]MapCheck: New page: Map Check
+[2014.10.01-20.58.59:267][  0]LightingResults: New page: Lighting Build
+[2014.10.01-20.58.59:280][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001244B740
+[2014.10.01-20.58.59:389][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.01-20.58.59:389][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.01-20.58.59:389][  0]Cmd: MAP CHECKDEP
+[2014.10.01-20.58.59:389][  0]MapCheck: New page: Example_Map - Oct 1, 2014, 12:58:59 PM
+[2014.10.01-20.58.59:474][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [84.032ms] ==========
+[2014.10.01-20.58.59:474][  0]LogFileHelpers: Loading map 'Example_Map' took 0.219
+[2014.10.01-20.58.59:600][  0]LogCollectionManager: Loaded 0 collections in 0.000945 seconds
+[2014.10.01-20.58.59:732][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.01-20.58.59:777][  0]LogLoad: Full Startup: 6.43 seconds (BP compile: 0.02 seconds)
+[2014.10.01-20.58.59:954][  0]LogSlate: SRTH: 0000000011F1FDC0, 944 x 1015
+[2014.10.01-20.59.00:016][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x1016.
+[2014.10.01-20.59.00:277][  1]LogAssetRegistry: Asset discovery search completed in 1.8423 seconds
+[2014.10.01-20.59.00:821][ 24]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EACDF127593EB11F</RequestId><HostId>kGxAJLYkQ5OukmrJAwctZqTsvgrlzolktkXio6XByFYxDbgdYxHizhAtGnWJ86fp</HostId></Error>
+[2014.10.01-20.59.00:886][ 25]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>466BB459183288AC</RequestId><HostId>cU5n/5VELIXGFXArEfCL72YT4Av7foPBqgBnChZk0NjRcK+a3P6cUkRv6wAJNX5p</HostId></Error>
+[2014.10.01-20.59.00:910][ 26]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>43A5FEC2782F703B</RequestId><HostId>c/eL8rPYLzdPp/w77/cv9mGMpAzwnw2hPjZREYJcrGg8eJzYu6v10zqXhtDzTrFc</HostId></Error>
+[2014.10.01-20.59.00:937][ 27]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>5C3912CEC002124C</RequestId><HostId>kgt/6NAVsXYWfqzzEhi2Zk8utf17pPm7qQO2xCeRGqC86aHnem4IO2bxigcObylw</HostId></Error>
+[2014.10.01-20.59.01:019][ 30]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.01-20.59.01:020][ 30]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.01-20.59.18:305][430]Cmd: QUIT_EDITOR
+[2014.10.01-20.59.18:368][430]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.01-20.59.18:369][430]LogExit: Preparing to exit.
+[2014.10.01-20.59.18:601][430]LogExit: Editor shut down
+[2014.10.01-20.59.18:601][430]LogExit: Transaction tracking system shut down
+[2014.10.01-20.59.18:601][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CC41A80
+[2014.10.01-20.59.18:616][430]LogExit: Object subsystem successfully closed.
+[2014.10.01-20.59.18:664][430]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2014.10.01-20.59.18:664][430]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (171)
+[2014.10.01-20.59.18:664][430]LogModuleManager: Shutting down and abandoning module CrashTracker (170)
+[2014.10.01-20.59.18:664][430]LogModuleManager: Shutting down and abandoning module HTTP (169)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module NewsFeed (168)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module SceneOutliner (167)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module EditorWidgets (166)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module CollectionManager (165)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module StatsViewer (164)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module FoliageEdit (163)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module LandscapeEditor (162)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module MeshPaint (161)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module ActorPickerMode (160)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module GeometryMode (159)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module TextureAlignMode (158)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module BspMode (157)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module PlacementMode (156)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module DesktopPlatform (155)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module AutomationWorker (154)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (152)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module UndoHistory (151)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (150)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module UserFeedback (149)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module XmlParser (148)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module Blutility (147)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (146)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (145)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (144)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (143)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (142)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (141)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module InputBindingEditor (140)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (139)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module SettingsEditor (138)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module SessionLauncher (137)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module SessionFrontend (136)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module ProfilerClient (135)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (134)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module DeviceManager (133)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module AutomationController (132)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module AutomationWindow (131)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module Layers (130)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (129)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module DetailCustomizations (128)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module PackagesDialog (127)
+[2014.10.01-20.59.18:665][430]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (126)
+[2014.10.01-20.59.19:286][430]LogWindows: === Critical error: ===
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+
+[2014.10.01-20.59.19:286][430]LogWindows: Fatal error!
+
+Address = 0xdec55722 (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll]
+Address = 0x77ac10fb (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77ac12fa (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xfe1710dc (filename not found) [in C:\Windows\system32\KERNELBASE.dll]
+Address = 0xdec53098 (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll]
+Address = 0xdec53a24 (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll]
+Address = 0xdec5661c (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll]
+Address = 0xecdcfe52 (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xecdd036c (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Exit() 0x3f5ea472 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\launchengineloop.cpp:1962] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f5ec111 + 22 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\launch.cpp:144] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f5ec14a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f5f7c59 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f5f8a79 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x773859ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x77a9c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77a9c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.01-20.59.19:287][430]LogPhysics:Warning: PHYSX: ..\..\foundation\src\PsFoundation.cpp (234) 8 : Foundation: Invalid deregistration detected.
+[2014.10.01-20.59.19:287][430]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.10.01-20.59.19:287][430]Log file closed, 10/01/14 16:59:19
