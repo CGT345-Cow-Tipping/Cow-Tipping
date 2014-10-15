@@ -1,0 +1,645 @@
+Log file open, 10/14/14 22:10:49
+LogInit:Display: Running engine for game: CowTipping
+LogInit: Version: 4.3.1-2226335+++depot+UE4-Releases+4.3
+LogInit: API Version: 2215663
+LogInit: Compiled (64-bit): Jul 21 2014 22:28:08
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.3
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.3/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.15-02.10.49:528][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.15-02.10.49:555][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.15-02.10.49:562][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.15-02.10.49:567][  0]LogInit: Object subsystem initialized
+[2014.10.15-02.10.49:569][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.15-02.10.49:569][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.15-02.10.49:574][  0]LogInit: Computer: HINAGIKU
+[2014.10.15-02.10.49:574][  0]LogInit: User: JustinYong
+[2014.10.15-02.10.49:577][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.15-02.10.49:577][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.10.15-02.10.49:577][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2014.10.15-02.10.49:577][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.15-02.10.49:577][  0]LogMemory: Process Physical Memory: 61.38 MB used, 61.38 MB peak
+[2014.10.15-02.10.49:577][  0]LogMemory: Process Virtual Memory: 37.05 MB used, 37.05 MB peak
+[2014.10.15-02.10.49:577][  0]LogMemory: Physical Memory: 11788.48 MB used, 16321.69 MB total
+[2014.10.15-02.10.49:577][  0]LogMemory: Virtual Memory: 270.13 MB used, 8388608.00 MB total
+[2014.10.15-02.10.49:605][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2014.10.15-02.10.49:605][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 3 output[s]
+[2014.10.15-02.10.49:607][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.15-02.10.49:607][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.15-02.10.49:607][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.15-02.10.49:649][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.15-02.10.49:658][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.15-02.10.49:753][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.15-02.10.50:300][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.15-02.10.50:367][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.15-02.10.50:397][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.15-02.10.50:432][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Justin Yong/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.10.15-02.10.50:432][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Yong/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc
+[2014.10.15-02.10.50:432][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file B:/CGT 345/GitHub/Cow-Tipping/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.15-02.10.50:432][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.15-02.10.50:444][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.15-02.10.50:455][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Yong/AppData/Local/UnrealEngine/4.3/DerivedDataCache: Writable
+[2014.10.15-02.10.50:565][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.15-02.10.50:565][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.15-02.10.50:828][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.15-02.10.51:292][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.15-02.10.51:292][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DummySprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.15-02.10.51:294][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.15-02.10.51:363][  0]SourceControl: Info Source control is disabled
+[2014.10.15-02.10.51:363][  0]SourceControl: Info Source control is disabled
+[2014.10.15-02.10.51:366][  0]SourceControl: Info Source control is disabled
+[2014.10.15-02.10.51:467][  0]BlueprintLog: New page: Editor Load
+[2014.10.15-02.10.51:496][  0]LogObj: 20191 objects as part of root set at end of initial load.
+[2014.10.15-02.10.51:496][  0]LogUObjectAllocator: 3997440 out of 0 bytes used by permanent object pool.
+[2014.10.15-02.10.51:616][  0]LogEngine: Initializing Engine...
+[2014.10.15-02.10.51:692][  0]LogInit: XAudio2 using 'Razer Surround (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2014.10.15-02.10.51:696][  0]LogInit: FAudioDevice initialized.
+[2014.10.15-02.10.51:707][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.15-02.10.51:729][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Justin Yong/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.10.15-02.10.51:739][  0]LogInit: Texture streaming: Enabled
+[2014.10.15-02.10.51:800][  0]LogInit: Transaction tracking system initialized
+[2014.10.15-02.10.51:861][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2014.10.15-02.10.51:971][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.15-02.10.52:002][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.15-02.10.52:066][  0]LogConsoleResponse:Display: 
+[2014.10.15-02.10.52:166][  0]SourceControl: Info Source control is disabled
+[2014.10.15-02.10.52:166][  0]Cmd: MAP LOAD FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.15-02.10.52:166][  0]LightingResults: New page: Lighting Build
+[2014.10.15-02.10.52:171][  0]MapCheck: New page: Map Check
+[2014.10.15-02.10.52:171][  0]LightingResults: New page: Lighting Build
+[2014.10.15-02.10.52:184][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000020745C3740
+[2014.10.15-02.10.52:235][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.15-02.10.52:235][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-02.10.52:235][  0]Cmd: MAP CHECKDEP
+[2014.10.15-02.10.52:236][  0]MapCheck: New page: Example_Map - Oct 14, 2014, 6:10:52 PM
+[2014.10.15-02.10.52:259][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [23.909ms] ==========
+[2014.10.15-02.10.52:259][  0]LogFileHelpers: Loading map 'Example_Map' took 0.094
+[2014.10.15-02.10.52:414][  0]LogCollectionManager: Loaded 0 collections in 0.001257 seconds
+[2014.10.15-02.10.52:510][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.15-02.10.52:581][  0]LogLoad: Full Startup: 3.75 seconds (BP compile: 0.02 seconds)
+[2014.10.15-02.10.52:597][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.15-02.10.52:688][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.10.15-02.10.52:691][  0]LogSlate: SRTH: 000000206DC6FDC0, 1136 x 935
+[2014.10.15-02.10.52:753][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x936.
+[2014.10.15-02.10.52:907][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>598A8B75A10A229A</RequestId><HostId>WL1VUddrL7rhLP1slvO/u1ow3Y93vJ10SAbVFaRnp8XQDJ75ROOPNNMKZZXyoZoT</HostId></Error>
+[2014.10.15-02.10.52:921][  1]LogAssetRegistry: Asset discovery search completed in 1.0715 seconds
+[2014.10.15-02.10.52:990][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>067569287E6BFE1E</RequestId><HostId>WpW/v0yYvWJb/SQVcnSIJPipMGMnMEu/FVZK6zYv8u5722FpjKwrzDZQ0K3aeUqVH59iqx0XLXg=</HostId></Error>
+[2014.10.15-02.10.53:005][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>22F8D1966CFB6AF5</RequestId><HostId>DjX/rvXCVewQcLnDuuvwHtHJxxDnNTnAuOK2tlKnFyOwc+yn5fRgQFLA/L74TqjeZbr3m2/EJdc=</HostId></Error>
+[2014.10.15-02.10.53:043][  5]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>ACDB236408D05D70</RequestId><HostId>EayXwJfecVTpWQa30ZvHwneZUrwfwAtMQ/fBMicnTaTWomeLg7BaNiUCdhBdtg8I7pePWEC3u0A=</HostId></Error>
+[2014.10.15-02.10.53:165][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.15-02.10.53:165][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.15-02.10.55:911][270]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.11.09:124][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/Background_Sprite" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/Background_Sprite.uasset" SILENT=true
+[2014.10.15-02.11.09:336][798]LogSavePackage: Save=210.302841ms
+[2014.10.15-02.11.09:337][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Background_Sprite6A073F834F5F1462AC61418F09101271.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/Background_Sprite.uasset'
+[2014.10.15-02.11.09:341][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/Background_Sprite" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Background_Sprite.uasset" SILENT=true
+[2014.10.15-02.11.09:348][798]LogSavePackage: Save=4.251728ms
+[2014.10.15-02.11.09:348][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Background_Sprite033D416D412C68DBF10B4580BA11C973.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Background_Sprite.uasset'
+[2014.10.15-02.11.09:359][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/Ledge" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/Ledge.uasset" SILENT=true
+[2014.10.15-02.11.09:376][798]LogSavePackage: Save=15.968091ms
+[2014.10.15-02.11.09:376][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/LedgeA496FB254FC5B4C26DB32AA0488FE727.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/Ledge.uasset'
+[2014.10.15-02.11.09:382][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/Ledge" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Ledge.uasset" SILENT=true
+[2014.10.15-02.11.09:391][798]LogSavePackage: Save=5.914718ms
+[2014.10.15-02.11.09:391][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Ledge6D6290C54F64A998269719858E5980A8.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Ledge.uasset'
+[2014.10.15-02.11.09:403][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.11.09:445][798]LogSavePackage: Save=40.885502ms
+[2014.10.15-02.11.09:445][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimation72CCA04445E2096CC0ECE0B30366D27C.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleAnimation.uasset'
+[2014.10.15-02.11.09:460][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.11.09:506][798]LogSavePackage: Save=44.642963ms
+[2014.10.15-02.11.09:506][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation0F2A7B874C2A1A25F5B4D8ABC7EB5F25.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunningAnimation.uasset'
+[2014.10.15-02.11.09:517][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle1" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle1.uasset" SILENT=true
+[2014.10.15-02.11.09:558][798]LogSavePackage: Save=40.168934ms
+[2014.10.15-02.11.09:558][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle1188684D445DA5A06A7EE7192411C172F.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle1.uasset'
+[2014.10.15-02.11.09:571][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle2" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle2.uasset" SILENT=true
+[2014.10.15-02.11.09:611][798]LogSavePackage: Save=39.396698ms
+[2014.10.15-02.11.09:611][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle24C3B8B644F661B55675526A367106584.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle2.uasset'
+[2014.10.15-02.11.09:623][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle3" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle3.uasset" SILENT=true
+[2014.10.15-02.11.09:664][798]LogSavePackage: Save=40.139530ms
+[2014.10.15-02.11.09:664][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle37AE0A4EF452297F90621CBB5CA804FB8.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle3.uasset'
+[2014.10.15-02.11.09:677][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle4" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle4.uasset" SILENT=true
+[2014.10.15-02.11.09:718][798]LogSavePackage: Save=40.549080ms
+[2014.10.15-02.11.09:718][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle4CEA9076B4C0D28E4588DBA8F33A34174.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle4.uasset'
+[2014.10.15-02.11.09:732][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle5" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle5.uasset" SILENT=true
+[2014.10.15-02.11.09:775][798]LogSavePackage: Save=41.874317ms
+[2014.10.15-02.11.09:775][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle5E062834347C5E3CD97642C8707CBC621.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle5.uasset'
+[2014.10.15-02.11.09:787][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle6" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle6.uasset" SILENT=true
+[2014.10.15-02.11.09:828][798]LogSavePackage: Save=40.756927ms
+[2014.10.15-02.11.09:828][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle6625A2002458210940BEC208737B6BD01.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle6.uasset'
+[2014.10.15-02.11.09:840][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle7" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle7.uasset" SILENT=true
+[2014.10.15-02.11.09:882][798]LogSavePackage: Save=40.960861ms
+[2014.10.15-02.11.09:882][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle7D181CA4B469FAF3E6A35C385277467EE.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle7.uasset'
+[2014.10.15-02.11.09:895][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle8" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle8.uasset" SILENT=true
+[2014.10.15-02.11.09:941][798]LogSavePackage: Save=44.232647ms
+[2014.10.15-02.11.09:941][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle8DA1CA7494C49722A1F6AC8959BA1CDA2.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle8.uasset'
+[2014.10.15-02.11.09:953][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_1" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_1.uasset" SILENT=true
+[2014.10.15-02.11.09:997][798]LogSavePackage: Save=43.725460ms
+[2014.10.15-02.11.09:997][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_13FE32CC7430B903C09A4F293445F71A6.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_1.uasset'
+[2014.10.15-02.11.10:011][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_10" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_10.uasset" SILENT=true
+[2014.10.15-02.11.10:056][798]LogSavePackage: Save=43.802982ms
+[2014.10.15-02.11.10:056][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_10803F60D84DDEA8146C52E58EF9CF83B6.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_10.uasset'
+[2014.10.15-02.11.10:067][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_11" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_11.uasset" SILENT=true
+[2014.10.15-02.11.10:114][798]LogSavePackage: Save=45.586731ms
+[2014.10.15-02.11.10:114][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_111136F8E44100A5BF8572E2B31048E301.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_11.uasset'
+[2014.10.15-02.11.10:125][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_12" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_12.uasset" SILENT=true
+[2014.10.15-02.11.10:171][798]LogSavePackage: Save=45.260502ms
+[2014.10.15-02.11.10:171][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_12044DBFC84775DDBA9E9746BFFFCCAA6B.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_12.uasset'
+[2014.10.15-02.11.10:185][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_13" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_13.uasset" SILENT=true
+[2014.10.15-02.11.10:231][798]LogSavePackage: Save=45.874405ms
+[2014.10.15-02.11.10:231][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_13DC19D15A44BFF38217F783AD4E1B6E7F.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_13.uasset'
+[2014.10.15-02.11.10:242][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_14" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_14.uasset" SILENT=true
+[2014.10.15-02.11.10:290][798]LogSavePackage: Save=46.482166ms
+[2014.10.15-02.11.10:290][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_14392D0764420910806E2660A3434DEEA2.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_14.uasset'
+[2014.10.15-02.11.10:301][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_15" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_15.uasset" SILENT=true
+[2014.10.15-02.11.10:349][798]LogSavePackage: Save=45.844303ms
+[2014.10.15-02.11.10:349][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_1585D530DC47848077E5EE99A960F7215B.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_15.uasset'
+[2014.10.15-02.11.10:361][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_16" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_16.uasset" SILENT=true
+[2014.10.15-02.11.10:411][798]LogSavePackage: Save=49.201294ms
+[2014.10.15-02.11.10:411][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_1675EB2EBA4A23D929A84B098C9301FEBB.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_16.uasset'
+[2014.10.15-02.11.10:423][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_2" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_2.uasset" SILENT=true
+[2014.10.15-02.11.10:467][798]LogSavePackage: Save=43.033890ms
+[2014.10.15-02.11.10:467][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_29A9EF774454E3DFC6828CB9B4109C82D.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_2.uasset'
+[2014.10.15-02.11.10:478][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_3" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_3.uasset" SILENT=true
+[2014.10.15-02.11.10:523][798]LogSavePackage: Save=43.472775ms
+[2014.10.15-02.11.10:523][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_3E8F7CC914FF6606EECD655A2EA811B85.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_3.uasset'
+[2014.10.15-02.11.10:537][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_4" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_4.uasset" SILENT=true
+[2014.10.15-02.11.10:584][798]LogSavePackage: Save=46.289333ms
+[2014.10.15-02.11.10:584][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_4328B0D9445130098F4E33CA605AEEED0.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_4.uasset'
+[2014.10.15-02.11.10:595][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_5" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_5.uasset" SILENT=true
+[2014.10.15-02.11.10:641][798]LogSavePackage: Save=44.824062ms
+[2014.10.15-02.11.10:641][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_54F9AE98F435DC8B39D2D5E9A354B40FA.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_5.uasset'
+[2014.10.15-02.11.10:653][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_6" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_6.uasset" SILENT=true
+[2014.10.15-02.11.10:701][798]LogSavePackage: Save=47.259430ms
+[2014.10.15-02.11.10:701][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_665BCEE134D58E9F42CFBA6ABC648E490.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_6.uasset'
+[2014.10.15-02.11.10:712][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_7" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_7.uasset" SILENT=true
+[2014.10.15-02.11.10:759][798]LogSavePackage: Save=45.878944ms
+[2014.10.15-02.11.10:759][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_7807768A24166C1ADD56E1994B887EF6C.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_7.uasset'
+[2014.10.15-02.11.10:772][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_8" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_8.uasset" SILENT=true
+[2014.10.15-02.11.10:819][798]LogSavePackage: Save=45.192963ms
+[2014.10.15-02.11.10:819][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_87D5B2D814F366FC05593369C37DCCE92.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_8.uasset'
+[2014.10.15-02.11.10:830][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_9" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_9.uasset" SILENT=true
+[2014.10.15-02.11.10:874][798]LogSavePackage: Save=43.338329ms
+[2014.10.15-02.11.10:874][798]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_9AEB20EE44BB89F454CE0F2A36794EDD4.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_9.uasset'
+[2014.10.15-02.11.10:927][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.15-02.11.16:073][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.15-02.11.19:398][359]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.11.20:655][509]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.11.21:368][589]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/pre'
+[2014.10.15-02.11.23:248][809]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.11.25:584][ 85]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/pre'
+[2014.10.15-02.11.41:511][893]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.11.42:131][966]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.11.43:323][107]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old/IdleFrames'
+[2014.10.15-02.11.44:512][249]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.11.45:314][345]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.11.58:996][904]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.11.59:571][967]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old/IdleFrames'
+[2014.10.15-02.12.00:520][ 75]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.12.00:974][129]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old/RunFrames'
+[2014.10.15-02.12.01:734][220]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.12.02:068][260]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.12.55:183][795]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/pre'
+[2014.10.15-02.13.07:561][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/Background_Sprite" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Background_Sprite.uasset" SILENT=true
+[2014.10.15-02.13.07:773][115]LogSavePackage: Save=210.495331ms
+[2014.10.15-02.13.07:773][115]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Background_Sprite4785A8EE47DD7F47498D9F96B46EFE84.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Background_Sprite.uasset'
+[2014.10.15-02.13.07:784][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.07:825][115]LogSavePackage: Save=39.561592ms
+[2014.10.15-02.13.07:825][115]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimationC8DB314047056C52048A0E845CE86DE3.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.07:838][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/Ledge" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Ledge.uasset" SILENT=true
+[2014.10.15-02.13.07:856][115]LogSavePackage: Save=16.184877ms
+[2014.10.15-02.13.07:856][115]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Ledge06CC1B2042E5454DCEC1E595909164F6.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Ledge.uasset'
+[2014.10.15-02.13.07:867][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.07:915][115]LogSavePackage: Save=47.891071ms
+[2014.10.15-02.13.07:916][115]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationF0127C524CA6BAB2282F0BB53191E8BB.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.08:105][115]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000020004A5A80
+[2014.10.15-02.13.08:105][115]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000206C81B4C0
+[2014.10.15-02.13.08:219][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/Background_Sprite" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Background_Sprite.uasset" SILENT=true
+[2014.10.15-02.13.08:226][115]LogSavePackage: Save=4.447842ms
+[2014.10.15-02.13.08:226][115]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Background_SpriteB0EBF2394D6A6DB707EBFFBAE687093E.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Background_Sprite.uasset'
+[2014.10.15-02.13.08:229][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/Ledge" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Ledge.uasset" SILENT=true
+[2014.10.15-02.13.08:234][115]LogSavePackage: Save=3.964959ms
+[2014.10.15-02.13.08:234][115]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Ledge9B15F39F405FB21D86D69AA6EDAF3694.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Ledge.uasset'
+[2014.10.15-02.13.14:428][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleFrames/IdleCycle1" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle1.uasset" SILENT=true
+[2014.10.15-02.13.14:468][803]LogSavePackage: Save=38.719864ms
+[2014.10.15-02.13.14:468][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle18CFB0EB7419631FCD12172A2F23E5E56.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle1.uasset'
+[2014.10.15-02.13.14:479][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleFrames/IdleCycle2" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle2.uasset" SILENT=true
+[2014.10.15-02.13.14:518][803]LogSavePackage: Save=37.691730ms
+[2014.10.15-02.13.14:518][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle28E46407C469798063448A096A205DEE4.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle2.uasset'
+[2014.10.15-02.13.14:530][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleFrames/IdleCycle3" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle3.uasset" SILENT=true
+[2014.10.15-02.13.14:569][803]LogSavePackage: Save=38.325752ms
+[2014.10.15-02.13.14:569][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle389B4B59A4A7163FBD0C0BDB96B5458C0.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle3.uasset'
+[2014.10.15-02.13.14:581][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleFrames/IdleCycle4" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle4.uasset" SILENT=true
+[2014.10.15-02.13.14:621][803]LogSavePackage: Save=38.720703ms
+[2014.10.15-02.13.14:621][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle42392E11C4A8CEF36A47B839442189746.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle4.uasset'
+[2014.10.15-02.13.14:631][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleFrames/IdleCycle5" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle5.uasset" SILENT=true
+[2014.10.15-02.13.14:671][803]LogSavePackage: Save=38.861713ms
+[2014.10.15-02.13.14:671][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle54ADE673D4622D777AFE5D8BEB57468E0.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle5.uasset'
+[2014.10.15-02.13.14:681][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleFrames/IdleCycle6" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle6.uasset" SILENT=true
+[2014.10.15-02.13.14:722][803]LogSavePackage: Save=40.318184ms
+[2014.10.15-02.13.14:722][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle6F421F3D94F67C9932DA5BE96591937F2.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle6.uasset'
+[2014.10.15-02.13.14:734][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleFrames/IdleCycle7" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle7.uasset" SILENT=true
+[2014.10.15-02.13.14:776][803]LogSavePackage: Save=40.441940ms
+[2014.10.15-02.13.14:776][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle7582D098D40488C7A53E810B4294BA75A.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle7.uasset'
+[2014.10.15-02.13.14:786][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleFrames/IdleCycle8" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle8.uasset" SILENT=true
+[2014.10.15-02.13.14:824][803]LogSavePackage: Save=37.346577ms
+[2014.10.15-02.13.14:824][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle8C7BF9B654A879DB93FE1FE930F42FA93.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleFrames/IdleCycle8.uasset'
+[2014.10.15-02.13.14:873][803]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.15-02.13.15:197][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.15:203][803]LogSavePackage: Save=3.325353ms
+[2014.10.15-02.13.15:203][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimationFF14EEA34A79CFEAF46648943C8A8186.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.15:206][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.15:212][803]LogSavePackage: Save=4.024045ms
+[2014.10.15-02.13.15:212][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimation6961B93947443B08929C6389096A3F98.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.15:217][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.15:222][803]LogSavePackage: Save=3.658356ms
+[2014.10.15-02.13.15:222][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimation6F238ADC4EDDB442B37846BC2118B123.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.15:225][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.15:230][803]LogSavePackage: Save=3.337715ms
+[2014.10.15-02.13.15:230][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimation27145A1142395F5BC3B40F984DA52FA4.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.15:234][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.15:239][803]LogSavePackage: Save=3.691461ms
+[2014.10.15-02.13.15:239][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimationE8F98DF64B55276431AB29A62ABF99ED.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.15:242][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.15:248][803]LogSavePackage: Save=4.664001ms
+[2014.10.15-02.13.15:249][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimationC9B5805B483EDBCDE05878ADD0E21E71.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.15:252][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.15:257][803]LogSavePackage: Save=3.708991ms
+[2014.10.15-02.13.15:257][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimation0C81DEFC4818332F7B6A958C7797E4A4.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.15:260][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.15:266][803]LogSavePackage: Save=3.677632ms
+[2014.10.15-02.13.15:266][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimationE8F64C30479385EE2F4399A933336DED.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/IdleAnimation.uasset'
+[2014.10.15-02.13.15:427][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_1" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_1.uasset" SILENT=true
+[2014.10.15-02.13.15:470][803]LogSavePackage: Save=41.483833ms
+[2014.10.15-02.13.15:470][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_1C751CCD2402619044A5F4B8A79B8C4A3.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_1.uasset'
+[2014.10.15-02.13.15:482][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_10" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_10.uasset" SILENT=true
+[2014.10.15-02.13.15:523][803]LogSavePackage: Save=40.660126ms
+[2014.10.15-02.13.15:523][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_103766B20346BBEF2D27E590881F565269.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_10.uasset'
+[2014.10.15-02.13.15:535][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_11" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_11.uasset" SILENT=true
+[2014.10.15-02.13.15:581][803]LogSavePackage: Save=45.115929ms
+[2014.10.15-02.13.15:581][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_113FD6923F413E1055A3B7938B9F7435EF.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_11.uasset'
+[2014.10.15-02.13.15:592][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_12" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_12.uasset" SILENT=true
+[2014.10.15-02.13.15:639][803]LogSavePackage: Save=46.303928ms
+[2014.10.15-02.13.15:639][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_128A077C424DC5BF7A278D0BA91D147BFD.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_12.uasset'
+[2014.10.15-02.13.15:650][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_13" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_13.uasset" SILENT=true
+[2014.10.15-02.13.15:694][803]LogSavePackage: Save=42.831631ms
+[2014.10.15-02.13.15:694][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_132F2A80E2488737F95A84B7A47F7537DD.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_13.uasset'
+[2014.10.15-02.13.15:707][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_14" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_14.uasset" SILENT=true
+[2014.10.15-02.13.15:750][803]LogSavePackage: Save=42.564697ms
+[2014.10.15-02.13.15:750][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_140C96565A4C84773D9274DBBBB1119030.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_14.uasset'
+[2014.10.15-02.13.15:761][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_15" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_15.uasset" SILENT=true
+[2014.10.15-02.13.15:806][803]LogSavePackage: Save=44.080742ms
+[2014.10.15-02.13.15:806][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_150448630E4818138CC6BC888D9964FC2A.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_15.uasset'
+[2014.10.15-02.13.15:818][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_16" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_16.uasset" SILENT=true
+[2014.10.15-02.13.15:863][803]LogSavePackage: Save=43.842026ms
+[2014.10.15-02.13.15:863][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_16F7B47B1F4FDE26C8C11E4988F3A8B68D.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_16.uasset'
+[2014.10.15-02.13.15:873][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_2" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_2.uasset" SILENT=true
+[2014.10.15-02.13.15:917][803]LogSavePackage: Save=43.512165ms
+[2014.10.15-02.13.15:917][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_2760753514484706E5835DC9B95AE1D5A.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_2.uasset'
+[2014.10.15-02.13.15:930][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_3" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_3.uasset" SILENT=true
+[2014.10.15-02.13.15:977][803]LogSavePackage: Save=45.674870ms
+[2014.10.15-02.13.15:977][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_3B5405AFC409D194B1908F9B1C8FB05AE.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_3.uasset'
+[2014.10.15-02.13.15:989][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_4" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_4.uasset" SILENT=true
+[2014.10.15-02.13.16:034][803]LogSavePackage: Save=44.408646ms
+[2014.10.15-02.13.16:034][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_43C379AE94A94DA9E7CE880B01F12F826.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_4.uasset'
+[2014.10.15-02.13.16:044][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_5" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_5.uasset" SILENT=true
+[2014.10.15-02.13.16:088][803]LogSavePackage: Save=43.000854ms
+[2014.10.15-02.13.16:088][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_5E038BE0443B2E569AB1160B42A6C633E.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_5.uasset'
+[2014.10.15-02.13.16:101][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_6" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_6.uasset" SILENT=true
+[2014.10.15-02.13.16:148][803]LogSavePackage: Save=45.980354ms
+[2014.10.15-02.13.16:148][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_6550269D449D7F4DA9C5A62B60B1E795C.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_6.uasset'
+[2014.10.15-02.13.16:159][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_7" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_7.uasset" SILENT=true
+[2014.10.15-02.13.16:208][803]LogSavePackage: Save=48.234203ms
+[2014.10.15-02.13.16:208][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_7403EF37F4045009E0245218BE8C03537.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_7.uasset'
+[2014.10.15-02.13.16:224][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_8" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_8.uasset" SILENT=true
+[2014.10.15-02.13.16:269][803]LogSavePackage: Save=44.583389ms
+[2014.10.15-02.13.16:269][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_8BAB2264D4D6596391C1D57AB77F2EBE1.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_8.uasset'
+[2014.10.15-02.13.16:280][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunFrames/RunCycle_9" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_9.uasset" SILENT=true
+[2014.10.15-02.13.16:324][803]LogSavePackage: Save=43.295658ms
+[2014.10.15-02.13.16:324][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_993106D7744803926B0E32C961A9D35D8.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunFrames/RunCycle_9.uasset'
+[2014.10.15-02.13.16:948][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.16:954][803]LogSavePackage: Save=3.419918ms
+[2014.10.15-02.13.16:955][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationF87209A34422DCF8A6D48C9B69017B1E.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.16:957][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.16:964][803]LogSavePackage: Save=4.493518ms
+[2014.10.15-02.13.16:964][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationAE545B8147D074A01BA6C9B27B25DF0D.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.16:969][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.16:975][803]LogSavePackage: Save=3.953855ms
+[2014.10.15-02.13.16:975][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationCA6459E042960BCF24CE7EA6867B87EB.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.16:978][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.16:983][803]LogSavePackage: Save=3.287778ms
+[2014.10.15-02.13.16:983][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation4DDC57D74BBF313F74F4B591F6FD66FE.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.16:987][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.16:992][803]LogSavePackage: Save=3.322908ms
+[2014.10.15-02.13.16:992][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationA9D5CE92479A728F7DA2EFA8C1913A66.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.16:995][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:000][803]LogSavePackage: Save=3.430604ms
+[2014.10.15-02.13.17:000][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation0A824E854032E8CEE7F610B8EE190976.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:003][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:011][803]LogSavePackage: Save=5.880985ms
+[2014.10.15-02.13.17:011][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation04B09FAC47252F3120D460988F2B485E.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:015][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:021][803]LogSavePackage: Save=3.757810ms
+[2014.10.15-02.13.17:021][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation388CF39946261E21DDD454B2E15E0B14.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:023][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:030][803]LogSavePackage: Save=4.372064ms
+[2014.10.15-02.13.17:030][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationA20A6BEF40DA6549A78A94B9DD7AAB18.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:033][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:039][803]LogSavePackage: Save=4.382471ms
+[2014.10.15-02.13.17:039][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation5AFFA34648CA514D0ED02F9C673FA01C.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:042][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:049][803]LogSavePackage: Save=4.480947ms
+[2014.10.15-02.13.17:049][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation790E37A444AADD3488E3C88BFC25A4CD.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:053][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:059][803]LogSavePackage: Save=4.390432ms
+[2014.10.15-02.13.17:059][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation5CFA3B9F47290D007605D89E1F9A8AA9.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:062][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:068][803]LogSavePackage: Save=3.888064ms
+[2014.10.15-02.13.17:068][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation221ED1084B569669CF72658DADCA4159.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:071][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:076][803]LogSavePackage: Save=3.795385ms
+[2014.10.15-02.13.17:076][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationC4C6B8E9498B1398CF58DFAADB35E4D6.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:079][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:085][803]LogSavePackage: Save=3.575804ms
+[2014.10.15-02.13.17:085][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimation523B17914F98EA4E446D349EA49F0B20.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:087][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.17:095][803]LogSavePackage: Save=5.567886ms
+[2014.10.15-02.13.17:095][803]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationA57606144096DC4A2899C9A32883A043.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/RunningAnimation.uasset'
+[2014.10.15-02.13.17:102][803]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.15-02.13.17:102][803]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old/IdleFrames'
+[2014.10.15-02.13.17:102][803]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old/IdleFrames'
+[2014.10.15-02.13.18:779][984]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/pre'
+[2014.10.15-02.13.24:157][577]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.15-02.13.25:277][696]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.13.32:502][476]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.13.36:388][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/Background_Sprite" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/Background_Sprite.uasset" SILENT=true
+[2014.10.15-02.13.36:594][881]LogSavePackage: Save=204.242233ms
+[2014.10.15-02.13.36:594][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Background_Sprite20D194A94F72AA495FE80B9AD48735F9.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/Background_Sprite.uasset'
+[2014.10.15-02.13.36:598][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/Background_Sprite" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Background_Sprite.uasset" SILENT=true
+[2014.10.15-02.13.36:602][881]LogSavePackage: Save=3.059747ms
+[2014.10.15-02.13.36:602][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Background_SpriteFA2CCDE84C1A286478BD89A658616C2D.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Background_Sprite.uasset'
+[2014.10.15-02.13.36:614][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/Ledge" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/Ledge.uasset" SILENT=true
+[2014.10.15-02.13.36:628][881]LogSavePackage: Save=13.119823ms
+[2014.10.15-02.13.36:628][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/Ledge98CB2B8641EBEFC73EAC86B287E86733.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/Ledge.uasset'
+[2014.10.15-02.13.36:631][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/old/Ledge" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Ledge.uasset" SILENT=true
+[2014.10.15-02.13.36:636][881]LogSavePackage: Save=2.782616ms
+[2014.10.15-02.13.36:636][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/LedgeB8230D484A902DD1DFEB32A48249E6B6.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/old/Ledge.uasset'
+[2014.10.15-02.13.36:647][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle1" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle1.uasset" SILENT=true
+[2014.10.15-02.13.36:689][881]LogSavePackage: Save=40.525822ms
+[2014.10.15-02.13.36:689][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle1F998787C4EBA037CE18FA08B45971800.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle1.uasset'
+[2014.10.15-02.13.36:700][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle2" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle2.uasset" SILENT=true
+[2014.10.15-02.13.36:737][881]LogSavePackage: Save=35.741344ms
+[2014.10.15-02.13.36:738][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle2572C0DE54956AAB3E30687B890C03BB2.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle2.uasset'
+[2014.10.15-02.13.36:748][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle3" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle3.uasset" SILENT=true
+[2014.10.15-02.13.36:787][881]LogSavePackage: Save=38.311714ms
+[2014.10.15-02.13.36:787][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle3274AA02E4A92BBCDFBCB809A5DB3BCAF.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle3.uasset'
+[2014.10.15-02.13.36:798][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle4" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle4.uasset" SILENT=true
+[2014.10.15-02.13.36:839][881]LogSavePackage: Save=40.606140ms
+[2014.10.15-02.13.36:839][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle4AA3CB8594AEF99F73B779ABFC2CEBDBB.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle4.uasset'
+[2014.10.15-02.13.36:852][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle5" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle5.uasset" SILENT=true
+[2014.10.15-02.13.36:893][881]LogSavePackage: Save=40.288010ms
+[2014.10.15-02.13.36:893][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle55D24A28E429074E282B094955BC121F7.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle5.uasset'
+[2014.10.15-02.13.36:907][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle6" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle6.uasset" SILENT=true
+[2014.10.15-02.13.36:949][881]LogSavePackage: Save=41.138329ms
+[2014.10.15-02.13.36:949][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle67E5BFE764820978829EAEE9D72DFEB2A.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle6.uasset'
+[2014.10.15-02.13.36:959][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle7" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle7.uasset" SILENT=true
+[2014.10.15-02.13.37:000][881]LogSavePackage: Save=39.520805ms
+[2014.10.15-02.13.37:000][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle74C8898C3483C30F3C8157C81E6C1E6B5.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle7.uasset'
+[2014.10.15-02.13.37:012][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleFrames/IdleCycle8" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle8.uasset" SILENT=true
+[2014.10.15-02.13.37:053][881]LogSavePackage: Save=40.522610ms
+[2014.10.15-02.13.37:053][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleCycle896C28CB0414D055ACDEF6DB1AFACB316.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleFrames/IdleCycle8.uasset'
+[2014.10.15-02.13.37:065][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/IdleAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleAnimation.uasset" SILENT=true
+[2014.10.15-02.13.37:103][881]LogSavePackage: Save=37.463978ms
+[2014.10.15-02.13.37:103][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/IdleAnimationCE074E7B47E0E83064E686BDB16E7704.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/IdleAnimation.uasset'
+[2014.10.15-02.13.37:115][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_1" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_1.uasset" SILENT=true
+[2014.10.15-02.13.37:158][881]LogSavePackage: Save=41.772976ms
+[2014.10.15-02.13.37:158][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_185F989094610798E4DB7C5B6C077759D.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_1.uasset'
+[2014.10.15-02.13.37:168][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_10" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_10.uasset" SILENT=true
+[2014.10.15-02.13.37:212][881]LogSavePackage: Save=42.812077ms
+[2014.10.15-02.13.37:212][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_10AF07B3C94B70DE3D56371C89EBE10BCE.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_10.uasset'
+[2014.10.15-02.13.37:223][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_11" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_11.uasset" SILENT=true
+[2014.10.15-02.13.37:269][881]LogSavePackage: Save=45.290882ms
+[2014.10.15-02.13.37:269][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_115E47128848CA4CBD382E3C9051E60692.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_11.uasset'
+[2014.10.15-02.13.37:279][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_12" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_12.uasset" SILENT=true
+[2014.10.15-02.13.37:323][881]LogSavePackage: Save=43.256405ms
+[2014.10.15-02.13.37:323][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_12EF2769AA423C581B754AB98EE57A9244.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_12.uasset'
+[2014.10.15-02.13.37:335][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_13" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_13.uasset" SILENT=true
+[2014.10.15-02.13.37:381][881]LogSavePackage: Save=45.170895ms
+[2014.10.15-02.13.37:381][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_13EF788FA24F1622DEB2EFF3AB8EED4ED5.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_13.uasset'
+[2014.10.15-02.13.37:394][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_14" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_14.uasset" SILENT=true
+[2014.10.15-02.13.37:438][881]LogSavePackage: Save=43.811573ms
+[2014.10.15-02.13.37:438][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_14F1A97AC64366D53560679EA1E00C1F74.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_14.uasset'
+[2014.10.15-02.13.37:451][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_15" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_15.uasset" SILENT=true
+[2014.10.15-02.13.37:497][881]LogSavePackage: Save=44.851093ms
+[2014.10.15-02.13.37:497][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_1525D8C61146367F249F4895A3484A6ADF.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_15.uasset'
+[2014.10.15-02.13.37:508][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_16" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_16.uasset" SILENT=true
+[2014.10.15-02.13.37:554][881]LogSavePackage: Save=44.394749ms
+[2014.10.15-02.13.37:554][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_16CE2D51B140C62AF3EEA62BA95166C14A.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_16.uasset'
+[2014.10.15-02.13.37:564][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_2" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_2.uasset" SILENT=true
+[2014.10.15-02.13.37:608][881]LogSavePackage: Save=43.941410ms
+[2014.10.15-02.13.37:608][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_2CF18B1774CD5614336B132B59E4D6CE0.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_2.uasset'
+[2014.10.15-02.13.37:620][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_3" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_3.uasset" SILENT=true
+[2014.10.15-02.13.37:663][881]LogSavePackage: Save=42.264381ms
+[2014.10.15-02.13.37:663][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_359A43F1B48F4026B9CF580859FED4350.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_3.uasset'
+[2014.10.15-02.13.37:674][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_4" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_4.uasset" SILENT=true
+[2014.10.15-02.13.37:723][881]LogSavePackage: Save=47.871658ms
+[2014.10.15-02.13.37:723][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_46F7F681949D4056D352296AF177C6A9C.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_4.uasset'
+[2014.10.15-02.13.37:737][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_5" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_5.uasset" SILENT=true
+[2014.10.15-02.13.37:785][881]LogSavePackage: Save=46.988094ms
+[2014.10.15-02.13.37:785][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_58CFA17FE4348B24AB247E68182ECD785.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_5.uasset'
+[2014.10.15-02.13.37:795][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_6" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_6.uasset" SILENT=true
+[2014.10.15-02.13.37:843][881]LogSavePackage: Save=46.389904ms
+[2014.10.15-02.13.37:843][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_66BC84166471F109D0F5112AEBD1F40C5.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_6.uasset'
+[2014.10.15-02.13.37:858][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_7" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_7.uasset" SILENT=true
+[2014.10.15-02.13.37:906][881]LogSavePackage: Save=45.923435ms
+[2014.10.15-02.13.37:906][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_7985B362547C4683970C9F6AFF0719CA1.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_7.uasset'
+[2014.10.15-02.13.37:918][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_8" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_8.uasset" SILENT=true
+[2014.10.15-02.13.37:962][881]LogSavePackage: Save=43.412849ms
+[2014.10.15-02.13.37:962][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_833AD391F4F2AF71DA489E8BA63D0010D.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_8.uasset'
+[2014.10.15-02.13.37:976][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunFrames/RunCycle_9" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_9.uasset" SILENT=true
+[2014.10.15-02.13.38:020][881]LogSavePackage: Save=42.644665ms
+[2014.10.15-02.13.38:020][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunCycle_9B9BA67354A22084F58EB7EA7140153F0.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunFrames/RunCycle_9.uasset'
+[2014.10.15-02.13.38:031][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/pre/RunningAnimation" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunningAnimation.uasset" SILENT=true
+[2014.10.15-02.13.38:078][881]LogSavePackage: Save=44.873440ms
+[2014.10.15-02.13.38:078][881]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/RunningAnimationA7E05E82428E07BCB65EC894FE4EE57F.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Sprites/pre/RunningAnimation.uasset'
+[2014.10.15-02.13.38:122][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.10.15-02.13.42:223][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.10.15-02.13.42:278][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="B:/CGT 345/GitHub/Cow-Tipping/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.10.15-02.13.42:426][267]LogSavePackage: Save=146.319153ms
+[2014.10.15-02.13.42:426][267]LogSavePackage: Moving 'B:/CGT 345/GitHub/Cow-Tipping/Saved/MyCharacterCC39EADB4068DD7F4FED15B0B270A932.tmp' to 'B:/CGT 345/GitHub/Cow-Tipping/Content/Blueprints/MyCharacter.uasset'
+[2014.10.15-02.13.43:400][377]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.13.44:438][500]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old/IdleFrames'
+[2014.10.15-02.13.45:900][661]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.13.50:214][129]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.10.15-02.14.14:529][928]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/old'
+[2014.10.15-02.14.23:239][920]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.10.15-02.14.48:230][662]Cmd: QUIT_EDITOR
+[2014.10.15-02.14.48:274][662]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.15-02.14.48:275][662]LogExit: Preparing to exit.
+[2014.10.15-02.14.48:599][662]LogExit: Editor shut down
+[2014.10.15-02.14.48:599][662]LogExit: Transaction tracking system shut down
+[2014.10.15-02.14.48:600][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000206C14EF20
+[2014.10.15-02.14.48:600][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000206C4CF240
+[2014.10.15-02.14.48:620][662]LogExit: Object subsystem successfully closed.
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (173)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (171)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module CrashTracker (170)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module HTTP (169)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module NewsFeed (168)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module SceneOutliner (167)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module EditorWidgets (166)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module CollectionManager (165)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module StatsViewer (164)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module FoliageEdit (163)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module LandscapeEditor (162)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module MeshPaint (161)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module ActorPickerMode (160)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module GeometryMode (159)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module TextureAlignMode (158)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module BspMode (157)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module PlacementMode (156)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module DesktopPlatform (155)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module AutomationWorker (154)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (152)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module UndoHistory (151)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (150)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module UserFeedback (149)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module XmlParser (148)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module Blutility (147)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (146)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (145)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (144)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (143)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (142)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (141)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module InputBindingEditor (140)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (139)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module SettingsEditor (138)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module SessionLauncher (137)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module SessionFrontend (136)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module ProfilerClient (135)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (134)
+[2014.10.15-02.14.48:639][662]LogModuleManager: Shutting down and abandoning module DeviceManager (133)
+[2014.10.15-02.14.48:640][662]LogModuleManager: Shutting down and abandoning module AutomationController (132)
+[2014.10.15-02.14.48:640][662]LogModuleManager: Shutting down and abandoning module AutomationWindow (131)
+[2014.10.15-02.14.48:640][662]LogModuleManager: Shutting down and abandoning module Layers (130)
+[2014.10.15-02.14.48:640][662]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (129)
+[2014.10.15-02.14.48:640][662]LogModuleManager: Shutting down and abandoning module DetailCustomizations (128)
+[2014.10.15-02.14.48:640][662]LogModuleManager: Shutting down and abandoning module PackagesDialog (127)
+[2014.10.15-02.14.48:640][662]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (126)
+[2014.10.15-02.14.48:640][662]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module Sequencer (119)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module AnalyticsET (113)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module Analytics (112)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module GameplayDebugger (111)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module AIModule (110)
+[2014.10.15-02.14.48:689][662]LogModuleManager: Shutting down and abandoning module ProfilerService (109)
+[2014.10.15-02.14.48:709][662]LogModuleManager: Shutting down and abandoning module TaskGraph (108)
+[2014.10.15-02.14.48:709][662]LogModuleManager: Shutting down and abandoning module ViewportSnapping (107)
+[2014.10.15-02.14.48:709][662]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (106)
+[2014.10.15-02.14.48:709][662]LogModuleManager: Shutting down and abandoning module Matinee (105)
+[2014.10.15-02.14.48:709][662]LogModuleManager: Shutting down and abandoning module Kismet (104)
+[2014.10.15-02.14.48:709][662]LogModuleManager: Shutting down and abandoning module SlateReflector (103)
+[2014.10.15-02.14.48:709][662]LogModuleManager: Shutting down and abandoning module LevelEditor (102)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module IntroTutorials (101)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module ContentBrowser (100)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module PropertyEditor (99)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module AssetTools (98)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module SourceControl (96)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module ImageWrapper (95)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (94)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (91)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module MessageLog (90)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module Slate (89)
+[2014.10.15-02.14.48:710][662]LogModuleManager: Shutting down and abandoning module EditorStyle (88)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module SessionServices (87)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (86)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (85)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module XAudio2 (84)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module Networking (82)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module Core (81)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module KismetCompiler (80)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module PhysXFormats (79)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module MeshUtilities (78)
+[2014.10.15-02.14.48:711][662]LogModuleManager: Shutting down and abandoning module DerivedDataCache (77)
+[2014.10.15-02.14.48:752][662]LogDerivedDataCache: Shutdown
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (76)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (75)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (74)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (73)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (72)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (71)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (70)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (69)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (68)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (67)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Messaging (66)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (65)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (64)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (63)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (62)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (61)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (60)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (59)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (58)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (57)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (56)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (55)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module TargetPlatform (54)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module InputCore (53)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Settings (52)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module TextureCompressor (49)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module ShaderCore (48)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module OpenGLDrv (47)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module D3D11RHI (46)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (45)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Renderer (44)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module Engine (43)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module SlateRemote (42)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module ScriptPlugin (41)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (39)
+[2014.10.15-02.14.48:752][662]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (38)
+[2014.10.15-02.14.48:755][662]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (31)
+[2014.10.15-02.14.48:755][662]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (30)
+[2014.10.15-02.14.48:755][662]LogModuleManager: Shutting down and abandoning module CableComponent (29)
+[2014.10.15-02.14.48:755][662]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2014.10.15-02.14.48:755][662]LogModuleManager: Shutting down and abandoning module UdpMessaging (24)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module MessagingDebugger (23)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module SmartSnapping (21)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (20)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module Paper2DEditor (19)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module Paper2D (18)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (14)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module PluginsEditor (13)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.15-02.14.48:856][662]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.15-02.14.48:856][662]LogExit: Exiting.
+[2014.10.15-02.14.48:858][662]Log file closed, 10/14/14 22:14:48
