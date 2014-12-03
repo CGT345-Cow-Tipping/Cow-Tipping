@@ -1,0 +1,1390 @@
+Log file open, 11/12/14 16:01:37
+LogInit:Display: Running engine for game: CowTipping
+LogInit: Version: 4.3.1-2226335+++depot+UE4-Releases+4.3
+LogInit: API Version: 2215663
+LogInit: Compiled (64-bit): Jul 21 2014 22:28:08
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.3
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.3/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.12-21.01.37:065][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.12-21.01.37:104][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.12-21.01.37:220][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.12-21.01.37:395][  0]LogInit: Object subsystem initialized
+[2014.11.12-21.01.37:497][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.12-21.01.37:499][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.12-21.01.37:679][  0]LogInit: Computer: KNOY340PC12
+[2014.11.12-21.01.37:679][  0]LogInit: User: yongj
+[2014.11.12-21.01.37:680][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.12-21.01.37:680][  0]LogInit: High frequency timer resolution =3.125078 MHz
+[2014.11.12-21.01.37:680][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx) Virtual=8192.0GB
+[2014.11.12-21.01.37:680][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.01.37:680][  0]LogMemory: Process Physical Memory: 60.48 MB used, 60.48 MB peak
+[2014.11.12-21.01.37:680][  0]LogMemory: Process Virtual Memory: 37.05 MB used, 37.05 MB peak
+[2014.11.12-21.01.37:680][  0]LogMemory: Physical Memory: 4266.05 MB used, 12271.22 MB total
+[2014.11.12-21.01.37:680][  0]LogMemory: Virtual Memory: 245.93 MB used, 8388608.00 MB total
+[2014.11.12-21.01.37:844][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 4000  (Feature Level 11_0)
+[2014.11.12-21.01.37:844][  0]LogD3D11RHI: Adapter has 1999MB of dedicated video memory, 0MB of dedicated system memory, and 5879MB of shared system memory, 1 output[s]
+[2014.11.12-21.01.37:844][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.12-21.01.37:850][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.12-21.01.37:858][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.12-21.01.38:916][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.12-21.01.43:057][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-21.01.43:771][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-21.01.43:895][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.12-21.01.43:895][  0]LogDerivedDataCache:Warning: Could not find memory cache C:/Users/yongj/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.11.12-21.01.43:895][  0]LogDerivedDataCache:Warning: Could not load Boot cache: C:/Users/yongj/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc
+[2014.11.12-21.01.43:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.12-21.01.43:897][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.12-21.01.43:954][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.12-21.01.43:967][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yongj/AppData/Local/UnrealEngine/4.3/DerivedDataCache: Writable
+[2014.11.12-21.01.50:511][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.12-21.01.50:511][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.12-21.01.55:180][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.12-21.02.11:717][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.12-21.02.11:752][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DummySprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.12-21.02.11:755][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.12-21.02.12:037][  0]SourceControl: Info Source control is disabled
+[2014.11.12-21.02.12:037][  0]SourceControl: Info Source control is disabled
+[2014.11.12-21.02.12:048][  0]SourceControl: Info Source control is disabled
+[2014.11.12-21.02.13:574][  0]BlueprintLog: New page: Editor Load
+[2014.11.12-21.02.14:075][  0]LogObj: 20191 objects as part of root set at end of initial load.
+[2014.11.12-21.02.14:075][  0]LogUObjectAllocator: 3997440 out of 0 bytes used by permanent object pool.
+[2014.11.12-21.02.14:610][  0]LogEngine: Initializing Engine...
+[2014.11.12-21.02.15:806][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.12-21.02.15:854][  0]LogInit: FAudioDevice initialized.
+[2014.11.12-21.02.16:107][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.12-21.02.16:192][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/yongj/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.11.12-21.02.16:202][  0]LogInit: Texture streaming: Enabled
+[2014.11.12-21.02.16:392][  0]LogInit: Transaction tracking system initialized
+[2014.11.12-21.02.16:734][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2014.11.12-21.02.18:711][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-21.02.18:774][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-21.02.19:002][  0]LogConsoleResponse:Display: 
+[2014.11.12-21.02.23:751][  0]SourceControl: Info Source control is disabled
+[2014.11.12-21.02.23:906][  0]Cmd: MAP LOAD FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/Level_01.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.12-21.02.23:927][  0]LightingResults: New page: Lighting Build
+[2014.11.12-21.02.23:968][  0]MapCheck: New page: Map Check
+[2014.11.12-21.02.23:968][  0]LightingResults: New page: Lighting Build
+[2014.11.12-21.02.24:465][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000119AA8E0
+[2014.11.12-21.02.26:755][  0]LogTexture:Display: Building textures: BlacksmithSpriteSheetWalk (AutoDXT)
+[2014.11.12-21.02.26:764][  0]LogTexture:Display: Building textures: ClownSpriteSheetWalk (AutoDXT)
+[2014.11.12-21.02.26:774][  0]LogTexture:Display: Building textures: RedNeckSpriteSheetWalk (AutoDXT)
+[2014.11.12-21.02.26:781][  0]LogTexture:Display: Building textures: bull_idle_2t (AutoDXT)
+[2014.11.12-21.02.26:785][  0]LogTexture:Display: Building textures: Mesquite_PageA (AutoDXT)
+[2014.11.12-21.02.26:800][  0]LogTexture:Display: Building textures: Mesquite_PageB (AutoDXT)
+[2014.11.12-21.02.26:820][  0]LogTexture:Display: Building textures: Mesquite_PageC (AutoDXT)
+[2014.11.12-21.02.26:830][  0]LogTexture:Display: Building textures: Mesquite_PageD (AutoDXT)
+[2014.11.12-21.02.26:841][  0]LogTexture:Display: Building textures: Mesquite_PageE (AutoDXT)
+[2014.11.12-21.02.26:851][  0]LogTexture:Display: Building textures: Mesquite_PageF (AutoDXT)
+[2014.11.12-21.02.26:861][  0]LogTexture:Display: Building textures: Mesquite_PageG (AutoDXT)
+[2014.11.12-21.02.26:871][  0]LogTexture:Display: Building textures: Mesquite_PageH (AutoDXT)
+[2014.11.12-21.02.26:877][  0]LogTexture:Display: Building textures: bull_idle_1t (AutoDXT)
+[2014.11.12-21.02.26:879][  0]LogTexture:Display: Building textures: bull_idle_3t (AutoDXT)
+[2014.11.12-21.02.26:886][  0]LogTexture:Display: Building textures: bull_idle_4t (AutoDXT)
+[2014.11.12-21.02.26:892][  0]LogTexture:Display: Building textures: menu_back_ph (AutoDXT)
+[2014.11.12-21.02.26:987][  0]LogTexture:Display: Building textures: upgrade_inbetween (AutoDXT)
+[2014.11.12-21.02.27:827][  0]LogTexture:Display: Building textures: Level_1_Chains (BGRA8)
+[2014.11.12-21.02.28:094][  0]LogTexture:Display: Building textures: Level_1_DirtForeground (BGRA8)
+[2014.11.12-21.02.28:406][  0]LogTexture:Display: Building textures: Level_1_Layout (BGRA8)
+[2014.11.12-21.02.28:642][  0]LogTexture:Display: Building textures: Level_1_Peg (BGRA8)
+[2014.11.12-21.02.28:689][  0]LogTexture:Display: Building textures: Level_1_Pillars (BGRA8)
+[2014.11.12-21.02.28:899][  0]LogTexture:Display: Building textures: Level_1_PlatformLarge (BGRA8)
+[2014.11.12-21.02.28:904][  0]LogTexture:Display: Building textures: Level_1_PlatformMedium (BGRA8)
+[2014.11.12-21.02.28:904][  0]LogTexture:Display: Building textures: Level_1_PlatformSmall (BGRA8)
+[2014.11.12-21.02.28:984][  0]LogTexture:Display: Building textures: Level_1_SheetMetalBackground (BGRA8)
+[2014.11.12-21.02.29:250][  0]LogTexture:Display: Building textures: Level_1_Windows (BGRA8)
+[2014.11.12-21.02.29:485][  0]LogTexture:Display: Building textures: star (AutoDXT)
+[2014.11.12-21.02.29:918][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.12-21.02.29:918][  0]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.02.29:948][  0]Cmd: MAP CHECKDEP
+[2014.11.12-21.02.29:948][  0]MapCheck: New page: Level_01 - Nov 12, 2014, 11:02:29 AM
+[2014.11.12-21.02.30:275][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [301.626ms] ==========
+[2014.11.12-21.02.30:275][  0]LogFileHelpers: Loading map 'Level_01' took 6.401
+[2014.11.12-21.02.30:693][  0]LogSynthBenchmark:Display: FSynthBenchmark (V0.92):
+[2014.11.12-21.02.30:693][  0]LogSynthBenchmark:Display: ===============
+[2014.11.12-21.02.30:693][  0]LogSynthBenchmark:Display: Main Processor:
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:          ... 0.022042 s/Run 'RayIntersect'
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:          ... 0.022245 s/Run 'Fractal'
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display: 
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 12
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   CPU Perf Index 0: 116.2
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   CPU Perf Index 1: 128.6
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:  
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display: Graphics:
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA Quadro 4000 '
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2014.11.12-21.02.31:136][  0]LogSynthBenchmark:Display:   GPU Memory: 2000/0/5880 MB
+[2014.11.12-21.02.37:927][  0]LogSynthBenchmark:Display:          ... 1.149 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2014.11.12-21.02.37:927][  0]LogSynthBenchmark:Display:          ... 0.934 GigaPix/s, Confidence=100% 'TexHeavy'
+[2014.11.12-21.02.37:927][  0]LogSynthBenchmark:Display:          ... 0.926 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2014.11.12-21.02.37:927][  0]LogSynthBenchmark:Display:          ... 9.990 GigaPix/s, Confidence=100% 'FillOnly'
+[2014.11.12-21.02.37:927][  0]LogSynthBenchmark:Display:          ... 0.171 GigaPix/s, Confidence=100% 'Bandwidth'
+[2014.11.12-21.02.37:927][  0]LogSynthBenchmark:Display: 
+[2014.11.12-21.02.37:927][  0]LogSynthBenchmark:Display:   GPU Perf Index 0: 25.0
+[2014.11.12-21.02.37:929][  0]LogSynthBenchmark:Display:   GPU Perf Index 1: 12.5
+[2014.11.12-21.02.37:929][  0]LogSynthBenchmark:Display:   GPU Perf Index 2: 24.1
+[2014.11.12-21.02.37:929][  0]LogSynthBenchmark:Display:   GPU Perf Index 3: 39.2
+[2014.11.12-21.02.37:929][  0]LogSynthBenchmark:Display:   GPU Perf Index 4: 15.9
+[2014.11.12-21.02.37:929][  0]LogSynthBenchmark:Display:   CPUIndex: 116.2
+[2014.11.12-21.02.37:929][  0]LogSynthBenchmark:Display:   GPUIndex: 25.0
+[2014.11.12-21.02.37:929][  0]LogSynthBenchmark:Display: 
+[2014.11.12-21.02.37:929][  0]LogSynthBenchmark:Display:          ... Total Time: 7.234869 sec
+[2014.11.12-21.02.38:689][  0]LogCollectionManager: Loaded 0 collections in 0.008709 seconds
+[2014.11.12-21.02.43:164][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.12-21.02.43:445][  0]LogLoad: Full Startup: 73.12 seconds (BP compile: 0.58 seconds)
+[2014.11.12-21.02.43:557][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.12-21.02.43:862][  0]LogContentStreaming: Texture pool size now 400 MB
+[2014.11.12-21.02.44:923][  0]LogSlate: SRTH: 0000000023EE1240, 790 x 1015
+[2014.11.12-21.02.45:223][  0]LogRenderer:Warning: Reallocating scene render targets to support 792x1016.
+[2014.11.12-21.02.46:432][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B321324BE1A677B7</RequestId><HostId>VfxJpYS9rltlsA2AN747LUGqh+TM7+TWg9KcuOZQWIRAKO1OnYzRR9L1DEyPrOFkqGJSBuEqEm4=</HostId></Error>
+[2014.11.12-21.02.46:620][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B5B09605D6E5E42F</RequestId><HostId>T6noMJgPKvVbey0lb2RAltCon5RWAiKKtyF+UA2U4eKBBpk5U4I/xMEWAe6s7vOZYO3Z6QG8Lyk=</HostId></Error>
+[2014.11.12-21.02.46:797][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>32470B1CCB2FEEFE</RequestId><HostId>/SXfT36NjOIIGoLyQOKZV+XZxZMOcdXSUHralQbOV381hXlkTNv4ZSxq+Zvs4Oqx</HostId></Error>
+[2014.11.12-21.02.46:909][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8B3B70A3F5D91DAC</RequestId><HostId>1ypbMPUrFS56lsquaO86nNV0AM9qVgAdEmI9f83THFeYUabbBn6p0Sx04GQbWvXW</HostId></Error>
+[2014.11.12-21.02.47:168][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-21.02.47:197][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-21.02.53:946][397]LogAssetRegistry: Asset discovery search completed in 37.2192 seconds
+[2014.11.12-21.02.55:361][469]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.02.55:361][469]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.02.55:554][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.12-21.02.55:554][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.12-21.02.55:554][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.12-21.02.55:644][469]LogPlayLevel: PIE:  Blueprint regeneration took 283 ms (1 blueprints)
+[2014.11.12-21.02.55:645][469]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:02:55 AM)
+[2014.11.12-21.02.55:650][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005717s)
+[2014.11.12-21.02.55:651][469]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2014.11.12-21.02.55:652][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.007635s)
+[2014.11.12-21.02.56:107][469]LogTexture:Display: Building textures: BullSpriteSheetIdle (AutoDXT)
+[2014.11.12-21.02.56:116][469]LogTexture:Display: Building textures: BullSpriteSheet (AutoDXT)
+[2014.11.12-21.02.56:132][469]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.02.56:167][469]LogSlate: SRTH: 000000001688AA40, 1290 x 754
+[2014.11.12-21.02.56:203][469]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.02.56:208][469]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.02.56
+[2014.11.12-21.02.56:293][469]LogWorld: Bringing up level for play took: 0.090113
+[2014.11.12-21.02.56:300][469]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.11.12-21.02.56:320][469]LogGameMode: RestartPlayer 256
+[2014.11.12-21.02.56:321][469]LogPlayerController: ClientRestart_Implementation Bull_Character_C_0
+[2014.11.12-21.02.56:321][469]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_0
+[2014.11.12-21.02.56:373][469]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0.793
+[2014.11.12-21.02.56:440][469]LogRenderer:Warning: Reallocating scene render targets to support 920x1016.
+[2014.11.12-21.02.56:490][469]LogSlate: SRTH: 0000000016ADCDC0, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.02.56:516][469]LogRenderer:Warning: Reallocating scene render targets to support 920x1024.
+[2014.11.12-21.02.56:566][469]LogSlate: SRTH: 0000000016ADC640, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.02.56:592][470]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079874 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.02.56:593][470]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069073 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.02.58:422][600]LogPackageName: SearchForPackageOnDisk took   0.188s to resolve Upgrade.umap
+[2014.11.12-21.02.58:538][601]LogPackageName: SearchForPackageOnDisk took   0.104s to resolve Upgrade.umap
+[2014.11.12-21.02.58:538][601]LogNet: Browse: /Game/Maps/Upgrade
+[2014.11.12-21.02.58:554][601]LogLoad: LoadMap: /Game/Maps/Upgrade
+[2014.11.12-21.02.58:555][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.12-21.02.58:585][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000240B1800
+[2014.11.12-21.02.58:585][601]Cmd: MEM
+[2014.11.12-21.02.58:633][601]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.02.58:633][601]LogMemory: Process Physical Memory: 496.93 MB used, 539.47 MB peak
+[2014.11.12-21.02.58:633][601]LogMemory: Process Virtual Memory: 431.00 MB used, 479.76 MB peak
+[2014.11.12-21.02.58:633][601]LogMemory: Physical Memory: 4898.91 MB used, 12271.22 MB total
+[2014.11.12-21.02.58:633][601]LogMemory: Virtual Memory: 954.34 MB used, 8388608.00 MB total
+[2014.11.12-21.02.58:633][601]LogMemory: 
+[2014.11.12-21.02.58:633][601]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.02.59:043][601]LogWorld: Game class is 'CowTipping_Menu_GameMode_C'
+[2014.11.12-21.02.59:043][601]LogAIModule: Creating AISystem for world Upgrade
+[2014.11.12-21.02.59:044][601]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Upgrade.Upgrade up for play (max tick rate 0) at 2014.11.12-16.02.59
+[2014.11.12-21.02.59:044][601]LogWorld: Bringing up level for play took: 0.000585
+[2014.11.12-21.02.59:044][601]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.12-21.02.59:045][601]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.11.12-21.02.59:045][601]LogGameMode: RestartPlayer 257
+[2014.11.12-21.02.59:045][601]LogPlayerController: ClientRestart_Implementation Bull_Character_C_1
+[2014.11.12-21.02.59:046][601]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_1
+[2014.11.12-21.03.02:383][879]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Level_02.umap
+[2014.11.12-21.03.02:485][879]LogPackageName: SearchForPackageOnDisk took   0.099s to resolve Level_02.umap
+[2014.11.12-21.03.02:485][879]LogNet: Browse: /Game/Maps/Level_02
+[2014.11.12-21.03.02:485][879]LogLoad: LoadMap: /Game/Maps/Level_02
+[2014.11.12-21.03.02:505][879]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000240B1DA0
+[2014.11.12-21.03.02:512][879]Cmd: MEM
+[2014.11.12-21.03.02:535][879]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.03.02:535][879]LogMemory: Process Physical Memory: 496.31 MB used, 551.59 MB peak
+[2014.11.12-21.03.02:535][879]LogMemory: Process Virtual Memory: 426.23 MB used, 481.49 MB peak
+[2014.11.12-21.03.02:535][879]LogMemory: Physical Memory: 4886.89 MB used, 12271.22 MB total
+[2014.11.12-21.03.02:535][879]LogMemory: Virtual Memory: 954.34 MB used, 8388608.00 MB total
+[2014.11.12-21.03.02:535][879]LogMemory: 
+[2014.11.12-21.03.02:535][879]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.03.03:100][879]LogTexture:Display: Building textures: Level_2_Dirt (BGRA8)
+[2014.11.12-21.03.03:389][879]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1126) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2014.11.12-21.03.03:389][879]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2014.11.12-21.03.03:389][879]LogPhysics:Warning: Failed to cook convex: /Game/Sprites/Level_02_Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite 67 (FlipX:0). The remaining elements will not get cooked.
+[2014.11.12-21.03.03:394][879]LogPhysics:Warning: Failed to cook convex: /Game/Sprites/Level_02_Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite 67 (FlipX:1). The remaining elements will not get cooked.
+[2014.11.12-21.03.03:442][879]LogTexture:Display: Building textures: Level_2_Layout (BGRA8)
+[2014.11.12-21.03.03:800][879]LogTexture:Display: Building textures: Level_2_Rail (BGRA8)
+[2014.11.12-21.03.04:151][879]LogTexture:Display: Building textures: Level_2_Background (BGRA8)
+[2014.11.12-21.03.04:590][879]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.03.04:591][879]LogAIModule: Creating AISystem for world Level_02
+[2014.11.12-21.03.04:591][879]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level_02_Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.11.12-21.03.04:592][879]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 0) at 2014.11.12-16.03.04
+[2014.11.12-21.03.04:593][879]LogWorld: Bringing up level for play took: 0.002799
+[2014.11.12-21.03.04:594][879]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.11.12-21.03.04:594][879]LogGameMode: RestartPlayer 258
+[2014.11.12-21.03.04:595][879]LogPlayerController: ClientRestart_Implementation Bull_Character_C_2
+[2014.11.12-21.03.04:595][879]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_2
+[2014.11.12-21.03.04:618][880]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.072528 > MaxSimulationTimeStep (0.050) for 'Bull_Character_C_2'
+[2014.11.12-21.03.09:346][261]LogCharacterMovement: Bull_Character_C_2 is stuck and failed to move!
+[2014.11.12-21.03.14:193][603]LogCharacterMovement: Bull_Character_C_2 is stuck and failed to move!
+[2014.11.12-21.03.14:395][620]LogCharacterMovement: Bull_Character_C_2 is stuck and failed to move!
+[2014.11.12-21.03.18:706][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FBA6B60
+[2014.11.12-21.03.18:711][971]LogSlate: SRTH: 000000000BBAA500, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.03.22:916][365]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.03.22:916][365]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.03.22:999][365]LogPlayLevel: PIE:  Blueprint regeneration took 83 ms (1 blueprints)
+[2014.11.12-21.03.22:999][365]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:03:22 AM)
+[2014.11.12-21.03.23:005][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006025s)
+[2014.11.12-21.03.23:006][365]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2014.11.12-21.03.23:006][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.006985s)
+[2014.11.12-21.03.23:012][365]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.03.23:023][365]LogSlate: SRTH: 000000000BC1BF40, 1290 x 754
+[2014.11.12-21.03.23:048][365]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.03.23:053][365]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.03.23
+[2014.11.12-21.03.23:056][365]LogWorld: Bringing up level for play took: 0.008646
+[2014.11.12-21.03.23:057][365]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.11.12-21.03.23:057][365]LogGameMode: RestartPlayer 259
+[2014.11.12-21.03.23:058][365]LogPlayerController: ClientRestart_Implementation Bull_Character_C_3
+[2014.11.12-21.03.23:058][365]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_3
+[2014.11.12-21.03.23:061][365]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 -0.52
+[2014.11.12-21.03.23:090][365]LogSlate: SRTH: 000000000BBEED40, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.03.23:120][365]LogSlate: SRTH: 000000000BBEFB80, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.03.39:483][728]LogPackageName: SearchForPackageOnDisk took   0.206s to resolve Upgrade.umap
+[2014.11.12-21.03.39:607][729]LogPackageName: SearchForPackageOnDisk took   0.112s to resolve Upgrade.umap
+[2014.11.12-21.03.39:607][729]LogNet: Browse: /Game/Maps/Upgrade
+[2014.11.12-21.03.39:607][729]LogLoad: LoadMap: /Game/Maps/Upgrade
+[2014.11.12-21.03.39:656][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FBA6AC0
+[2014.11.12-21.03.39:656][729]Cmd: MEM
+[2014.11.12-21.03.39:680][729]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.03.39:680][729]LogMemory: Process Physical Memory: 533.45 MB used, 629.40 MB peak
+[2014.11.12-21.03.39:680][729]LogMemory: Process Virtual Memory: 464.36 MB used, 559.81 MB peak
+[2014.11.12-21.03.39:680][729]LogMemory: Physical Memory: 4892.46 MB used, 12271.22 MB total
+[2014.11.12-21.03.39:680][729]LogMemory: Virtual Memory: 998.86 MB used, 8388608.00 MB total
+[2014.11.12-21.03.39:680][729]LogMemory: 
+[2014.11.12-21.03.39:680][729]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.03.39:725][729]LogWorld: Game class is 'CowTipping_Menu_GameMode_C'
+[2014.11.12-21.03.39:725][729]LogAIModule: Creating AISystem for world Upgrade
+[2014.11.12-21.03.39:726][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Upgrade.Upgrade up for play (max tick rate 0) at 2014.11.12-16.03.39
+[2014.11.12-21.03.39:726][729]LogWorld: Bringing up level for play took: 0.000543
+[2014.11.12-21.03.39:726][729]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.12-21.03.39:726][729]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
+[2014.11.12-21.03.39:727][729]LogGameMode: RestartPlayer 260
+[2014.11.12-21.03.39:727][729]LogPlayerController: ClientRestart_Implementation Bull_Character_C_4
+[2014.11.12-21.03.39:727][729]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_4
+[2014.11.12-21.03.43:050][ 16]LogStreaming:Warning: Failed to open ANSI TEXT file //myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/HardwareSurvey/dxdiag.txt
+[2014.11.12-21.03.43:067][ 17]LogStreaming:Warning: Failed to open ANSI TEXT file //myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/HardwareSurvey/dxdiag.txt
+[2014.11.12-21.03.43:085][ 18]LogStreaming:Warning: Failed to open ANSI TEXT file //myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/HardwareSurvey/dxdiag.txt
+[2014.11.12-21.03.43:099][ 19]LogStreaming:Warning: Failed to open ANSI TEXT file //myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/HardwareSurvey/dxdiag.txt
+[2014.11.12-21.03.43:112][ 20]LogStreaming:Warning: Failed to open ANSI TEXT file //myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/HardwareSurvey/dxdiag.txt
+[2014.11.12-21.03.43:136][ 21]LogSynthBenchmark:Display: FSynthBenchmark (V0.92):
+[2014.11.12-21.03.43:136][ 21]LogSynthBenchmark:Display: ===============
+[2014.11.12-21.03.43:136][ 21]LogSynthBenchmark:Display: Main Processor:
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:          ... 0.022211 s/Run 'RayIntersect'
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:          ... 0.021806 s/Run 'Fractal'
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display: 
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 12
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   CPU Perf Index 0: 115.3
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   CPU Perf Index 1: 131.2
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:  
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display: Graphics:
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA Quadro 4000 '
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   GPU Memory: 2000/0/5880 MB
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   CPUIndex: 115.3
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:   GPUIndex: -1.$
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display: 
+[2014.11.12-21.03.43:180][ 21]LogSynthBenchmark:Display:          ... Total Time: 0.044289 sec
+[2014.11.12-21.03.43:230][ 21]LogWindows:Warning: FWindowsPlatformSurvey::TickSurveyHardware() WinSAT assessment unavailable. Unable to examine some hardware metrics. Run the Windows Experience Index Assessment.
+[2014.11.12-21.04.16:024][203]LogPackageName: SearchForPackageOnDisk took   0.180s to resolve Level_02.umap
+[2014.11.12-21.04.16:130][203]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Level_02.umap
+[2014.11.12-21.04.16:130][203]LogNet: Browse: /Game/Maps/Level_02
+[2014.11.12-21.04.16:130][203]LogLoad: LoadMap: /Game/Maps/Level_02
+[2014.11.12-21.04.16:155][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BB94C20
+[2014.11.12-21.04.16:155][203]Cmd: MEM
+[2014.11.12-21.04.16:178][203]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.04.16:178][203]LogMemory: Process Physical Memory: 554.88 MB used, 629.40 MB peak
+[2014.11.12-21.04.16:178][203]LogMemory: Process Virtual Memory: 483.76 MB used, 559.81 MB peak
+[2014.11.12-21.04.16:178][203]LogMemory: Physical Memory: 4718.70 MB used, 12271.22 MB total
+[2014.11.12-21.04.16:178][203]LogMemory: Virtual Memory: 958.55 MB used, 8388608.00 MB total
+[2014.11.12-21.04.16:178][203]LogMemory: 
+[2014.11.12-21.04.16:178][203]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.04.16:726][203]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.04.16:726][203]LogAIModule: Creating AISystem for world Level_02
+[2014.11.12-21.04.16:726][203]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level_02_Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.11.12-21.04.16:727][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 0) at 2014.11.12-16.04.16
+[2014.11.12-21.04.16:728][203]LogWorld: Bringing up level for play took: 0.002489
+[2014.11.12-21.04.16:729][203]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
+[2014.11.12-21.04.16:729][203]LogGameMode: RestartPlayer 261
+[2014.11.12-21.04.16:730][203]LogPlayerController: ClientRestart_Implementation Bull_Character_C_5
+[2014.11.12-21.04.16:730][203]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_5
+[2014.11.12-21.04.21:100][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001605B1A0
+[2014.11.12-21.04.21:108][632]LogSlate: SRTH: 000000000BC19780, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.04.32:491][718]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.11.12-21.04.33:311][804]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.12-21.04.35:778][ 51]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Characters'
+[2014.11.12-21.05.00:236][575]LogSlate: SRTH: 000000000BBEF880, 898 x 713
+[2014.11.12-21.05.00:297][576]LogSlate: SRTH: 00000000240A53C0, 918 x 733, prev 0000000000000000
+[2014.11.12-21.05.06:096][113]LogSlate: SRTH: 000000000C327700, 898 x 713
+[2014.11.12-21.05.06:133][114]LogSlate: SRTH: 0000000010575180, 918 x 733, prev 0000000000000000
+[2014.11.12-21.05.09:940][437]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.05.09:940][437]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.05.10:000][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.12-21.05.10:000][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.12-21.05.10:000][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.12-21.05.10:000][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.12-21.05.10:024][437]LogPlayLevel: PIE:  Blueprint regeneration took 83 ms (1 blueprints)
+[2014.11.12-21.05.10:024][437]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:05:10 AM)
+[2014.11.12-21.05.10:030][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005812s)
+[2014.11.12-21.05.10:031][437]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2014.11.12-21.05.10:031][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.006650s)
+[2014.11.12-21.05.10:036][437]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.05.10:043][437]LogSlate: SRTH: 0000000025554C40, 1290 x 754
+[2014.11.12-21.05.10:067][437]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.05.10:072][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.05.10
+[2014.11.12-21.05.10:075][437]LogWorld: Bringing up level for play took: 0.008161
+[2014.11.12-21.05.10:076][437]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
+[2014.11.12-21.05.10:076][437]LogGameMode: RestartPlayer 262
+[2014.11.12-21.05.10:076][437]LogPlayerController: ClientRestart_Implementation Bull_Character_C_6
+[2014.11.12-21.05.10:076][437]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_6
+[2014.11.12-21.05.10:079][437]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0.491
+[2014.11.12-21.05.10:108][437]LogSlate: SRTH: 0000000017126080, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.05.10:137][437]LogSlate: SRTH: 000000002409C700, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.05.19:593][521]LogPackageName: SearchForPackageOnDisk took   0.173s to resolve Upgrade.umap
+[2014.11.12-21.05.19:706][522]LogPackageName: SearchForPackageOnDisk took   0.102s to resolve Upgrade.umap
+[2014.11.12-21.05.19:706][522]LogNet: Browse: /Game/Maps/Upgrade
+[2014.11.12-21.05.19:706][522]LogLoad: LoadMap: /Game/Maps/Upgrade
+[2014.11.12-21.05.19:735][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001605B100
+[2014.11.12-21.05.19:735][522]Cmd: MEM
+[2014.11.12-21.05.19:757][522]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.05.19:758][522]LogMemory: Process Physical Memory: 604.67 MB used, 633.23 MB peak
+[2014.11.12-21.05.19:758][522]LogMemory: Process Virtual Memory: 534.63 MB used, 561.23 MB peak
+[2014.11.12-21.05.19:758][522]LogMemory: Physical Memory: 4760.07 MB used, 12271.22 MB total
+[2014.11.12-21.05.19:758][522]LogMemory: Virtual Memory: 1009.11 MB used, 8388608.00 MB total
+[2014.11.12-21.05.19:758][522]LogMemory: 
+[2014.11.12-21.05.19:758][522]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.05.19:794][522]LogWorld: Game class is 'CowTipping_Menu_GameMode_C'
+[2014.11.12-21.05.19:794][522]LogAIModule: Creating AISystem for world Upgrade
+[2014.11.12-21.05.19:794][522]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Upgrade.Upgrade up for play (max tick rate 0) at 2014.11.12-16.05.19
+[2014.11.12-21.05.19:795][522]LogWorld: Bringing up level for play took: 0.000532
+[2014.11.12-21.05.19:795][522]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.12-21.05.19:795][522]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
+[2014.11.12-21.05.19:795][522]LogGameMode: RestartPlayer 263
+[2014.11.12-21.05.19:796][522]LogPlayerController: ClientRestart_Implementation Bull_Character_C_7
+[2014.11.12-21.05.19:796][522]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_7
+[2014.11.12-21.05.20:976][648]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Level_02.umap
+[2014.11.12-21.05.21:080][648]LogPackageName: SearchForPackageOnDisk took   0.102s to resolve Level_02.umap
+[2014.11.12-21.05.21:080][648]LogNet: Browse: /Game/Maps/Level_02
+[2014.11.12-21.05.21:080][648]LogLoad: LoadMap: /Game/Maps/Level_02
+[2014.11.12-21.05.21:105][648]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BB96020
+[2014.11.12-21.05.21:105][648]Cmd: MEM
+[2014.11.12-21.05.21:127][648]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.05.21:127][648]LogMemory: Process Physical Memory: 605.23 MB used, 633.23 MB peak
+[2014.11.12-21.05.21:127][648]LogMemory: Process Virtual Memory: 536.38 MB used, 561.23 MB peak
+[2014.11.12-21.05.21:127][648]LogMemory: Physical Memory: 4761.03 MB used, 12271.22 MB total
+[2014.11.12-21.05.21:127][648]LogMemory: Virtual Memory: 1010.86 MB used, 8388608.00 MB total
+[2014.11.12-21.05.21:127][648]LogMemory: 
+[2014.11.12-21.05.21:127][648]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.05.21:468][648]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.05.21:468][648]LogAIModule: Creating AISystem for world Level_02
+[2014.11.12-21.05.21:469][648]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level_02_Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.11.12-21.05.21:469][648]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 0) at 2014.11.12-16.05.21
+[2014.11.12-21.05.21:471][648]LogWorld: Bringing up level for play took: 0.002518
+[2014.11.12-21.05.21:471][648]LogPlayerController: Spawned spectator SpectatorPawn_8 [server:1]
+[2014.11.12-21.05.21:471][648]LogGameMode: RestartPlayer 264
+[2014.11.12-21.05.21:472][648]LogPlayerController: ClientRestart_Implementation Bull_Character_C_8
+[2014.11.12-21.05.21:475][648]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_8
+[2014.11.12-21.05.23:239][828]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Upgrade.umap
+[2014.11.12-21.05.23:350][829]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Upgrade.umap
+[2014.11.12-21.05.23:350][829]LogNet: Browse: /Game/Maps/Upgrade
+[2014.11.12-21.05.23:350][829]LogLoad: LoadMap: /Game/Maps/Upgrade
+[2014.11.12-21.05.23:376][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001605AB60
+[2014.11.12-21.05.23:377][829]Cmd: MEM
+[2014.11.12-21.05.23:400][829]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.05.23:400][829]LogMemory: Process Physical Memory: 602.09 MB used, 680.18 MB peak
+[2014.11.12-21.05.23:400][829]LogMemory: Process Virtual Memory: 531.81 MB used, 611.02 MB peak
+[2014.11.12-21.05.23:400][829]LogMemory: Physical Memory: 4753.41 MB used, 12271.22 MB total
+[2014.11.12-21.05.23:400][829]LogMemory: Virtual Memory: 1011.86 MB used, 8388608.00 MB total
+[2014.11.12-21.05.23:400][829]LogMemory: 
+[2014.11.12-21.05.23:400][829]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.05.23:421][829]LogWorld: Game class is 'CowTipping_Menu_GameMode_C'
+[2014.11.12-21.05.23:422][829]LogAIModule: Creating AISystem for world Upgrade
+[2014.11.12-21.05.23:422][829]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Upgrade.Upgrade up for play (max tick rate 0) at 2014.11.12-16.05.23
+[2014.11.12-21.05.23:422][829]LogWorld: Bringing up level for play took: 0.000538
+[2014.11.12-21.05.23:422][829]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.12-21.05.23:423][829]LogPlayerController: Spawned spectator SpectatorPawn_9 [server:1]
+[2014.11.12-21.05.23:423][829]LogGameMode: RestartPlayer 265
+[2014.11.12-21.05.23:423][829]LogPlayerController: ClientRestart_Implementation Bull_Character_C_9
+[2014.11.12-21.05.23:423][829]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_9
+[2014.11.12-21.05.24:285][918]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve level_03.umap
+[2014.11.12-21.05.24:390][918]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve level_03.umap
+[2014.11.12-21.05.24:390][918]LogNet: Browse: /Game/Maps/Level_03
+[2014.11.12-21.05.24:390][918]LogLoad: LoadMap: /Game/Maps/Level_03
+[2014.11.12-21.05.24:414][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016059DA0
+[2014.11.12-21.05.24:415][918]Cmd: MEM
+[2014.11.12-21.05.24:436][918]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.05.24:436][918]LogMemory: Process Physical Memory: 603.68 MB used, 680.18 MB peak
+[2014.11.12-21.05.24:436][918]LogMemory: Process Virtual Memory: 531.81 MB used, 611.02 MB peak
+[2014.11.12-21.05.24:436][918]LogMemory: Physical Memory: 4752.12 MB used, 12271.22 MB total
+[2014.11.12-21.05.24:436][918]LogMemory: Virtual Memory: 1011.86 MB used, 8388608.00 MB total
+[2014.11.12-21.05.24:436][918]LogMemory: 
+[2014.11.12-21.05.24:436][918]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.05.24:651][918]LogTexture:Display: Building textures: 2DBackgroundTile (AutoDXT)
+[2014.11.12-21.05.24:662][918]LogMaterial: Missing cached shader map for material PrototypingSpriteMaterial, compiling.
+[2014.11.12-21.05.24:775][918]LogTexture:Display: Building textures: level_03 (AutoDXT)
+[2014.11.12-21.05.25:790][918]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.05.25:790][918]LogAIModule: Creating AISystem for world level_03
+[2014.11.12-21.05.25:795][918]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_03.level_03 up for play (max tick rate 0) at 2014.11.12-16.05.25
+[2014.11.12-21.05.25:796][918]LogWorld: Bringing up level for play took: 0.005305
+[2014.11.12-21.05.25:796][918]LogPlayerController: Spawned spectator SpectatorPawn_10 [server:1]
+[2014.11.12-21.05.25:797][918]LogGameMode: RestartPlayer 266
+[2014.11.12-21.05.25:797][918]LogPlayerController: ClientRestart_Implementation Bull_Character_C_10
+[2014.11.12-21.05.25:800][918]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_10
+[2014.11.12-21.05.27:267][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001605B380
+[2014.11.12-21.05.27:271][ 59]LogSlate: SRTH: 000000000F176500, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.05.29:497][298]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.05.29:497][298]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.05.29:573][298]LogPlayLevel: PIE:  Blueprint regeneration took 76 ms (1 blueprints)
+[2014.11.12-21.05.29:573][298]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:05:29 AM)
+[2014.11.12-21.05.29:579][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005762s)
+[2014.11.12-21.05.29:580][298]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2014.11.12-21.05.29:580][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.006589s)
+[2014.11.12-21.05.29:584][298]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.05.29:592][298]LogSlate: SRTH: 000000000FCF9E40, 1290 x 754
+[2014.11.12-21.05.29:617][298]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.05.29:622][298]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.05.29
+[2014.11.12-21.05.29:625][298]LogWorld: Bringing up level for play took: 0.008525
+[2014.11.12-21.05.29:626][298]LogPlayerController: Spawned spectator SpectatorPawn_11 [server:1]
+[2014.11.12-21.05.29:626][298]LogGameMode: RestartPlayer 267
+[2014.11.12-21.05.29:626][298]LogPlayerController: ClientRestart_Implementation Bull_Character_C_11
+[2014.11.12-21.05.29:626][298]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_11
+[2014.11.12-21.05.29:630][298]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0.04
+[2014.11.12-21.05.29:659][298]LogSlate: SRTH: 000000000BBAA2C0, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.05.29:688][298]LogSlate: SRTH: 000000002409FE80, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.05.35:526][974]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.CowTippingHUD_C_7.InputComponent_11' with no bindings pushed on the stack
+[2014.11.12-21.05.37:463][202]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.CowTippingHUD_C_7.InputComponent_11' with no bindings pushed on the stack
+[2014.11.12-21.05.44:195][996]LogCharacterMovement: Bull_Character_C_11 is stuck and failed to move!
+[2014.11.12-21.05.54:203][162]LogCharacterMovement: Bull_Character_C_11 is stuck and failed to move!
+[2014.11.12-21.06.12:029][213]LogPackageName: SearchForPackageOnDisk took   0.180s to resolve Upgrade.umap
+[2014.11.12-21.06.12:140][214]LogPackageName: SearchForPackageOnDisk took   0.102s to resolve Upgrade.umap
+[2014.11.12-21.06.12:140][214]LogNet: Browse: /Game/Maps/Upgrade
+[2014.11.12-21.06.12:140][214]LogLoad: LoadMap: /Game/Maps/Upgrade
+[2014.11.12-21.06.12:169][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BB972E0
+[2014.11.12-21.06.12:169][214]Cmd: MEM
+[2014.11.12-21.06.12:191][214]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.06.12:191][214]LogMemory: Process Physical Memory: 649.23 MB used, 784.47 MB peak
+[2014.11.12-21.06.12:191][214]LogMemory: Process Virtual Memory: 580.27 MB used, 712.87 MB peak
+[2014.11.12-21.06.12:191][214]LogMemory: Physical Memory: 4807.80 MB used, 12271.22 MB total
+[2014.11.12-21.06.12:191][214]LogMemory: Virtual Memory: 1082.96 MB used, 8388608.00 MB total
+[2014.11.12-21.06.12:191][214]LogMemory: 
+[2014.11.12-21.06.12:191][214]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.06.12:225][214]LogWorld: Game class is 'CowTipping_Menu_GameMode_C'
+[2014.11.12-21.06.12:225][214]LogAIModule: Creating AISystem for world Upgrade
+[2014.11.12-21.06.12:227][214]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Upgrade.Upgrade up for play (max tick rate 0) at 2014.11.12-16.06.12
+[2014.11.12-21.06.12:227][214]LogWorld: Bringing up level for play took: 0.000557
+[2014.11.12-21.06.12:227][214]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.12-21.06.12:228][214]LogPlayerController: Spawned spectator SpectatorPawn_12 [server:1]
+[2014.11.12-21.06.12:228][214]LogGameMode: RestartPlayer 268
+[2014.11.12-21.06.12:228][214]LogPlayerController: ClientRestart_Implementation Bull_Character_C_12
+[2014.11.12-21.06.12:228][214]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_12
+[2014.11.12-21.06.15:122][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C5E7B00
+[2014.11.12-21.06.15:129][543]LogSlate: SRTH: 000000002409C7C0, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.07.47:901][592]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.07.47:901][592]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.07.47:985][592]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.11.12-21.07.47:985][592]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:07:47 AM)
+[2014.11.12-21.07.47:991][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005826s)
+[2014.11.12-21.07.47:992][592]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2014.11.12-21.07.47:992][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.006853s)
+[2014.11.12-21.07.48:656][592]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.07.48:664][592]LogSlate: SRTH: 0000000025604340, 1290 x 754
+[2014.11.12-21.07.48:689][592]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.07.48:694][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.07.48
+[2014.11.12-21.07.48:697][592]LogWorld: Bringing up level for play took: 0.007853
+[2014.11.12-21.07.48:697][592]LogPlayerController: Spawned spectator SpectatorPawn_13 [server:1]
+[2014.11.12-21.07.48:697][592]LogGameMode: RestartPlayer 269
+[2014.11.12-21.07.48:698][592]LogPlayerController: ClientRestart_Implementation Bull_Character_C_13
+[2014.11.12-21.07.48:698][592]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_13
+[2014.11.12-21.07.48:702][592]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 1.103
+[2014.11.12-21.07.48:730][592]LogSlate: SRTH: 00000000256C0E80, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.07.48:759][592]LogSlate: SRTH: 000000000CE6B580, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.07.48:782][593]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076785 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.07.48:782][593]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.065886 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.07.49:611][689]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.CowTippingHUD_C_8.InputComponent_14' with no bindings pushed on the stack
+[2014.11.12-21.08.43:622][935]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016059DA0
+[2014.11.12-21.08.43:626][935]LogSlate: SRTH: 000000000C159C00, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.08.47:550][361]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level_1'
+[2014.11.12-21.08.48:571][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.12-21.09.08:647][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:647][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:691][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:692][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:692][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:692][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:692][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:692][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.08:692][401]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.09.47:154][ 68]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.09.47:170][ 68]LogPlayLevel: [PIE] Compiling CowTippingHUD before PIE...
+[2014.11.12-21.09.47:317][ 68]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.09.47:400][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.12-21.09.47:400][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.12-21.09.47:400][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.12-21.09.47:400][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.12-21.09.47:433][ 68]LogPlayLevel: PIE:  Blueprint regeneration took 279 ms (2 blueprints)
+[2014.11.12-21.09.47:434][ 68]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:09:47 AM)
+[2014.11.12-21.09.47:440][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005845s)
+[2014.11.12-21.09.47:440][ 68]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2014.11.12-21.09.47:440][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.006736s)
+[2014.11.12-21.09.47:441][ 68]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.09.47:454][ 68]LogSlate: SRTH: 00000000379E3340, 1290 x 754
+[2014.11.12-21.09.47:479][ 68]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.09.47:484][ 68]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.09.47
+[2014.11.12-21.09.47:487][ 68]LogWorld: Bringing up level for play took: 0.007968
+[2014.11.12-21.09.47:488][ 68]LogPlayerController: Spawned spectator SpectatorPawn_14 [server:1]
+[2014.11.12-21.09.47:488][ 68]LogGameMode: RestartPlayer 270
+[2014.11.12-21.09.47:489][ 68]LogPlayerController: ClientRestart_Implementation Bull_Character_C_14
+[2014.11.12-21.09.47:489][ 68]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_14
+[2014.11.12-21.09.47:493][ 68]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 -0.107
+[2014.11.12-21.09.47:839][ 68]LogSlate: SRTH: 000000002D990580, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.09.47:879][ 68]LogSlate: SRTH: 000000003919EBC0, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.09.47:907][ 69]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089008 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.09.47:907][ 69]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078497 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.10.01:281][671]LogPackageName: SearchForPackageOnDisk took   0.356s to resolve Upgrade.umap
+[2014.11.12-21.10.01:405][672]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve Upgrade.umap
+[2014.11.12-21.10.01:405][672]LogNet: Browse: /Game/Maps/Upgrade
+[2014.11.12-21.10.01:405][672]LogLoad: LoadMap: /Game/Maps/Upgrade
+[2014.11.12-21.10.01:438][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE7BA60
+[2014.11.12-21.10.01:439][672]Cmd: MEM
+[2014.11.12-21.10.01:462][672]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.10.01:462][672]LogMemory: Process Physical Memory: 807.75 MB used, 811.88 MB peak
+[2014.11.12-21.10.01:462][672]LogMemory: Process Virtual Memory: 736.05 MB used, 741.02 MB peak
+[2014.11.12-21.10.01:462][672]LogMemory: Physical Memory: 5213.83 MB used, 12271.22 MB total
+[2014.11.12-21.10.01:462][672]LogMemory: Virtual Memory: 1238.76 MB used, 8388608.00 MB total
+[2014.11.12-21.10.01:462][672]LogMemory: 
+[2014.11.12-21.10.01:462][672]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.10.01:559][672]LogWorld: Game class is 'CowTipping_Menu_GameMode_C'
+[2014.11.12-21.10.01:559][672]LogAIModule: Creating AISystem for world Upgrade
+[2014.11.12-21.10.01:560][672]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Upgrade.Upgrade up for play (max tick rate 0) at 2014.11.12-16.10.01
+[2014.11.12-21.10.01:560][672]LogWorld: Bringing up level for play took: 0.000557
+[2014.11.12-21.10.01:560][672]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.12-21.10.01:561][672]LogPlayerController: Spawned spectator SpectatorPawn_15 [server:1]
+[2014.11.12-21.10.01:561][672]LogGameMode: RestartPlayer 271
+[2014.11.12-21.10.01:561][672]LogPlayerController: ClientRestart_Implementation Bull_Character_C_15
+[2014.11.12-21.10.01:561][672]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_15
+[2014.11.12-21.10.04:762][816]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve Level_02.umap
+[2014.11.12-21.10.04:865][816]LogPackageName: SearchForPackageOnDisk took   0.099s to resolve Level_02.umap
+[2014.11.12-21.10.04:865][816]LogNet: Browse: /Game/Maps/Level_02
+[2014.11.12-21.10.04:865][816]LogLoad: LoadMap: /Game/Maps/Level_02
+[2014.11.12-21.10.04:889][816]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000160589A0
+[2014.11.12-21.10.04:889][816]Cmd: MEM
+[2014.11.12-21.10.04:913][816]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.10.04:913][816]LogMemory: Process Physical Memory: 804.51 MB used, 811.88 MB peak
+[2014.11.12-21.10.04:913][816]LogMemory: Process Virtual Memory: 732.74 MB used, 741.02 MB peak
+[2014.11.12-21.10.04:913][816]LogMemory: Physical Memory: 5210.14 MB used, 12271.22 MB total
+[2014.11.12-21.10.04:913][816]LogMemory: Virtual Memory: 1235.45 MB used, 8388608.00 MB total
+[2014.11.12-21.10.04:913][816]LogMemory: 
+[2014.11.12-21.10.04:913][816]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.10.05:444][816]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.10.05:444][816]LogAIModule: Creating AISystem for world Level_02
+[2014.11.12-21.10.05:445][816]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level_02_Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.11.12-21.10.05:445][816]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 0) at 2014.11.12-16.10.05
+[2014.11.12-21.10.05:449][816]LogWorld: Bringing up level for play took: 0.005001
+[2014.11.12-21.10.05:450][816]LogPlayerController: Spawned spectator SpectatorPawn_16 [server:1]
+[2014.11.12-21.10.05:450][816]LogGameMode: RestartPlayer 272
+[2014.11.12-21.10.05:451][816]LogPlayerController: ClientRestart_Implementation Bull_Character_C_16
+[2014.11.12-21.10.05:451][816]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_16
+[2014.11.12-21.10.08:738][959]LogPackageName: SearchForPackageOnDisk took   0.099s to resolve Upgrade.umap
+[2014.11.12-21.10.08:859][960]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve Upgrade.umap
+[2014.11.12-21.10.08:859][960]LogNet: Browse: /Game/Maps/Upgrade
+[2014.11.12-21.10.08:859][960]LogLoad: LoadMap: /Game/Maps/Upgrade
+[2014.11.12-21.10.08:888][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037967240
+[2014.11.12-21.10.08:889][960]Cmd: MEM
+[2014.11.12-21.10.08:912][960]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.10.08:912][960]LogMemory: Process Physical Memory: 804.52 MB used, 881.04 MB peak
+[2014.11.12-21.10.08:912][960]LogMemory: Process Virtual Memory: 732.86 MB used, 809.65 MB peak
+[2014.11.12-21.10.08:912][960]LogMemory: Physical Memory: 5218.92 MB used, 12271.22 MB total
+[2014.11.12-21.10.08:912][960]LogMemory: Virtual Memory: 1235.45 MB used, 8388608.00 MB total
+[2014.11.12-21.10.08:912][960]LogMemory: 
+[2014.11.12-21.10.08:912][960]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.10.08:936][960]LogWorld: Game class is 'CowTipping_Menu_GameMode_C'
+[2014.11.12-21.10.08:936][960]LogAIModule: Creating AISystem for world Upgrade
+[2014.11.12-21.10.08:937][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Upgrade.Upgrade up for play (max tick rate 0) at 2014.11.12-16.10.08
+[2014.11.12-21.10.08:937][960]LogWorld: Bringing up level for play took: 0.000529
+[2014.11.12-21.10.08:937][960]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.12-21.10.08:937][960]LogPlayerController: Spawned spectator SpectatorPawn_17 [server:1]
+[2014.11.12-21.10.08:937][960]LogGameMode: RestartPlayer 273
+[2014.11.12-21.10.08:938][960]LogPlayerController: ClientRestart_Implementation Bull_Character_C_17
+[2014.11.12-21.10.08:938][960]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_17
+[2014.11.12-21.10.11:643][ 77]LogPackageName: SearchForPackageOnDisk took   0.181s to resolve level_03.umap
+[2014.11.12-21.10.11:749][ 77]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve level_03.umap
+[2014.11.12-21.10.11:749][ 77]LogNet: Browse: /Game/Maps/Level_03
+[2014.11.12-21.10.11:750][ 77]LogLoad: LoadMap: /Game/Maps/Level_03
+[2014.11.12-21.10.11:773][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FB6D580
+[2014.11.12-21.10.11:773][ 77]Cmd: MEM
+[2014.11.12-21.10.11:797][ 77]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.10.11:797][ 77]LogMemory: Process Physical Memory: 802.71 MB used, 881.04 MB peak
+[2014.11.12-21.10.11:797][ 77]LogMemory: Process Virtual Memory: 730.99 MB used, 809.65 MB peak
+[2014.11.12-21.10.11:797][ 77]LogMemory: Physical Memory: 5218.40 MB used, 12271.22 MB total
+[2014.11.12-21.10.11:797][ 77]LogMemory: Virtual Memory: 1233.57 MB used, 8388608.00 MB total
+[2014.11.12-21.10.11:797][ 77]LogMemory: 
+[2014.11.12-21.10.11:797][ 77]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.10.12:039][ 77]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.10.12:039][ 77]LogAIModule: Creating AISystem for world level_03
+[2014.11.12-21.10.12:043][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_03.level_03 up for play (max tick rate 0) at 2014.11.12-16.10.12
+[2014.11.12-21.10.12:044][ 77]LogWorld: Bringing up level for play took: 0.005071
+[2014.11.12-21.10.12:045][ 77]LogPlayerController: Spawned spectator SpectatorPawn_18 [server:1]
+[2014.11.12-21.10.12:045][ 77]LogGameMode: RestartPlayer 274
+[2014.11.12-21.10.12:045][ 77]LogPlayerController: ClientRestart_Implementation Bull_Character_C_18
+[2014.11.12-21.10.12:047][ 77]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_18
+[2014.11.12-21.10.12:078][ 78]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.060240 > MaxSimulationTimeStep (0.050) for 'Bull_Character_C_18'
+[2014.11.12-21.10.19:858][441]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_03.level_03:PersistentLevel.CowTippingHUD_C_2.InputComponent_19' with no bindings pushed on the stack
+[2014.11.12-21.10.23:486][612]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_03.level_03:PersistentLevel.CowTippingHUD_C_2.InputComponent_19' with no bindings pushed on the stack
+[2014.11.12-21.10.30:117][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037967CE0
+[2014.11.12-21.10.30:121][918]LogSlate: SRTH: 0000000033C01600, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.10.36:031][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.10.43:392][ 38]LogSavePackage: Save=5986.644043ms
+[2014.11.12-21.10.43:392][ 38]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUD493FB5F14E0081C3F43E388E23AF1EA1.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.10.43:487][ 38]Cmd: MAP LOAD FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.12-21.10.43:509][ 38]LightingResults: New page: Lighting Build
+[2014.11.12-21.10.43:518][ 38]LoadErrors: New page: Loading map: MainMenu.umap
+[2014.11.12-21.10.43:530][ 38]MapCheck: New page: Map Check
+[2014.11.12-21.10.43:530][ 38]LightingResults: New page: Lighting Build
+[2014.11.12-21.10.43:551][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000168AC7C0
+[2014.11.12-21.10.43:667][ 38]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.12-21.10.43:668][ 38]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.12-21.10.43:748][ 38]Cmd: MAP CHECKDEP
+[2014.11.12-21.10.43:749][ 38]MapCheck: New page: MainMenu - Nov 12, 2014, 11:10:43 AM
+[2014.11.12-21.10.45:413][ 38]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [1,664.591ms] ==========
+[2014.11.12-21.10.45:413][ 38]LogFileHelpers: Loading map 'MainMenu' took 1.926
+[2014.11.12-21.10.59:640][732]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.10.59:655][732]LogPlayLevel: [PIE] Compiling CowTippingHUD before PIE...
+[2014.11.12-21.10.59:808][732]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2014.11.12-21.10.59:941][732]LogPlayLevel: PIE:  Blueprint regeneration took 301 ms (2 blueprints)
+[2014.11.12-21.10.59:941][732]PIE: New page: PIE session: MainMenu (Nov 12, 2014, 11:10:59 AM)
+[2014.11.12-21.10.59:942][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000655s)
+[2014.11.12-21.10.59:943][732]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2014.11.12-21.10.59:943][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001478s)
+[2014.11.12-21.10.59:944][732]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.10.59:952][732]LogSlate: SRTH: 000000000C15AE00, 1290 x 754
+[2014.11.12-21.10.59:978][732]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.12-21.10.59:979][732]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2014.11.12-16.10.59
+[2014.11.12-21.10.59:979][732]LogWorld: Bringing up level for play took: 0.000640
+[2014.11.12-21.10.59:980][732]LogPlayerController: Spawned spectator SpectatorPawn_19 [server:1]
+[2014.11.12-21.10.59:980][732]LogGameMode: RestartPlayer 275
+[2014.11.12-21.10.59:982][732]LogPlayerController: ClientRestart_Implementation Bull_Character_C_19
+[2014.11.12-21.10.59:982][732]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_19
+[2014.11.12-21.10.59:987][732]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.389
+[2014.11.12-21.11.00:349][732]LogSlate: SRTH: 000000000F1D6B00, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.11.00:385][732]LogSlate: SRTH: 000000002973D9C0, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.11.04:423][915]LogPackageName: SearchForPackageOnDisk took   0.177s to resolve Level_01.umap
+[2014.11.12-21.11.04:529][915]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Level_01.umap
+[2014.11.12-21.11.04:529][915]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.11.04:529][915]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.11.04:556][915]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003864D440
+[2014.11.12-21.11.04:556][915]Cmd: MEM
+[2014.11.12-21.11.04:580][915]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.11.04:580][915]LogMemory: Process Physical Memory: 837.81 MB used, 881.04 MB peak
+[2014.11.12-21.11.04:580][915]LogMemory: Process Virtual Memory: 756.07 MB used, 809.65 MB peak
+[2014.11.12-21.11.04:580][915]LogMemory: Physical Memory: 5243.48 MB used, 12271.22 MB total
+[2014.11.12-21.11.04:580][915]LogMemory: Virtual Memory: 1354.50 MB used, 8388608.00 MB total
+[2014.11.12-21.11.04:580][915]LogMemory: 
+[2014.11.12-21.11.04:580][915]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.11.05:204][915]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.11.05:204][915]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.11.05:209][915]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.11.05
+[2014.11.12-21.11.05:212][915]LogWorld: Bringing up level for play took: 0.008013
+[2014.11.12-21.11.05:212][915]LogPlayerController: Spawned spectator SpectatorPawn_20 [server:1]
+[2014.11.12-21.11.05:212][915]LogGameMode: RestartPlayer 276
+[2014.11.12-21.11.05:213][915]LogPlayerController: ClientRestart_Implementation Bull_Character_C_20
+[2014.11.12-21.11.05:213][915]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_20
+[2014.11.12-21.11.05:349][916]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079386 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.11.05:349][916]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089874 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.11.13:288][285]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C316DE0
+[2014.11.12-21.11.13:294][285]LogSlate: SRTH: 0000000037AD4280, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.11.52:076][168]BlueprintLog: New page: Compile CowTippingHUD
+[2014.11.12-21.11.52:261][168]BlueprintEditorCompileResults: Info [0621.84] Compile of CowTippingHUD successful! [in 18 ms]
+[2014.11.12-21.12.01:922][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.12.08:406][469]LogSavePackage: Save=5700.773926ms
+[2014.11.12-21.12.08:406][469]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUD27BEF93F42941BDBF29691BEE18B1026.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.12.08:511][469]Cmd: MAP LOAD FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/Level_01.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.12-21.12.08:540][469]LightingResults: New page: Lighting Build
+[2014.11.12-21.12.08:548][469]LoadErrors: New page: Loading map: Level_01.umap
+[2014.11.12-21.12.08:555][469]MapCheck: New page: Map Check
+[2014.11.12-21.12.08:555][469]LightingResults: New page: Lighting Build
+[2014.11.12-21.12.08:579][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000240B3CE0
+[2014.11.12-21.12.09:120][469]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.12-21.12.09:120][469]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.12.09:194][469]Cmd: MAP CHECKDEP
+[2014.11.12-21.12.09:194][469]MapCheck: New page: Level_01 - Nov 12, 2014, 11:12:09 AM
+[2014.11.12-21.12.11:453][469]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [2,259.225ms] ==========
+[2014.11.12-21.12.11:453][469]LogFileHelpers: Loading map 'Level_01' took 2.942
+[2014.11.12-21.12.11:887][479]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.12.11:887][479]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.12.11:979][479]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2014.11.12-21.12.11:980][479]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:12:11 AM)
+[2014.11.12-21.12.11:986][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006252s)
+[2014.11.12-21.12.11:987][479]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2014.11.12-21.12.11:987][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.007293s)
+[2014.11.12-21.12.11:988][479]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.12.12:002][479]LogSlate: SRTH: 000000000F2AEBC0, 1290 x 754
+[2014.11.12-21.12.12:031][479]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.12.12:037][479]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.12.12
+[2014.11.12-21.12.12:040][479]LogWorld: Bringing up level for play took: 0.008130
+[2014.11.12-21.12.12:040][479]LogPlayerController: Spawned spectator SpectatorPawn_21 [server:1]
+[2014.11.12-21.12.12:040][479]LogGameMode: RestartPlayer 277
+[2014.11.12-21.12.12:041][479]LogPlayerController: ClientRestart_Implementation Bull_Character_C_21
+[2014.11.12-21.12.12:041][479]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_21
+[2014.11.12-21.12.12:051][479]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0.456
+[2014.11.12-21.12.12:181][479]LogSlate: SRTH: 00000000294BD3C0, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.12.12:216][479]LogSlate: SRTH: 000000001BB47100, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.12.12:247][480]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089133 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.12.12:247][480]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078627 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.12.13:197][521]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.CowTippingHUD_C_0.InputComponent_23' with no bindings pushed on the stack
+[2014.11.12-21.12.16:964][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000347094E0
+[2014.11.12-21.12.16:971][686]LogSlate: SRTH: 0000000033813A00, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.12.20:048][819]BlueprintLog: New page: Compile CowTippingHUD
+[2014.11.12-21.12.20:232][819]BlueprintEditorCompileResults: Info [0649.81] Compile of CowTippingHUD successful! [in 18 ms]
+[2014.11.12-21.12.21:021][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.12.27:476][838]LogSavePackage: Save=5709.388672ms
+[2014.11.12-21.12.27:476][838]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDCFC913B645C641C0D461C1B4A69B8373.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.12.29:609][925]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.12.29:609][925]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.12.29:695][925]LogPlayLevel: PIE:  Blueprint regeneration took 85 ms (1 blueprints)
+[2014.11.12-21.12.29:695][925]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:12:29 AM)
+[2014.11.12-21.12.29:701][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006038s)
+[2014.11.12-21.12.29:702][925]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2014.11.12-21.12.29:702][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.007051s)
+[2014.11.12-21.12.29:709][925]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.12.29:722][925]LogSlate: SRTH: 0000000006397E80, 1290 x 754
+[2014.11.12-21.12.29:751][925]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.12.29:756][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.12.29
+[2014.11.12-21.12.29:759][925]LogWorld: Bringing up level for play took: 0.008040
+[2014.11.12-21.12.29:759][925]LogPlayerController: Spawned spectator SpectatorPawn_22 [server:1]
+[2014.11.12-21.12.29:760][925]LogGameMode: RestartPlayer 278
+[2014.11.12-21.12.29:760][925]LogPlayerController: ClientRestart_Implementation Bull_Character_C_22
+[2014.11.12-21.12.29:760][925]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_22
+[2014.11.12-21.12.29:769][925]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0.175
+[2014.11.12-21.12.29:906][925]LogSlate: SRTH: 0000000033CBBDC0, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.12.29:942][925]LogSlate: SRTH: 0000000033CB9CC0, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.12.29:969][926]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088868 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.12.29:970][926]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078345 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.12.36:257][213]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.CowTippingHUD_C_0.InputComponent_25' with no bindings pushed on the stack
+[2014.11.12-21.12.44:385][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF2DEE0
+[2014.11.12-21.12.44:391][591]LogSlate: SRTH: 0000000033830D00, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.12.52:437][941]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.12.52:452][941]LogPlayLevel: [PIE] Compiling CowTippingHUD before PIE...
+[2014.11.12-21.12.52:595][941]LogPlayLevel: [PIE] Compiling Level_01 before PIE...
+[2014.11.12-21.12.52:685][941]LogPlayLevel: PIE:  Blueprint regeneration took 248 ms (2 blueprints)
+[2014.11.12-21.12.52:686][941]PIE: New page: PIE session: Level_01 (Nov 12, 2014, 11:12:52 AM)
+[2014.11.12-21.12.52:692][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006121s)
+[2014.11.12-21.12.52:692][941]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2014.11.12-21.12.52:693][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.006949s)
+[2014.11.12-21.12.52:693][941]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.12.52:708][941]LogSlate: SRTH: 0000000033812500, 1290 x 754
+[2014.11.12-21.12.52:732][941]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.12.52:737][941]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.12.52
+[2014.11.12-21.12.52:740][941]LogWorld: Bringing up level for play took: 0.007925
+[2014.11.12-21.12.52:740][941]LogPlayerController: Spawned spectator SpectatorPawn_23 [server:1]
+[2014.11.12-21.12.52:742][941]LogGameMode: RestartPlayer 279
+[2014.11.12-21.12.52:743][941]LogPlayerController: ClientRestart_Implementation Bull_Character_C_23
+[2014.11.12-21.12.52:743][941]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_23
+[2014.11.12-21.12.52:747][941]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 1.153
+[2014.11.12-21.12.53:092][941]LogSlate: SRTH: 0000000033CBB1C0, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.12.53:128][941]LogSlate: SRTH: 000000003B391180, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.12.53:156][942]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089242 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.12.53:156][942]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078735 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.12.54:419][998]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.CowTippingHUD_C_0.InputComponent_27' with no bindings pushed on the stack
+[2014.11.12-21.13.28:784][622]LogPlayerController:Warning: InputComponent 'InputComponent /Game/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.CowTippingHUD_C_0.InputComponent_27' with no bindings pushed on the stack
+[2014.11.12-21.13.40:632][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF2E520
+[2014.11.12-21.13.40:639][175]LogSlate: SRTH: 000000003CEE19C0, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.17.44:101][293]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-21.17.44:206][293]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-21.23.07:172][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.12-21.23.07:172][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.12-21.23.07:172][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.12-21.23.07:172][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.12-21.23.07:199][288]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_01' took 0.027
+[2014.11.12-21.23.07:243][288]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CowTippingHUD] ([1] browsable assets)...
+[2014.11.12-21.23.07:258][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CowTippingHUD]
+[2014.11.12-21.23.07:263][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="Game/Blueprints/CowTippingHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.12-21.23.13:917][288]LogSavePackage: Save=5719.634277ms
+[2014.11.12-21.23.13:917][288]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUD_Auto10F1CA8754F71B1546655F9A62688DFD5.tmp' to 'Game/Blueprints/CowTippingHUD_Auto1.uasset'
+[2014.11.12-21.23.13:970][288]LogFileHelpers: Auto-saving content packages took 6.771
+[2014.11.12-21.32.44:022][770]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-21.32.44:128][770]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-21.39.17:291][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.12-21.39.17:293][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.11.12-21.39.17:293][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.11.12-21.39.17:293][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.11.12-21.39.21:363][266]LogSavePackage: Save=3087.840332ms
+[2014.11.12-21.39.21:364][266]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/Level_01_Auto2C258058F4DF696AA8AAF99BD0B2966F3.tmp' to 'Game/Maps/Level_01_Auto2.umap'
+[2014.11.12-21.39.21:464][266]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_01' took 4.173
+[2014.11.12-21.39.21:464][266]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.173
+[2014.11.12-21.39.51:845][712]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.39.51:846][712]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.39.51:846][712]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.39.51:846][712]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:417][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:417][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:417][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:417][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:417][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:418][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:418][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:418][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:418][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:418][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.01:418][438]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.40.16:677][590]BlueprintLog: New page: Compile Level_01
+[2014.11.12-21.40.16:797][590]BlueprintEditorCompileResults: Info [2326.31] Compile of Level_01 successful! [in 3 ms]
+[2014.11.12-21.40.21:707][619]LogSavePackage: Save=2894.326904ms
+[2014.11.12-21.40.21:708][619]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/Level_012E98F67546BD0E4120FDB18181CA658F.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/Level_01.umap'
+[2014.11.12-21.40.21:897][619]LogFileHelpers: Saving map 'Level_01' took 4.492
+[2014.11.12-21.40.21:901][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.40.28:506][619]LogSavePackage: Save=6313.423340ms
+[2014.11.12-21.40.28:506][619]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDB0356B564B567500C3BA4486FF93C9BE.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.40.59:350][ 22]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.12-21.41.03:621][216]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.41.03:621][216]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.43.07:306][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.43.15:031][373]LogSavePackage: Save=6875.097656ms
+[2014.11.12-21.43.15:031][373]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDF592E5B1452356C2EAABEB804A254E7C.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.43.21:794][650]BlueprintLog: New page: Compile CowTippingHUD
+[2014.11.12-21.43.22:056][650]BlueprintEditorCompileResults: Info [2511.50] Compile of CowTippingHUD successful! [in 19 ms]
+[2014.11.12-21.43.58:663][175]Cmd: MAP LOAD FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/Upgrade.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.12-21.43.58:690][175]LightingResults: New page: Lighting Build
+[2014.11.12-21.43.58:697][175]LoadErrors: New page: Loading map: Upgrade.umap
+[2014.11.12-21.43.58:785][175]MapCheck: New page: Map Check
+[2014.11.12-21.43.58:785][175]LightingResults: New page: Lighting Build
+[2014.11.12-21.43.58:809][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C5E7560
+[2014.11.12-21.43.58:999][175]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.12-21.43.59:000][175]LogAIModule: Creating AISystem for world Upgrade
+[2014.11.12-21.43.59:071][175]Cmd: MAP CHECKDEP
+[2014.11.12-21.43.59:071][175]MapCheck: New page: Upgrade - Nov 12, 2014, 11:43:59 AM
+[2014.11.12-21.44.00:761][175]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [1,690.401ms] ==========
+[2014.11.12-21.44.00:761][175]LogFileHelpers: Loading map 'Upgrade' took 2.098
+[2014.11.12-21.44.59:434][ 76]BlueprintLog: New page: Compile CowTippingHUD
+[2014.11.12-21.44.59:583][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.11.12-21.44.59:583][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.11.12-21.44.59:583][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.11.12-21.44.59:583][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.11.12-21.44.59:635][ 76]BlueprintEditorCompileResults: Info [2609.13] Compile of CowTippingHUD successful! [in 19 ms]
+[2014.11.12-21.45.00:372][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.45.07:919][ 91]LogSavePackage: Save=6710.497559ms
+[2014.11.12-21.45.07:919][ 91]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDF10FE73F40E583C09ED31386B03423CA.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.45.11:146][403]LogEditorViewport: Clicking Background
+[2014.11.12-21.45.15:343][880]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.12-21.45.16:192][968]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2014.11.12-21.45.16:271][969]Cmd: UpdateLandscapeSetup
+[2014.11.12-21.45.16:557][999]LogEditorViewport: Clicking Background
+[2014.11.12-21.45.17:673][129]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.11.12-21.45.17:673][129]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.11.12-21.45.17:673][129]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.11.12-21.45.17:673][129]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.11.12-21.45.19:180][129]LogSavePackage: Save=87.861809ms
+[2014.11.12-21.45.19:180][129]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/Upgrade0D00773545196FEBA3D4D38C1E080C44.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/Upgrade.umap'
+[2014.11.12-21.45.19:387][129]LogFileHelpers: Saving map 'Upgrade' took 1.667
+[2014.11.12-21.45.22:790][248]Cmd: MAP LOAD FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.12-21.45.22:822][248]LightingResults: New page: Lighting Build
+[2014.11.12-21.45.22:831][248]LoadErrors: New page: Loading map: MainMenu.umap
+[2014.11.12-21.45.22:832][248]MapCheck: New page: Map Check
+[2014.11.12-21.45.22:832][248]LightingResults: New page: Lighting Build
+[2014.11.12-21.45.22:852][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047A88680
+[2014.11.12-21.45.22:956][248]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.12-21.45.22:956][248]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.12-21.45.23:025][248]Cmd: MAP CHECKDEP
+[2014.11.12-21.45.23:025][248]MapCheck: New page: MainMenu - Nov 12, 2014, 11:45:23 AM
+[2014.11.12-21.45.23:171][248]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [145.961ms] ==========
+[2014.11.12-21.45.23:171][248]LogFileHelpers: Loading map 'MainMenu' took 0.381
+[2014.11.12-21.45.23:982][325]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.45.23:982][325]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2014.11.12-21.45.24:044][325]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2014.11.12-21.45.24:044][325]PIE: New page: PIE session: MainMenu (Nov 12, 2014, 11:45:24 AM)
+[2014.11.12-21.45.24:045][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000641s)
+[2014.11.12-21.45.24:046][325]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2014.11.12-21.45.24:046][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001650s)
+[2014.11.12-21.45.24:047][325]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.45.24:060][325]LogSlate: SRTH: 000000004A8BB1C0, 1290 x 754
+[2014.11.12-21.45.24:089][325]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.12-21.45.24:090][325]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2014.11.12-16.45.24
+[2014.11.12-21.45.24:090][325]LogWorld: Bringing up level for play took: 0.000711
+[2014.11.12-21.45.24:091][325]LogPlayerController: Spawned spectator SpectatorPawn_24 [server:1]
+[2014.11.12-21.45.24:091][325]LogGameMode: RestartPlayer 280
+[2014.11.12-21.45.24:091][325]LogPlayerController: ClientRestart_Implementation Bull_Character_C_24
+[2014.11.12-21.45.24:091][325]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_24
+[2014.11.12-21.45.24:101][325]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.439
+[2014.11.12-21.45.24:136][325]LogSlate: SRTH: 0000000017CAD480, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.45.24:172][325]LogSlate: SRTH: 0000000017CAD0C0, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.45.25:036][395]LogPackageName: SearchForPackageOnDisk took   0.156s to resolve Level_01.umap
+[2014.11.12-21.45.25:142][395]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Level_01.umap
+[2014.11.12-21.45.25:142][395]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.45.25:142][395]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.45.25:169][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000339B2520
+[2014.11.12-21.45.25:169][395]Cmd: MEM
+[2014.11.12-21.45.25:193][395]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.45.25:193][395]LogMemory: Process Physical Memory: 1222.67 MB used, 1223.38 MB peak
+[2014.11.12-21.45.25:194][395]LogMemory: Process Virtual Memory: 1154.66 MB used, 1154.66 MB peak
+[2014.11.12-21.45.25:194][395]LogMemory: Physical Memory: 5654.36 MB used, 12271.22 MB total
+[2014.11.12-21.45.25:194][395]LogMemory: Virtual Memory: 1746.76 MB used, 8388608.00 MB total
+[2014.11.12-21.45.25:194][395]LogMemory: 
+[2014.11.12-21.45.25:194][395]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.45.25:562][395]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.45.25:563][395]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.45.25:568][395]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.45.25
+[2014.11.12-21.45.25:571][395]LogWorld: Bringing up level for play took: 0.008121
+[2014.11.12-21.45.25:571][395]LogPlayerController: Spawned spectator SpectatorPawn_25 [server:1]
+[2014.11.12-21.45.25:571][395]LogGameMode: RestartPlayer 281
+[2014.11.12-21.45.25:572][395]LogPlayerController: ClientRestart_Implementation Bull_Character_C_25
+[2014.11.12-21.45.25:572][395]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_25
+[2014.11.12-21.45.25:696][396]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Level_01.umap
+[2014.11.12-21.45.25:815][396]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Level_01.umap
+[2014.11.12-21.45.25:920][396]LogPackageName: SearchForPackageOnDisk took   0.104s to resolve Level_01.umap
+[2014.11.12-21.45.25:920][396]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.45.25:920][396]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.45.25:952][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000475D44A0
+[2014.11.12-21.45.25:953][396]Cmd: MEM
+[2014.11.12-21.45.25:977][396]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.45.25:977][396]LogMemory: Process Physical Memory: 1262.61 MB used, 1268.82 MB peak
+[2014.11.12-21.45.25:977][396]LogMemory: Process Virtual Memory: 1195.30 MB used, 1199.75 MB peak
+[2014.11.12-21.45.25:977][396]LogMemory: Physical Memory: 5693.31 MB used, 12271.22 MB total
+[2014.11.12-21.45.25:977][396]LogMemory: Virtual Memory: 1787.32 MB used, 8388608.00 MB total
+[2014.11.12-21.45.25:977][396]LogMemory: 
+[2014.11.12-21.45.25:977][396]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.45.26:332][396]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.45.26:333][396]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.45.26:338][396]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.45.26
+[2014.11.12-21.45.26:341][396]LogWorld: Bringing up level for play took: 0.007935
+[2014.11.12-21.45.26:341][396]LogPlayerController: Spawned spectator SpectatorPawn_26 [server:1]
+[2014.11.12-21.45.26:341][396]LogGameMode: RestartPlayer 282
+[2014.11.12-21.45.26:342][396]LogPlayerController: ClientRestart_Implementation Bull_Character_C_26
+[2014.11.12-21.45.26:342][396]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_26
+[2014.11.12-21.45.26:343][396]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057337 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.45.26:343][396]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068643 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.45.26:465][397]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Level_01.umap
+[2014.11.12-21.45.26:570][397]LogPackageName: SearchForPackageOnDisk took   0.104s to resolve Level_01.umap
+[2014.11.12-21.45.26:570][397]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.45.26:570][397]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.45.26:606][397]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000347084A0
+[2014.11.12-21.45.26:606][397]Cmd: MEM
+[2014.11.12-21.45.26:630][397]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.45.26:633][397]LogMemory: Process Physical Memory: 1224.30 MB used, 1311.95 MB peak
+[2014.11.12-21.45.26:633][397]LogMemory: Process Virtual Memory: 1156.66 MB used, 1247.84 MB peak
+[2014.11.12-21.45.26:633][397]LogMemory: Physical Memory: 5664.33 MB used, 12271.22 MB total
+[2014.11.12-21.45.26:633][397]LogMemory: Virtual Memory: 1748.70 MB used, 8388608.00 MB total
+[2014.11.12-21.45.26:633][397]LogMemory: 
+[2014.11.12-21.45.26:633][397]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.45.26:915][397]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.45.26:915][397]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.45.26:920][397]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.45.26
+[2014.11.12-21.45.26:923][397]LogWorld: Bringing up level for play took: 0.008087
+[2014.11.12-21.45.26:924][397]LogPlayerController: Spawned spectator SpectatorPawn_27 [server:1]
+[2014.11.12-21.45.26:924][397]LogGameMode: RestartPlayer 283
+[2014.11.12-21.45.26:924][397]LogPlayerController: ClientRestart_Implementation Bull_Character_C_27
+[2014.11.12-21.45.26:924][397]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_27
+[2014.11.12-21.45.26:926][397]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057337 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.45.26:926][397]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068643 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.45.26:944][398]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087043 > MaxSimulationTimeStep (0.050) for 'Blacksmith_Character_C_1'
+[2014.11.12-21.45.27:152][405]LogPackageName: SearchForPackageOnDisk took   0.111s to resolve Level_01.umap
+[2014.11.12-21.45.27:255][405]LogPackageName: SearchForPackageOnDisk took   0.102s to resolve Level_01.umap
+[2014.11.12-21.45.27:255][405]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.45.27:256][405]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.45.27:287][405]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000475D4D60
+[2014.11.12-21.45.27:287][405]Cmd: MEM
+[2014.11.12-21.45.27:311][405]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.45.27:311][405]LogMemory: Process Physical Memory: 1231.20 MB used, 1311.95 MB peak
+[2014.11.12-21.45.27:311][405]LogMemory: Process Virtual Memory: 1162.80 MB used, 1247.84 MB peak
+[2014.11.12-21.45.27:311][405]LogMemory: Physical Memory: 5668.75 MB used, 12271.22 MB total
+[2014.11.12-21.45.27:311][405]LogMemory: Virtual Memory: 1754.76 MB used, 8388608.00 MB total
+[2014.11.12-21.45.27:311][405]LogMemory: 
+[2014.11.12-21.45.27:311][405]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.45.27:608][405]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.45.27:609][405]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.45.27:614][405]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.45.27
+[2014.11.12-21.45.27:617][405]LogWorld: Bringing up level for play took: 0.008149
+[2014.11.12-21.45.27:617][405]LogPlayerController: Spawned spectator SpectatorPawn_28 [server:1]
+[2014.11.12-21.45.27:617][405]LogGameMode: RestartPlayer 284
+[2014.11.12-21.45.27:618][405]LogPlayerController: ClientRestart_Implementation Bull_Character_C_28
+[2014.11.12-21.45.27:618][405]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_28
+[2014.11.12-21.45.27:637][406]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067506 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.45.27:637][406]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078355 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.45.28:352][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004EFB13A0
+[2014.11.12-21.45.28:358][466]LogSlate: SRTH: 0000000049CB8640, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.45.55:083][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2014.11.12-21.45.55:083][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2014.11.12-21.45.55:083][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2014.11.12-21.45.55:083][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2014.11.12-21.45.55:141][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.46.01:771][825]LogSavePackage: Save=6373.324707ms
+[2014.11.12-21.46.01:772][825]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDBB0E2FAE4DA2BDA4465E90B6FD024D6A.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.46.03:805][910]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.46.03:823][910]LogPlayLevel: [PIE] Compiling CowTippingHUD before PIE...
+[2014.11.12-21.46.03:985][910]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2014.11.12-21.46.04:072][910]LogPlayLevel: PIE:  Blueprint regeneration took 267 ms (2 blueprints)
+[2014.11.12-21.46.04:073][910]PIE: New page: PIE session: MainMenu (Nov 12, 2014, 11:46:04 AM)
+[2014.11.12-21.46.04:073][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000641s)
+[2014.11.12-21.46.04:074][910]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2014.11.12-21.46.04:074][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001469s)
+[2014.11.12-21.46.04:075][910]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.46.04:084][910]LogSlate: SRTH: 000000004FA207C0, 1290 x 754
+[2014.11.12-21.46.04:110][910]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.12-21.46.04:111][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2014.11.12-16.46.04
+[2014.11.12-21.46.04:111][910]LogWorld: Bringing up level for play took: 0.000656
+[2014.11.12-21.46.04:111][910]LogPlayerController: Spawned spectator SpectatorPawn_29 [server:1]
+[2014.11.12-21.46.04:112][910]LogGameMode: RestartPlayer 285
+[2014.11.12-21.46.04:112][910]LogPlayerController: ClientRestart_Implementation Bull_Character_C_29
+[2014.11.12-21.46.04:112][910]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_29
+[2014.11.12-21.46.04:140][910]LogBlueprintUserMessages: Begin
+[2014.11.12-21.46.04:151][910]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.486
+[2014.11.12-21.46.04:530][910]LogSlate: SRTH: 000000005342BA00, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.46.04:566][910]LogSlate: SRTH: 00000000558ED840, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.46.06:136][966]LogPackageName: SearchForPackageOnDisk took   0.177s to resolve Level_01.umap
+[2014.11.12-21.46.06:236][966]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve Level_01.umap
+[2014.11.12-21.46.06:236][966]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.46.06:236][966]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.46.06:264][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003864F1A0
+[2014.11.12-21.46.06:264][966]Cmd: MEM
+[2014.11.12-21.46.06:288][966]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.46.06:288][966]LogMemory: Process Physical Memory: 1238.50 MB used, 1319.58 MB peak
+[2014.11.12-21.46.06:290][966]LogMemory: Process Virtual Memory: 1169.79 MB used, 1251.22 MB peak
+[2014.11.12-21.46.06:290][966]LogMemory: Physical Memory: 5675.86 MB used, 12271.22 MB total
+[2014.11.12-21.46.06:290][966]LogMemory: Virtual Memory: 1761.70 MB used, 8388608.00 MB total
+[2014.11.12-21.46.06:290][966]LogMemory: 
+[2014.11.12-21.46.06:290][966]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.46.07:782][966]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.46.07:782][966]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.46.07:788][966]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.46.07
+[2014.11.12-21.46.07:791][966]LogWorld: Bringing up level for play took: 0.008232
+[2014.11.12-21.46.07:791][966]LogPlayerController: Spawned spectator SpectatorPawn_30 [server:1]
+[2014.11.12-21.46.07:791][966]LogGameMode: RestartPlayer 286
+[2014.11.12-21.46.07:792][966]LogPlayerController: ClientRestart_Implementation Bull_Character_C_30
+[2014.11.12-21.46.07:792][966]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_30
+[2014.11.12-21.46.07:793][966]LogBlueprintUserMessages: Begin
+[2014.11.12-21.46.07:927][967]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081889 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.46.07:927][967]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.092301 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.46.10:131][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015AE9DA0
+[2014.11.12-21.46.10:138][ 52]LogSlate: SRTH: 0000000053429840, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.47.42:935][784]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.12-21.47.42:948][784]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.12-21.47.42:949][784]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_558.EdGraphPin_10280"''
+[2014.11.12-21.47.44:027][804]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-21.47.44:128][804]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-21.48.12:807][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.48.21:076][940]LogSavePackage: Save=7378.841309ms
+[2014.11.12-21.48.21:076][940]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDC6561B4D416A92AB6088C4A1E60D25DD.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.48.25:082][ 75]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.48.25:118][ 75]LogPlayLevel: [PIE] Compiling CowTippingHUD before PIE...
+[2014.11.12-21.48.25:297][ 75]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2014.11.12-21.48.25:387][ 75]LogPlayLevel: PIE:  Blueprint regeneration took 305 ms (2 blueprints)
+[2014.11.12-21.48.25:387][ 75]PIE: New page: PIE session: MainMenu (Nov 12, 2014, 11:48:25 AM)
+[2014.11.12-21.48.25:388][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000644s)
+[2014.11.12-21.48.25:389][ 75]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2014.11.12-21.48.25:389][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001511s)
+[2014.11.12-21.48.25:390][ 75]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.48.25:399][ 75]LogSlate: SRTH: 00000000296C8A00, 1290 x 754
+[2014.11.12-21.48.25:428][ 75]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.12-21.48.25:428][ 75]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2014.11.12-16.48.25
+[2014.11.12-21.48.25:429][ 75]LogWorld: Bringing up level for play took: 0.000723
+[2014.11.12-21.48.25:429][ 75]LogPlayerController: Spawned spectator SpectatorPawn_31 [server:1]
+[2014.11.12-21.48.25:429][ 75]LogGameMode: RestartPlayer 287
+[2014.11.12-21.48.25:430][ 75]LogPlayerController: ClientRestart_Implementation Bull_Character_C_31
+[2014.11.12-21.48.25:430][ 75]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_31
+[2014.11.12-21.48.25:451][ 75]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.223
+[2014.11.12-21.48.25:872][ 75]LogSlate: SRTH: 00000000501E41C0, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.48.25:908][ 75]LogSlate: SRTH: 000000005ABCDC00, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.48.27:182][104]LogPackageName: SearchForPackageOnDisk took   0.508s to resolve Level_01.umap
+[2014.11.12-21.48.27:291][104]LogPackageName: SearchForPackageOnDisk took   0.106s to resolve Level_01.umap
+[2014.11.12-21.48.27:291][104]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.48.27:292][104]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.48.27:319][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005403B2E0
+[2014.11.12-21.48.27:319][104]Cmd: MEM
+[2014.11.12-21.48.27:343][104]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.48.27:343][104]LogMemory: Process Physical Memory: 1289.74 MB used, 1324.86 MB peak
+[2014.11.12-21.48.27:343][104]LogMemory: Process Virtual Memory: 1225.90 MB used, 1256.21 MB peak
+[2014.11.12-21.48.27:343][104]LogMemory: Physical Memory: 5713.39 MB used, 12271.22 MB total
+[2014.11.12-21.48.27:343][104]LogMemory: Virtual Memory: 1855.96 MB used, 8388608.00 MB total
+[2014.11.12-21.48.27:343][104]LogMemory: 
+[2014.11.12-21.48.27:343][104]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.48.28:676][104]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.48.28:677][104]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.48.28:682][104]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.48.28
+[2014.11.12-21.48.28:685][104]LogWorld: Bringing up level for play took: 0.008184
+[2014.11.12-21.48.28:685][104]LogPlayerController: Spawned spectator SpectatorPawn_32 [server:1]
+[2014.11.12-21.48.28:685][104]LogGameMode: RestartPlayer 288
+[2014.11.12-21.48.28:686][104]LogPlayerController: ClientRestart_Implementation Bull_Character_C_32
+[2014.11.12-21.48.28:686][104]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_32
+[2014.11.12-21.48.28:821][105]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082171 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.48.28:822][105]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.092566 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.48.33:002][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000533A1B20
+[2014.11.12-21.48.33:009][267]LogSlate: SRTH: 0000000057D2EC80, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.49.50:189][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.49.57:853][228]LogSavePackage: Save=6905.357422ms
+[2014.11.12-21.49.57:853][228]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDE5B3AF724510BE2362FB7E8AE1899C43.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.51.05:449][ 50]BlueprintLog: New page: Compile CowTippingHUD
+[2014.11.12-21.51.05:668][ 50]BlueprintEditorCompileResults: Info [2975.14] Compile of CowTippingHUD successful! [in 19 ms]
+[2014.11.12-21.51.06:611][ 69]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.51.06:611][ 69]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2014.11.12-21.51.06:685][ 69]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2014.11.12-21.51.06:685][ 69]PIE: New page: PIE session: MainMenu (Nov 12, 2014, 11:51:06 AM)
+[2014.11.12-21.51.06:686][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000637s)
+[2014.11.12-21.51.06:687][ 69]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2014.11.12-21.51.06:687][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001522s)
+[2014.11.12-21.51.06:688][ 69]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.51.06:704][ 69]LogSlate: SRTH: 00000000296C8C40, 1290 x 754
+[2014.11.12-21.51.06:733][ 69]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.12-21.51.06:733][ 69]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2014.11.12-16.51.06
+[2014.11.12-21.51.06:734][ 69]LogWorld: Bringing up level for play took: 0.000668
+[2014.11.12-21.51.06:734][ 69]LogPlayerController: Spawned spectator SpectatorPawn_33 [server:1]
+[2014.11.12-21.51.06:734][ 69]LogGameMode: RestartPlayer 289
+[2014.11.12-21.51.06:735][ 69]LogPlayerController: ClientRestart_Implementation Bull_Character_C_33
+[2014.11.12-21.51.06:735][ 69]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_33
+[2014.11.12-21.51.06:738][ 69]LogBlueprintUserMessages: Loading Game from Begin Play
+[2014.11.12-21.51.06:749][ 69]LogBlueprintUserMessages: Level Type Set to Main
+[2014.11.12-21.51.06:760][ 69]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 1.075
+[2014.11.12-21.51.06:907][ 69]LogSlate: SRTH: 0000000039B7B340, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.51.06:942][ 69]LogSlate: SRTH: 0000000039B781C0, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.51.09:762][164]LogPackageName: SearchForPackageOnDisk took   0.412s to resolve Level_01.umap
+[2014.11.12-21.51.09:870][164]LogPackageName: SearchForPackageOnDisk took   0.104s to resolve Level_01.umap
+[2014.11.12-21.51.09:870][164]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.51.09:870][164]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.51.09:899][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B29F060
+[2014.11.12-21.51.09:899][164]Cmd: MEM
+[2014.11.12-21.51.09:924][164]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.51.09:924][164]LogMemory: Process Physical Memory: 1325.80 MB used, 1376.09 MB peak
+[2014.11.12-21.51.09:924][164]LogMemory: Process Virtual Memory: 1264.03 MB used, 1312.25 MB peak
+[2014.11.12-21.51.09:924][164]LogMemory: Physical Memory: 5752.69 MB used, 12271.22 MB total
+[2014.11.12-21.51.09:924][164]LogMemory: Virtual Memory: 1817.54 MB used, 8388608.00 MB total
+[2014.11.12-21.51.09:924][164]LogMemory: 
+[2014.11.12-21.51.09:924][164]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.51.11:479][164]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.51.11:479][164]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.51.11:484][164]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.51.11
+[2014.11.12-21.51.11:487][164]LogWorld: Bringing up level for play took: 0.008011
+[2014.11.12-21.51.11:488][164]LogPlayerController: Spawned spectator SpectatorPawn_34 [server:1]
+[2014.11.12-21.51.11:488][164]LogGameMode: RestartPlayer 290
+[2014.11.12-21.51.11:488][164]LogPlayerController: ClientRestart_Implementation Bull_Character_C_34
+[2014.11.12-21.51.11:488][164]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_34
+[2014.11.12-21.51.11:489][164]LogBlueprintUserMessages: Loading Game from Begin Play
+[2014.11.12-21.51.11:491][164]LogBlueprintUserMessages: Level Type Set to Main
+[2014.11.12-21.51.11:627][165]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082526 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.51.11:627][165]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.092924 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.51.13:438][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF2F100
+[2014.11.12-21.51.13:444][232]LogSlate: SRTH: 00000000509EE140, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.51.35:240][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTipping_Save" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTipping_Save.uasset" SILENT=true
+[2014.11.12-21.51.36:216][417]LogSavePackage: Save=140.013458ms
+[2014.11.12-21.51.36:216][417]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTipping_Save7D3A54A74E5431FDEDDA45818CE6204C.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTipping_Save.uasset'
+[2014.11.12-21.51.36:270][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.51.43:691][417]LogSavePackage: Save=7171.161621ms
+[2014.11.12-21.51.43:691][417]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDE1552E6E4103A17A2C3FD7AED94DBDE9.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.52.29:502][357]BlueprintLog: New page: Compile CowTippingHUD
+[2014.11.12-21.52.29:717][357]BlueprintEditorCompileResults: Info [3059.19] Compile of CowTippingHUD successful! [in 21 ms]
+[2014.11.12-21.52.30:724][425]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-21.52.30:742][425]LogPlayLevel: [PIE] Compiling CowTipping_Save before PIE...
+[2014.11.12-21.52.30:882][425]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2014.11.12-21.52.30:934][425]LogPlayLevel: [PIE] Compiling CowTippingHUD before PIE...
+[2014.11.12-21.52.31:107][425]LogPlayLevel: [PIE] Compiling CowTipping_Menus before PIE...
+[2014.11.12-21.52.31:200][425]LogPlayLevel: PIE:  Blueprint regeneration took 476 ms (4 blueprints)
+[2014.11.12-21.52.31:201][425]PIE: New page: PIE session: MainMenu (Nov 12, 2014, 11:52:31 AM)
+[2014.11.12-21.52.31:201][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000640s)
+[2014.11.12-21.52.31:202][425]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2014.11.12-21.52.31:202][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001549s)
+[2014.11.12-21.52.31:203][425]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.52.31:214][425]LogSlate: SRTH: 000000004D49A680, 1290 x 754
+[2014.11.12-21.52.31:240][425]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.12-21.52.31:241][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2014.11.12-16.52.31
+[2014.11.12-21.52.31:241][425]LogWorld: Bringing up level for play took: 0.000642
+[2014.11.12-21.52.31:242][425]LogPlayerController: Spawned spectator SpectatorPawn_35 [server:1]
+[2014.11.12-21.52.31:242][425]LogBlueprintUserMessages: Construction Start
+[2014.11.12-21.52.31:242][425]LogGameMode: RestartPlayer 291
+[2014.11.12-21.52.31:242][425]LogPlayerController: ClientRestart_Implementation Bull_Character_C_35
+[2014.11.12-21.52.31:243][425]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_35
+[2014.11.12-21.52.31:247][425]LogBlueprintUserMessages: Loading Game from Begin Play
+[2014.11.12-21.52.31:249][425]LogBlueprintUserMessages: Level Type Set to Main
+[2014.11.12-21.52.31:255][425]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.436
+[2014.11.12-21.52.31:390][425]LogSlate: SRTH: 000000005ABCF7C0, 790 x 1019, prev 0000000000000000
+[2014.11.12-21.52.31:419][425]LogSlate: SRTH: 000000003B686080, 1280 x 720, prev 0000000000000000
+[2014.11.12-21.52.36:308][800]LogPackageName: SearchForPackageOnDisk took   0.191s to resolve Level_01.umap
+[2014.11.12-21.52.36:410][800]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve Level_01.umap
+[2014.11.12-21.52.36:410][800]LogNet: Browse: /Game/Maps/Level_01
+[2014.11.12-21.52.36:410][800]LogLoad: LoadMap: /Game/Maps/Level_01
+[2014.11.12-21.52.36:440][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005C24F060
+[2014.11.12-21.52.36:440][800]Cmd: MEM
+[2014.11.12-21.52.36:464][800]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-21.52.36:464][800]LogMemory: Process Physical Memory: 1346.18 MB used, 1412.46 MB peak
+[2014.11.12-21.52.36:464][800]LogMemory: Process Virtual Memory: 1285.37 MB used, 1353.08 MB peak
+[2014.11.12-21.52.36:464][800]LogMemory: Physical Memory: 5773.98 MB used, 12271.22 MB total
+[2014.11.12-21.52.36:464][800]LogMemory: Virtual Memory: 1848.25 MB used, 8388608.00 MB total
+[2014.11.12-21.52.36:464][800]LogMemory: 
+[2014.11.12-21.52.36:464][800]Allocator Stats for TBB: (not implemented)
+[2014.11.12-21.52.37:045][800]LogWorld: Game class is 'CowTippingGameMode_C'
+[2014.11.12-21.52.37:045][800]LogAIModule: Creating AISystem for world Level_01
+[2014.11.12-21.52.37:050][800]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2014.11.12-16.52.37
+[2014.11.12-21.52.37:053][800]LogWorld: Bringing up level for play took: 0.008131
+[2014.11.12-21.52.37:054][800]LogPlayerController: Spawned spectator SpectatorPawn_36 [server:1]
+[2014.11.12-21.52.37:054][800]LogBlueprintUserMessages: Construction Start
+[2014.11.12-21.52.37:054][800]LogGameMode: RestartPlayer 292
+[2014.11.12-21.52.37:054][800]LogPlayerController: ClientRestart_Implementation Bull_Character_C_36
+[2014.11.12-21.52.37:054][800]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_36
+[2014.11.12-21.52.37:055][800]LogBlueprintUserMessages: Loading Game from Begin Play
+[2014.11.12-21.52.37:056][800]LogBlueprintUserMessages: Level Type Set to Main
+[2014.11.12-21.52.37:178][801]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.070582 > MaxSimulationTimeStep (0.050) for 'Clown_Charater_C_0'
+[2014.11.12-21.52.37:178][801]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081330 > MaxSimulationTimeStep (0.050) for 'RedNeck_Character_20'
+[2014.11.12-21.52.38:777][917]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000564989A0
+[2014.11.12-21.52.38:781][917]LogSlate: SRTH: 000000002D8FBA00, 790 x 1015, prev 0000000000000000
+[2014.11.12-21.54.24:411][524]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.54.24:412][524]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.54.24:412][524]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-21.55.18:792][661]LogSavePackage: Save=107.679550ms
+[2014.11.12-21.55.18:792][661]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/MainMenu2F3F806045E03F990E9971ABAF5D808C.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/MainMenu.umap'
+[2014.11.12-21.55.19:038][661]LogFileHelpers: Saving map 'MainMenu' took 3.733
+[2014.11.12-21.55.19:042][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-21.55.26:233][661]LogSavePackage: Save=7003.204590ms
+[2014.11.12-21.55.26:233][661]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDC627770F48EAB34BC85070B8BD008F61.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-21.55.26:316][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTipping_Menus" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTipping_Menus.uasset" SILENT=true
+[2014.11.12-21.55.27:856][661]LogSavePackage: Save=1279.010010ms
+[2014.11.12-21.55.27:857][661]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTipping_Menus0888C27A4241D8809B70DDBAD40023B3.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTipping_Menus.uasset'
+[2014.11.12-22.00.39:290][722]BlueprintLog: New page: Compile MainMenu
+[2014.11.12-22.00.39:351][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2014.11.12-22.00.39:351][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2014.11.12-22.00.39:351][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2014.11.12-22.00.39:351][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2014.11.12-22.00.39:382][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006632B380
+[2014.11.12-22.00.39:417][722]BlueprintEditorCompileResults: Info [3548.82] Compile of MainMenu successful! [in 0 ms]
+[2014.11.12-22.02.28:343][764]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.02.44:098][108]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-22.02.44:206][108]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.12-22.03.20:701][625]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.04.02:833][112]BlueprintLog: New page: Compile CowTipping_HUD_Interface
+[2014.11.12-22.04.02:897][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2014.11.12-22.04.02:897][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2014.11.12-22.04.02:897][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2014.11.12-22.04.02:897][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2014.11.12-22.04.03:076][112]BlueprintEditorCompileResults: Info [3752.35] Compile of CowTipping_HUD_Interface successful! [in 0 ms]
+[2014.11.12-22.04.43:578][662]BlueprintLog: New page: Compile CowTipping_HUD_Interface
+[2014.11.12-22.04.43:752][662]BlueprintEditorCompileResults: Info [3793.09] Compile of CowTipping_HUD_Interface successful! [in 0 ms]
+[2014.11.12-22.04.56:569][365]LogSavePackage: Save=207.676743ms
+[2014.11.12-22.04.56:569][365]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/MainMenu8FCC67B0456C96D51956BEAD0539D30F.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Maps/MainMenu.umap'
+[2014.11.12-22.04.56:797][365]LogFileHelpers: Saving map 'MainMenu' took 4.174
+[2014.11.12-22.04.56:800][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CowTippingHUD" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset" SILENT=true
+[2014.11.12-22.05.03:837][365]LogSavePackage: Save=6784.650879ms
+[2014.11.12-22.05.03:837][365]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTippingHUDE6B95DB84C0F97F70B55918E487CC9B3.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTippingHUD.uasset'
+[2014.11.12-22.05.04:275][365]LogSavePackage: Save=113.741478ms
+[2014.11.12-22.05.04:276][365]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTipping_HUD_Interface2F5356F44967F1318A8B888F636A5E21.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTipping_HUD_Interface.uasset'
+[2014.11.12-22.05.04:372][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bull_Character" FILE="//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/Bull_Character.uasset" SILENT=true
+[2014.11.12-22.05.05:928][365]LogSavePackage: Save=1319.057007ms
+[2014.11.12-22.05.05:928][365]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/Bull_Character357A4F9749936F252F9F898E1D425AA9.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/Bull_Character.uasset'
+[2014.11.12-22.05.06:625][365]LogSavePackage: Save=372.897888ms
+[2014.11.12-22.05.06:625][365]LogSavePackage: Moving '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Saved/CowTipping_Player_ControllerD079470442985F2339C221B20934C340.tmp' to '//myhome.itap.purdue.edu/myhome/yongj/ecn.data/Desktop/Cow-Tipping/Content/Blueprints/CowTipping_Player_Controller.uasset'
+[2014.11.12-22.05.16:183][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2014.11.12-22.05.17:056][958]Cmd: QUIT_EDITOR
+[2014.11.12-22.05.17:226][958]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.12-22.05.17:270][958]LogExit: Preparing to exit.
+[2014.11.12-22.05.18:429][958]LogExit: Editor shut down
+[2014.11.12-22.05.18:430][958]LogExit: Transaction tracking system shut down
+[2014.11.12-22.05.18:431][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033ADEFC0
+[2014.11.12-22.05.18:441][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002408E840
+[2014.11.12-22.05.18:446][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003781FA60
+[2014.11.12-22.05.18:446][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006630B6A0
+[2014.11.12-22.05.18:887][958]LogExit: Object subsystem successfully closed.
+[2014.11.12-22.05.19:278][958]LogModuleManager: Shutting down and abandoning module TextureEditor (174)
+[2014.11.12-22.05.19:278][958]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2014.11.12-22.05.19:278][958]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (172)
+[2014.11.12-22.05.19:278][958]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2014.11.12-22.05.19:278][958]LogModuleManager: Shutting down and abandoning module HTTP (170)
+[2014.11.12-22.05.19:279][958]LogModuleManager: Shutting down and abandoning module NewsFeed (169)
+[2014.11.12-22.05.19:279][958]LogModuleManager: Shutting down and abandoning module SceneOutliner (168)
+[2014.11.12-22.05.19:279][958]LogModuleManager: Shutting down and abandoning module EditorWidgets (167)
+[2014.11.12-22.05.19:279][958]LogModuleManager: Shutting down and abandoning module CollectionManager (166)
+[2014.11.12-22.05.19:279][958]LogModuleManager: Shutting down and abandoning module SynthBenchmark (165)
+[2014.11.12-22.05.19:279][958]LogModuleManager: Shutting down and abandoning module StatsViewer (164)
+[2014.11.12-22.05.19:279][958]LogModuleManager: Shutting down and abandoning module FoliageEdit (163)
+[2014.11.12-22.05.19:279][958]LogModuleManager: Shutting down and abandoning module LandscapeEditor (162)
+[2014.11.12-22.05.19:280][958]LogModuleManager: Shutting down and abandoning module MeshPaint (161)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module ActorPickerMode (160)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module GeometryMode (159)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module TextureAlignMode (158)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module BspMode (157)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module PlacementMode (156)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module AutomationWorker (155)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (154)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (147)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (146)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2014.11.12-22.05.19:282][958]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2014.11.12-22.05.19:283][958]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2014.11.12-22.05.19:283][958]LogModuleManager: Shutting down and abandoning module SessionLauncher (138)
+[2014.11.12-22.05.19:305][958]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2014.11.12-22.05.19:317][958]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2014.11.12-22.05.19:317][958]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2014.11.12-22.05.19:317][958]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2014.11.12-22.05.19:323][958]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2014.11.12-22.05.19:323][958]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2014.11.12-22.05.19:323][958]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2014.11.12-22.05.19:323][958]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2014.11.12-22.05.19:323][958]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2014.11.12-22.05.19:367][958]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2014.11.12-22.05.19:367][958]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (127)
+[2014.11.12-22.05.22:022][958]LogWindows: === Critical error: ===
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+
+[2014.11.12-22.05.22:022][958]LogWindows: Fatal error!
+
+Address = 0xdc5f5722 (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll]
+Address = 0x77c010fb (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77c012fa (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xfe3110dc (filename not found) [in C:\Windows\system32\KERNELBASE.dll]
+Address = 0xdc5f3098 (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll]
+Address = 0xdc5f3a24 (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll]
+Address = 0xdc5f661c (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll]
+Address = 0xec3bfe52 (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xec3c036c (filename not found) [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Exit() 0x3f02a472 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\launchengineloop.cpp:1962] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f02c111 + 22 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\launch.cpp:144] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f02c14a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f037c59 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f038a79 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x774c59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x77bdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77bdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.11.12-22.05.22:024][958]LogPhysics:Warning: PHYSX: ..\..\foundation\src\PsFoundation.cpp (234) 8 : Foundation: Invalid deregistration detected.
+[2014.11.12-22.05.22:024][958]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.11.12-22.05.22:027][958]Log file closed, 11/12/14 17:05:22
