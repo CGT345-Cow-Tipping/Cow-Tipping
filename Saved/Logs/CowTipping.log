@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Log file open, 12/09/14 22:31:58
+=======
+Log file open, 12/09/14 22:38:54
+>>>>>>> origin/master
 LogInit:Display: Running engine for game: CowTipping
 LogInit: Version: 4.3.1-2226335+++depot+UE4-Releases+4.3
 LogInit: API Version: 2215663
@@ -8,6 +12,7 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.3
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.3/Engine/Binaries/Win64/
 LogInit: Rocket: 1
+<<<<<<< HEAD
 [2014.12.10-03.31.58:713][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
 [2014.12.10-03.31.58:737][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
 [2014.12.10-03.31.58:742][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
@@ -864,3 +869,706 @@ LogInit: Rocket: 1
 [2014.12.10-05.01.44:419][505]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2014.12.10-05.01.44:419][505]LogExit: Exiting.
 [2014.12.10-05.01.44:422][505]Log file closed, 12/10/14 00:01:44
+=======
+[2014.12.10-03.38.54:620][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.10-03.38.54:647][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.10-03.38.54:655][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.10-03.38.54:659][  0]LogInit: Object subsystem initialized
+[2014.12.10-03.38.54:661][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.10-03.38.54:661][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.10-03.38.54:664][  0]LogInit: Computer: CHELSEASDESKTOP
+[2014.12.10-03.38.54:664][  0]LogInit: User: cwhitlo
+[2014.12.10-03.38.54:665][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.10-03.38.54:665][  0]LogInit: High frequency timer resolution =3.312659 MHz
+[2014.12.10-03.38.54:665][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=131072.0GB
+[2014.12.10-03.38.54:665][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.10-03.38.54:665][  0]LogMemory: Process Physical Memory: 62.26 MB used, 62.26 MB peak
+[2014.12.10-03.38.54:665][  0]LogMemory: Process Virtual Memory: 38.85 MB used, 38.85 MB peak
+[2014.12.10-03.38.54:665][  0]LogMemory: Physical Memory: 4783.44 MB used, 16035.27 MB total
+[2014.12.10-03.38.54:665][  0]LogMemory: Virtual Memory: 259.23 MB used, 134217728.00 MB total
+[2014.12.10-03.38.54:681][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.12.10-03.38.54:681][  0]LogD3D11RHI: Adapter has 224MB of dedicated video memory, 0MB of dedicated system memory, and 1568MB of shared system memory, 1 output[s]
+[2014.12.10-03.38.54:682][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.10-03.38.54:682][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.10-03.38.54:682][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.10-03.38.54:685][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
+[2014.12.10-03.38.54:692][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.10-03.38.54:776][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.10-03.38.55:271][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-03.38.55:349][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-03.38.55:375][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.10-03.38.55:414][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/cwhitlo/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.12.10-03.38.55:414][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cwhitlo/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc
+[2014.12.10-03.38.55:414][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.10-03.38.55:414][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.10-03.38.55:425][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.10-03.38.55:437][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cwhitlo/AppData/Local/UnrealEngine/4.3/DerivedDataCache: Writable
+[2014.12.10-03.38.55:539][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.10-03.38.55:539][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.10-03.38.55:802][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.10-03.38.56:265][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-03.38.56:265][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DummySprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-03.38.56:268][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.10-03.38.56:346][  0]SourceControl: Info Source control is disabled
+[2014.12.10-03.38.56:346][  0]SourceControl: Info Source control is disabled
+[2014.12.10-03.38.56:349][  0]SourceControl: Info Source control is disabled
+[2014.12.10-03.38.56:446][  0]BlueprintLog: New page: Editor Load
+[2014.12.10-03.38.56:482][  0]LogObj: 20191 objects as part of root set at end of initial load.
+[2014.12.10-03.38.56:482][  0]LogUObjectAllocator: 3997440 out of 0 bytes used by permanent object pool.
+[2014.12.10-03.38.56:593][  0]LogEngine: Initializing Engine...
+[2014.12.10-03.38.56:657][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.10-03.38.56:663][  0]LogInit: FAudioDevice initialized.
+[2014.12.10-03.38.56:672][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.10-03.38.56:689][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/cwhitlo/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.12.10-03.38.56:693][  0]LogInit: Texture streaming: Enabled
+[2014.12.10-03.38.56:714][  0]LogInit: Transaction tracking system initialized
+[2014.12.10-03.38.56:777][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2014.12.10-03.38.56:876][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-03.38.56:896][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-03.38.56:964][  0]LogConsoleResponse:Display: 
+[2014.12.10-03.38.57:065][  0]SourceControl: Info Source control is disabled
+[2014.12.10-03.38.57:065][  0]Cmd: MAP LOAD FILE="../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Content/Maps/Level_01.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.10-03.38.57:066][  0]LightingResults: New page: Lighting Build
+[2014.12.10-03.38.57:070][  0]MapCheck: New page: Map Check
+[2014.12.10-03.38.57:070][  0]LightingResults: New page: Lighting Build
+[2014.12.10-03.38.57:079][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002C7526F740
+[2014.12.10-03.38.58:217][  0]LogTexture:Display: Building textures: p_ph_1 (AutoDXT)
+[2014.12.10-03.38.58:217][  0]LogTexture:Display: Building textures: p_ph_2 (AutoDXT)
+[2014.12.10-03.38.58:217][  0]LogTexture:Display: Building textures: p_ph_3 (AutoDXT)
+[2014.12.10-03.38.58:218][  0]LogTexture:Display: Building textures: p_ph_4 (AutoDXT)
+[2014.12.10-03.38.58:218][  0]LogTexture:Display: Building textures: p_ph_5 (AutoDXT)
+[2014.12.10-03.38.58:218][  0]LogTexture:Display: Building textures: p_ph_6 (AutoDXT)
+[2014.12.10-03.38.58:218][  0]LogTexture:Display: Building textures: p_ph_7 (AutoDXT)
+[2014.12.10-03.38.58:301][  0]LogTexture:Display: Building textures: p_ph_8 (AutoDXT)
+[2014.12.10-03.38.58:302][  0]LogTexture:Display: Building textures: bs_attack_3 (AutoDXT)
+[2014.12.10-03.38.58:303][  0]LogTexture:Display: Building textures: bs_attack_1 (AutoDXT)
+[2014.12.10-03.38.58:305][  0]LogTexture:Display: Building textures: bs_attack_2 (AutoDXT)
+[2014.12.10-03.38.58:307][  0]LogTexture:Display: Building textures: bs_attack_4 (AutoDXT)
+[2014.12.10-03.38.58:308][  0]LogTexture:Display: Building textures: bs_attack_5 (AutoDXT)
+[2014.12.10-03.38.58:310][  0]LogTexture:Display: Building textures: BlacksmithSpriteSheetIdle (AutoDXT)
+[2014.12.10-03.38.58:316][  0]LogTexture:Display: Building textures: BlacksmithSpriteSheetWalk (AutoDXT)
+[2014.12.10-03.38.58:321][  0]LogTexture:Display: Building textures: ClownAttackSpriteSheet (AutoDXT)
+[2014.12.10-03.38.58:327][  0]LogTexture:Display: Building textures: ClownSpriteSheetIdle (AutoDXT)
+[2014.12.10-03.38.58:333][  0]LogTexture:Display: Building textures: ClownSpriteSheetWalk (AutoDXT)
+[2014.12.10-03.38.58:339][  0]LogTexture:Display: Building textures: rn_attack_1 (AutoDXT)
+[2014.12.10-03.38.58:340][  0]LogTexture:Display: Building textures: rn_attack_2 (AutoDXT)
+[2014.12.10-03.38.58:341][  0]LogTexture:Display: Building textures: rn_attack_3 (AutoDXT)
+[2014.12.10-03.38.58:344][  0]LogTexture:Display: Building textures: rn_attack_4 (AutoDXT)
+[2014.12.10-03.38.58:345][  0]LogTexture:Display: Building textures: rn_attack_5 (AutoDXT)
+[2014.12.10-03.38.58:347][  0]LogTexture:Display: Building textures: rn_attack_6 (AutoDXT)
+[2014.12.10-03.38.58:348][  0]LogTexture:Display: Building textures: rn_attack_7 (AutoDXT)
+[2014.12.10-03.38.58:360][  0]LogTexture:Display: Building textures: RedNeckSpriteSheetIdle (AutoDXT)
+[2014.12.10-03.38.58:365][  0]LogTexture:Display: Building textures: RedNeckSpriteSheetWalk (AutoDXT)
+[2014.12.10-03.38.58:371][  0]LogTexture:Display: Building textures: attack_single_1 (BGRA8)
+[2014.12.10-03.38.58:372][  0]LogTexture:Display: Building textures: attack_single_2 (BGRA8)
+[2014.12.10-03.38.58:399][  0]LogTexture:Display: Building textures: attack_single_3 (BGRA8)
+[2014.12.10-03.38.58:399][  0]LogTexture:Display: Building textures: attack_single_4 (BGRA8)
+[2014.12.10-03.38.58:399][  0]LogTexture:Display: Building textures: attack_double_02 (BGRA8)
+[2014.12.10-03.38.58:400][  0]LogTexture:Display: Building textures: attack_double_01 (BGRA8)
+[2014.12.10-03.38.58:402][  0]LogTexture:Display: Building textures: attack_double_03 (BGRA8)
+[2014.12.10-03.38.58:403][  0]LogTexture:Display: Building textures: attack_double_06 (BGRA8)
+[2014.12.10-03.38.58:571][  0]LogTexture:Display: Building textures: attack_double_10 (BGRA8)
+[2014.12.10-03.38.58:572][  0]LogTexture:Display: Building textures: attack_double_11 (BGRA8)
+[2014.12.10-03.38.58:572][  0]LogTexture:Display: Building textures: BullSpriteSheetIdle (AutoDXT)
+[2014.12.10-03.38.58:578][  0]LogTexture:Display: Building textures: BullSpriteSheet (AutoDXT)
+[2014.12.10-03.38.58:597][  0]LogTexture:Display: Building textures: Level_3_Platform_Orange_Small (BGRA8)
+[2014.12.10-03.38.58:597][  0]LogBlueprint:Warning: Node '/Game/Blueprints/MovingPlatform.MovingPlatform:UserConstructionScript.K2Node_VariableGet_34133' missing NodeGuid.
+[2014.12.10-03.38.58:598][  0]LogTexture:Display: Building textures: ug2_color (BGRA8)
+[2014.12.10-03.38.58:599][  0]LogTexture:Display: Building textures: bull_idle_1t (AutoDXT)
+[2014.12.10-03.38.58:601][  0]LogTexture:Display: Building textures: bull_idle_2t (AutoDXT)
+[2014.12.10-03.38.58:602][  0]LogTexture:Display: Building textures: bull_idle_3t (AutoDXT)
+[2014.12.10-03.38.58:604][  0]LogTexture:Display: Building textures: bull_idle_4t (AutoDXT)
+[2014.12.10-03.38.58:606][  0]LogTexture:Display: Building textures: ug1_grey (BGRA8)
+[2014.12.10-03.38.58:607][  0]LogTexture:Display: Building textures: ug2_grey (BGRA8)
+[2014.12.10-03.38.58:631][  0]LogTexture:Display: Building textures: ug3_grey (BGRA8)
+[2014.12.10-03.38.58:632][  0]LogTexture:Display: Building textures: ug4_grey (AutoDXT)
+[2014.12.10-03.38.58:640][  0]LogTexture:Display: Building textures: ug5_grey (BGRA8)
+[2014.12.10-03.38.58:641][  0]LogTexture:Display: Building textures: ug6_grey (BGRA8)
+[2014.12.10-03.38.58:643][  0]LogTexture:Display: Building textures: ug7_grey (AutoDXT)
+[2014.12.10-03.38.58:648][  0]LogTexture:Display: Building textures: ug1_color (BGRA8)
+[2014.12.10-03.38.58:649][  0]LogTexture:Display: Building textures: ug3_color (BGRA8)
+[2014.12.10-03.38.58:650][  0]LogTexture:Display: Building textures: ug4_color (AutoDXT)
+[2014.12.10-03.38.58:657][  0]LogTexture:Display: Building textures: ug5_color (BGRA8)
+[2014.12.10-03.38.58:658][  0]LogTexture:Display: Building textures: ug6_color (BGRA8)
+[2014.12.10-03.38.58:659][  0]LogTexture:Display: Building textures: ug7_color (AutoDXT)
+[2014.12.10-03.38.58:668][  0]LogTexture:Display: Building textures: menu_back_ph (AutoDXT)
+[2014.12.10-03.38.58:685][  0]LogTexture:Display: Building textures: Mesquite_PageE (AutoDXT)
+[2014.12.10-03.38.58:692][  0]LogTexture:Display: Building textures: Mesquite_PageA (AutoDXT)
+[2014.12.10-03.38.58:700][  0]LogTexture:Display: Building textures: Mesquite_PageB (AutoDXT)
+[2014.12.10-03.38.58:714][  0]LogTexture:Display: Building textures: Mesquite_PageC (AutoDXT)
+[2014.12.10-03.38.58:721][  0]LogTexture:Display: Building textures: Mesquite_PageD (AutoDXT)
+[2014.12.10-03.38.58:729][  0]LogTexture:Display: Building textures: Mesquite_PageF (AutoDXT)
+[2014.12.10-03.38.58:736][  0]LogTexture:Display: Building textures: Mesquite_PageH (AutoDXT)
+[2014.12.10-03.38.58:739][  0]LogTexture:Display: Building textures: Mesquite_PageG (AutoDXT)
+[2014.12.10-03.38.58:757][  0]LogTexture:Display: Building textures: hud_background (AutoDXT)
+[2014.12.10-03.38.58:851][  0]LogTexture:Display: Building textures: Health_Bar (BGRA8)
+[2014.12.10-03.38.58:852][  0]LogTexture:Display: Building textures: Health_Bar_full (BGRA8)
+[2014.12.10-03.38.58:853][  0]LogTexture:Display: Building textures: BullSpriteHead (BGRA8)
+[2014.12.10-03.38.58:853][  0]LogTexture:Display: Building textures: l1_grey (BGRA8)
+[2014.12.10-03.38.58:854][  0]LogTexture:Display: Building textures: l1 (AutoDXT)
+[2014.12.10-03.38.58:859][  0]LogTexture:Display: Building textures: l2 (BGRA8)
+[2014.12.10-03.38.58:860][  0]LogTexture:Display: Building textures: l3 (BGRA8)
+[2014.12.10-03.38.58:861][  0]LogTexture:Display: Building textures: Spur (AutoDXT)
+[2014.12.10-03.38.58:883][  0]LogTexture:Display: Building textures: Level_1_Chains (BGRA8)
+[2014.12.10-03.38.59:075][  0]LogTexture:Display: Building textures: Level_1_DirtForeground (BGRA8)
+[2014.12.10-03.38.59:240][  0]LogTexture:Display: Building textures: Level_1_Layout (BGRA8)
+[2014.12.10-03.38.59:384][  0]LogTexture:Display: Building textures: Level_1_Peg (BGRA8)
+[2014.12.10-03.38.59:430][  0]LogTexture:Display: Building textures: Level_1_Pillars (BGRA8)
+[2014.12.10-03.38.59:563][  0]LogTexture:Display: Building textures: Level_1_PlatformLarge (BGRA8)
+[2014.12.10-03.38.59:564][  0]LogTexture:Display: Building textures: Level_1_PlatformMedium (BGRA8)
+[2014.12.10-03.38.59:564][  0]LogTexture:Display: Building textures: Level_1_PlatformSmall (BGRA8)
+[2014.12.10-03.38.59:614][  0]LogTexture:Display: Building textures: Level_1_SheetMetalBackground (BGRA8)
+[2014.12.10-03.38.59:761][  0]LogTexture:Display: Building textures: Level_1_Windows (BGRA8)
+[2014.12.10-03.38.59:894][  0]LogTexture:Display: Building textures: star (AutoDXT)
+[2014.12.10-03.39.00:029][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.10-03.39.00:029][  0]LogAIModule: Creating AISystem for world Level_01
+[2014.12.10-03.39.00:029][  0]Cmd: MAP CHECKDEP
+[2014.12.10-03.39.00:029][  0]MapCheck: New page: Level_01 - Dec 9, 2014, 5:39:00 PM
+[2014.12.10-03.39.00:066][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [37.399ms] ==========
+[2014.12.10-03.39.00:066][  0]LogFileHelpers: Loading map 'Level_01' took 3.001
+[2014.12.10-03.39.00:215][  0]LogCollectionManager: Loaded 0 collections in 0.000926 seconds
+[2014.12.10-03.39.00:752][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.10-03.39.00:838][  0]LogLoad: Full Startup: 6.77 seconds (BP compile: 0.36 seconds)
+[2014.12.10-03.39.00:849][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Menu'
+[2014.12.10-03.39.01:019][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.12.10-03.39.01:112][  0]LogSlate: SRTH: 0000002C0F89B100, 952 x 895
+[2014.12.10-03.39.01:137][  0]LogRenderer:Warning: Reallocating scene render targets to support 952x896.
+[2014.12.10-03.39.02:101][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2CE2BB19863ADE34</RequestId><HostId>2GKUfTCborzrIIO0Ccfjxns5zFLZlh477flx+tw1QviO5e5Ho11aXtF8cCWW6EnZrhUyZ1vSD0A=</HostId></Error>
+[2014.12.10-03.39.02:188][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>47C65B56E99F4AB8</RequestId><HostId>9cJmHMfzJDVuUOCbKnzufawQt+aIgXg0IZjkKWM4R8CnzWGETsBgltNxCTNRACEa</HostId></Error>
+[2014.12.10-03.39.02:245][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B825D65D908FB0E0</RequestId><HostId>WeQbb3kJ8ummxZGIm9ysmskoNvpe2vdCiZP43+mV+2sZpOO8x00caywRWwalMtNI</HostId></Error>
+[2014.12.10-03.39.02:258][  5]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4C8583D6B062B306</RequestId><HostId>7Nd/nhqKBUQPKudEpLnUfsZPvFlrEtHSVYPkQN+B1nlncN2v5dPvX50+Cog8SkII</HostId></Error>
+[2014.12.10-03.39.02:327][  9]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-03.39.02:327][  9]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-03.39.09:812][665]LogAssetRegistry: Asset discovery search completed in 13.0464 seconds
+[2014.12.10-03.39.23:440][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.12.10-03.39.23:440][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.10-03.39.23:511][453]Cmd: MAP LOAD FILE="../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Content/Maps/Level_02.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.10-03.39.23:512][453]LightingResults: New page: Lighting Build
+[2014.12.10-03.39.23:521][453]LoadErrors: New page: Loading map: Level_02.umap
+[2014.12.10-03.39.23:523][453]MapCheck: New page: Map Check
+[2014.12.10-03.39.23:523][453]LightingResults: New page: Lighting Build
+[2014.12.10-03.39.23:550][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002C70FD56C0
+[2014.12.10-03.39.23:663][453]LogTexture:Display: Building textures: Level_2_Background (BGRA8)
+[2014.12.10-03.39.23:886][453]LogTexture:Display: Building textures: Level_2_Dirt (BGRA8)
+[2014.12.10-03.39.24:077][453]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1126) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2014.12.10-03.39.24:077][453]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2014.12.10-03.39.24:077][453]LogPhysics:Warning: Failed to cook convex: /Game/Sprites/Level02Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite 67 (FlipX:0). The remaining elements will not get cooked.
+[2014.12.10-03.39.24:080][453]LogPhysics:Warning: Failed to cook convex: /Game/Sprites/Level02Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite 67 (FlipX:1). The remaining elements will not get cooked.
+[2014.12.10-03.39.24:107][453]LogTexture:Display: Building textures: Level_2_Layout (BGRA8)
+[2014.12.10-03.39.24:322][453]LogTexture:Display: Building textures: Level_2_Rail (BGRA8)
+[2014.12.10-03.39.24:528][453]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level02Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.12.10-03.39.24:534][453]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.10-03.39.24:534][453]LogAIModule: Creating AISystem for world Level_02
+[2014.12.10-03.39.24:593][453]Cmd: MAP CHECKDEP
+[2014.12.10-03.39.24:593][453]MapCheck: New page: Level_02 - Dec 9, 2014, 5:39:24 PM
+[2014.12.10-03.39.24:626][453]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [32.798ms] ==========
+[2014.12.10-03.39.24:626][453]LogFileHelpers: Loading map 'Level_02' took 1.114
+[2014.12.10-03.39.29:564][848]LogEditorViewport: Clicking Background
+[2014.12.10-03.39.40:422][778]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level_1'
+[2014.12.10-03.39.41:235][875]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level_02_Textures'
+[2014.12.10-03.39.41:878][952]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level03Textures'
+[2014.12.10-03.39.42:661][ 43]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level02Textures'
+[2014.12.10-03.39.43:402][131]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level01Textures'
+[2014.12.10-03.39.44:562][268]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level02Textures'
+[2014.12.10-03.39.48:842][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/pre'
+[2014.12.10-03.39.49:411][847]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Levels'
+[2014.12.10-03.39.50:254][948]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level_Designs'
+[2014.12.10-03.39.51:557][102]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level03Sprites'
+[2014.12.10-03.39.55:552][534]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-03.39.57:247][706]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level01Sprites'
+[2014.12.10-03.39.58:392][841]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Characters'
+[2014.12.10-03.40.05:435][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Characters/PlaceHolders'
+[2014.12.10-03.40.08:947][950]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Characters/Clown'
+[2014.12.10-03.40.10:479][110]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Characters/Bull'
+[2014.12.10-03.40.13:207][407]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Characters/Blacksmith'
+[2014.12.10-03.40.14:129][497]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.12.10-03.40.15:475][658]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level01Sprites'
+[2014.12.10-03.40.20:656][271]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-03.40.24:457][725]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level03Sprites'
+[2014.12.10-03.40.27:428][ 33]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level_Designs'
+[2014.12.10-03.40.29:133][236]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Levels'
+[2014.12.10-03.40.29:731][307]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/pre'
+[2014.12.10-03.40.30:919][449]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Menu'
+[2014.12.10-03.41.01:245][381]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level_1'
+[2014.12.10-03.41.02:021][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Level_02_Textures'
+[2014.12.10-03.41.02:832][569]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Levels'
+[2014.12.10-03.41.03:308][626]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/pre'
+[2014.12.10-03.41.03:737][677]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level_Designs'
+[2014.12.10-03.41.04:847][809]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level03Sprites'
+[2014.12.10-03.41.09:749][349]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-03.41.12:286][651]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level01Sprites'
+[2014.12.10-03.41.17:896][313]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Characters/RedNeck'
+[2014.12.10-03.41.18:579][391]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Characters'
+[2014.12.10-03.43.25:566][ 23]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-03.44.07:261][219]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Characters/Blacksmith'
+[2014.12.10-03.44.07:733][268]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level01Sprites'
+[2014.12.10-03.44.34:353][483]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-03.44.40:441][977]Cmd: DELETE
+[2014.12.10-03.44.40:441][977]Cmd: ACTOR DELETE
+[2014.12.10-03.44.40:464][977]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-03.44.40:464][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.12.10-03.44.40:464][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.10-03.44.40:485][977]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2014.12.10-03.44.42:541][193]LogTexture:Display: Building textures: Level_2_Peg (BGRA8)
+[2014.12.10-03.44.56:918][215]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-03.44.56:918][215]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.12.10-03.44.56:918][215]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.10-03.44.56:939][215]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2014.12.10-03.45.30:261][324]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.10-03.47.09:331][261]Cmd: TRANSACTION UNDO
+[2014.12.10-03.47.09:331][261]LogEditorTransaction: Undo Move Actors
+[2014.12.10-03.47.09:332][261]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Level_02.Level_02:PersistentLevel.Spur_486.TRASH_BoxComponent_491) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.10-03.47.09:333][261]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level02Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.12.10-03.47.09:333][261]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level02Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.12.10-03.47.09:809][277]Cmd: TRANSACTION UNDO
+[2014.12.10-03.47.09:809][277]LogEditorTransaction: Undo Marquee Select
+[2014.12.10-03.47.17:583][934]Cmd: EDIT COPY
+[2014.12.10-03.48.01:999][691]Cmd: TRANSACTION UNDO
+[2014.12.10-03.48.01:999][691]LogEditorTransaction: Undo Move Actors
+[2014.12.10-03.48.01:999][691]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Level_02.Level_02:PersistentLevel.Spur_635.TRASH_BoxComponent_666) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.10-03.48.06:552][ 71]Cmd: DUPLICATE
+[2014.12.10-03.48.06:552][ 71]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.48.14:385][769]Cmd: DUPLICATE
+[2014.12.10-03.48.14:385][769]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.48.18:517][147]Cmd: DUPLICATE
+[2014.12.10-03.48.18:517][147]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.48.23:226][590]Cmd: DUPLICATE
+[2014.12.10-03.48.23:226][590]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.48.48:189][ 46]Cmd: DUPLICATE
+[2014.12.10-03.48.48:189][ 46]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.48.57:608][908]Cmd: TRANSACTION UNDO
+[2014.12.10-03.48.57:608][908]LogEditorTransaction: Undo Move Actors
+[2014.12.10-03.48.57:608][908]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Level_02.Level_02:PersistentLevel.Spur_6.TRASH_BoxComponent_873) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.10-03.48.57:609][908]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Level_02.Level_02:PersistentLevel.Spur_7.TRASH_BoxComponent_871) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.10-03.49.01:861][252]Cmd: DUPLICATE
+[2014.12.10-03.49.01:861][252]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.49.08:601][831]Cmd: DUPLICATE
+[2014.12.10-03.49.08:601][831]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.49.11:767][ 67]Cmd: DUPLICATE
+[2014.12.10-03.49.11:767][ 67]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.49.15:759][379]Cmd: DUPLICATE
+[2014.12.10-03.49.15:759][379]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.49.18:813][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.12.10-03.49.18:813][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.10-03.49.18:813][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.10-03.49.18:982][634]LogSavePackage: Save=30.940100ms
+[2014.12.10-03.49.18:982][634]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_02_Auto1EEB90EBB4968731A98AB84A95DAC1F58.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Autosaves/Game/Maps/Level_02_Auto1.umap'
+[2014.12.10-03.49.18:991][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_02' took 0.178
+[2014.12.10-03.49.18:991][634]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.178
+[2014.12.10-03.49.21:781][884]Cmd: DUPLICATE
+[2014.12.10-03.49.21:781][884]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.49.42:959][939]Cmd: DUPLICATE
+[2014.12.10-03.49.42:959][939]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.49.53:038][871]LogEditorViewport: Clicking on Actor (LMB): Spur_C (Spur_10)
+[2014.12.10-03.49.53:838][942]Cmd: DUPLICATE
+[2014.12.10-03.49.53:838][942]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.49.59:529][489]LogEditorViewport: Clicking on Actor (LMB): Spur_C (Spur_12)
+[2014.12.10-03.50.01:799][720]Cmd: DUPLICATE
+[2014.12.10-03.50.01:799][720]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.06:919][139]LogEditorViewport: Clicking on Actor (LMB): Spur_C (Spur_14)
+[2014.12.10-03.50.07:213][158]Cmd: DUPLICATE
+[2014.12.10-03.50.07:213][158]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.10:597][461]Cmd: DUPLICATE
+[2014.12.10-03.50.10:597][461]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.14:751][800]Cmd: DUPLICATE
+[2014.12.10-03.50.14:751][800]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.18:341][114]Cmd: DUPLICATE
+[2014.12.10-03.50.18:341][114]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.23:725][533]Cmd: DUPLICATE
+[2014.12.10-03.50.23:725][533]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.26:965][815]Cmd: DUPLICATE
+[2014.12.10-03.50.26:965][815]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.30:297][ 73]Cmd: DUPLICATE
+[2014.12.10-03.50.30:297][ 73]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.34:288][404]Cmd: DUPLICATE
+[2014.12.10-03.50.34:288][404]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.50.38:024][740]Cmd: DUPLICATE
+[2014.12.10-03.50.38:024][740]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.52.41:994][ 47]LogEditorViewport: Clicking Background
+[2014.12.10-03.52.51:522][750]Cmd: DUPLICATE
+[2014.12.10-03.52.51:522][750]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.52.56:258][179]Cmd: DUPLICATE
+[2014.12.10-03.52.56:258][179]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.53.12:628][504]Cmd: DUPLICATE
+[2014.12.10-03.53.12:628][504]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.53.21:000][275]Cmd: DUPLICATE
+[2014.12.10-03.53.21:000][275]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.53.25:498][674]Cmd: DUPLICATE
+[2014.12.10-03.53.25:498][674]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.53.32:895][201]Cmd: DUPLICATE
+[2014.12.10-03.53.32:895][201]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.53.38:042][648]Cmd: DUPLICATE
+[2014.12.10-03.53.38:042][648]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.53.43:520][200]Cmd: DUPLICATE
+[2014.12.10-03.53.43:520][200]Cmd: ACTOR DUPLICATE
+[2014.12.10-03.54.00:959][589]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-03.54.00:961][589]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-03.55.26:958][611]Cmd: TRANSACTION UNDO
+[2014.12.10-03.55.26:958][611]LogEditorTransaction: Undo Marquee Select
+[2014.12.10-03.57.09:194][365]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-03.57.11:157][547]Cmd: TRANSACTION UNDO
+[2014.12.10-03.57.11:157][547]LogEditorTransaction: Undo Move Actors
+[2014.12.10-03.57.47:195][590]Cmd: TRANSACTION UNDO
+[2014.12.10-03.57.47:195][590]LogEditorTransaction: Undo Marquee Select
+[2014.12.10-03.59.17:075][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.12.10-03.59.17:075][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.10-03.59.17:075][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.10-03.59.17:383][353]LogSavePackage: Save=51.779251ms
+[2014.12.10-03.59.17:383][353]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_02ADB548AB424F731313735285704AABCC.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Content/Maps/Level_02.umap'
+[2014.12.10-03.59.17:463][353]LogFileHelpers: Saving map 'Level_02' took 0.265
+[2014.12.10-04.02.06:080][487]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.02.06:756][556]Cmd: TRANSACTION UNDO
+[2014.12.10-04.02.06:756][556]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.03.01:903][772]Cmd: TRANSACTION UNDO
+[2014.12.10-04.03.01:903][772]LogEditorTransaction: Undo Marquee Select
+[2014.12.10-04.05.38:220][422]Cmd: TRANSACTION UNDO
+[2014.12.10-04.05.38:220][422]LogEditorTransaction: Undo Marquee Select
+[2014.12.10-04.08.10:689][969]Cmd: TRANSACTION UNDO
+[2014.12.10-04.08.10:689][969]LogEditorTransaction: Undo Marquee Select
+[2014.12.10-04.09.00:999][827]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-04.09.01:000][827]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-04.09.21:098][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.12.10-04.09.21:098][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.10-04.09.21:098][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.10-04.09.21:446][508]LogSavePackage: Save=86.332458ms
+[2014.12.10-04.09.21:446][508]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_02_Auto2889E1B5047CB42E9C7681EB47A9C8ABC.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Autosaves/Game/Maps/Level_02_Auto2.umap'
+[2014.12.10-04.09.21:457][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_02' took 0.359
+[2014.12.10-04.09.21:457][508]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.359
+[2014.12.10-04.10.12:012][121]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.10.37:462][180]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.10.37:978][230]Cmd: TRANSACTION UNDO
+[2014.12.10-04.10.37:978][230]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.10.59:165][928]LogEditorViewport: Clicking Background
+[2014.12.10-04.11.11:014][824]LogSavePackage: Save=81.860825ms
+[2014.12.10-04.11.11:014][824]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_028BF5FF55434A4844D69A3097DADC33A4.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Content/Maps/Level_02.umap'
+[2014.12.10-04.11.11:170][824]LogFileHelpers: Saving map 'Level_02' took 0.368
+[2014.12.10-04.11.33:547][538]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-04.11.43:465][379]Cmd: TRANSACTION UNDO
+[2014.12.10-04.11.43:465][379]LogEditorTransaction: Undo Set Actor Visibility
+[2014.12.10-04.11.43:985][395]Cmd: TRANSACTION UNDO
+[2014.12.10-04.11.43:985][395]LogEditorTransaction: Undo Move Actors
+[2014.12.10-04.11.44:446][436]Cmd: TRANSACTION UNDO
+[2014.12.10-04.11.44:446][436]LogEditorTransaction: Undo Create Actor
+[2014.12.10-04.12.04:529][210]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.10-04.12.09:824][337]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Interfaces'
+[2014.12.10-04.12.11:461][502]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Enumerations'
+[2014.12.10-04.12.11:907][554]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/MovingPlatforms'
+[2014.12.10-04.12.12:895][672]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.10-04.12.17:864][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Fonts'
+[2014.12.10-04.12.18:430][832]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.12.10-04.12.19:019][902]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.10-04.12.19:538][964]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.12.10-04.12.27:001][766]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-04.12.47:923][710]LogEditorViewport: Clicking Background
+[2014.12.10-04.13.53:819][225]Cmd: TRANSACTION UNDO
+[2014.12.10-04.13.53:819][225]LogEditorTransaction: Undo Marquee Select
+[2014.12.10-04.13.54:827][286]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.13.55:770][381]Cmd: TRANSACTION UNDO
+[2014.12.10-04.13.55:770][381]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.14.12:770][561]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Background_Sprite)
+[2014.12.10-04.14.35:177][519]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Background_Sprite)
+[2014.12.10-04.14.38:404][776]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.14.38:404][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.12.10-04.14.38:404][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.10-04.14.38:404][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.10-04.14.38:441][776]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2014.12.10-04.14.43:666][251]Cmd: DELETE
+[2014.12.10-04.14.43:666][251]Cmd: ACTOR DELETE
+[2014.12.10-04.14.43:669][251]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.14.43:692][251]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.12.10-04.16.39:256][533]LogSavePackage: Save=91.672279ms
+[2014.12.10-04.16.39:256][533]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_0292AA157C4E2B822BE0388090B49700E0.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Content/Maps/Level_02.umap'
+[2014.12.10-04.16.39:360][533]LogFileHelpers: Saving map 'Level_02' took 0.375
+[2014.12.10-04.16.46:641][193]LogEditorViewport: Clicking Background
+[2014.12.10-04.17.15:482][847]Cmd: TRANSACTION UNDO
+[2014.12.10-04.17.15:482][847]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.18.08:750][279]Cmd: DELETE
+[2014.12.10-04.18.08:750][279]Cmd: ACTOR DELETE
+[2014.12.10-04.18.08:751][279]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.18.08:776][279]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.12.10-04.18.16:190][975]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.18.16:216][975]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.10-04.18.21:381][387]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.21:381][387]LogEditorTransaction: Undo Move Actors
+[2014.12.10-04.18.21:729][401]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.21:729][401]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.18.22:046][421]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.22:047][421]LogEditorTransaction: Undo Delete selection
+[2014.12.10-04.18.22:428][456]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.22:428][456]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.18.22:704][480]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.22:704][480]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.18.23:040][513]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.23:040][513]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.18.23:395][547]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.23:395][547]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.18.23:780][586]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.23:780][586]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.18.24:135][624]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.24:135][624]LogEditorTransaction: Undo Delete Actors
+[2014.12.10-04.18.24:527][661]Cmd: TRANSACTION UNDO
+[2014.12.10-04.18.24:527][661]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.18.27:836][908]LogEditorViewport: Clicking Background
+[2014.12.10-04.18.45:820][637]LogEditorViewport: Clicking Background
+[2014.12.10-04.18.50:074][ 59]LogSavePackage: Save=85.007545ms
+[2014.12.10-04.18.50:074][ 59]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_02DE15A49448DEFBA828D60DBA97DA148B.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Content/Maps/Level_02.umap'
+[2014.12.10-04.18.50:139][ 59]LogFileHelpers: Saving map 'Level_02' took 0.280
+[2014.12.10-04.19.23:726][ 40]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2014.12.10-04.19.25:726][255]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Levels'
+[2014.12.10-04.19.26:781][381]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level_Designs'
+[2014.12.10-04.19.27:574][475]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level03Sprites'
+[2014.12.10-04.19.29:799][705]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-04.19.33:953][163]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level01Sprites'
+[2014.12.10-04.19.56:988][123]LogEditorViewport: Clicking Background
+[2014.12.10-04.20.00:152][456]LogEditorViewport: Clicking Background
+[2014.12.10-04.21.04:069][265]LogEditorViewport: Clicking Background
+[2014.12.10-04.22.01:445][242]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.22.02:477][340]Cmd: TRANSACTION UNDO
+[2014.12.10-04.22.02:477][340]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.24.01:071][202]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-04.24.01:072][202]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-04.27.20:599][333]Cmd: DELETE
+[2014.12.10-04.27.20:599][333]Cmd: ACTOR DELETE
+[2014.12.10-04.27.20:600][333]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.27.20:601][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.12.10-04.27.20:601][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.10-04.27.20:627][333]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2014.12.10-04.28.50:124][525]LogSavePackage: Save=97.782776ms
+[2014.12.10-04.28.50:124][525]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_02_Auto38EB352C04A16C5CE88EE34B598AEC7C7.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Autosaves/Game/Maps/Level_02_Auto3.umap'
+[2014.12.10-04.28.50:138][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_02' took 0.244
+[2014.12.10-04.28.50:138][525]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.244
+[2014.12.10-04.29.23:922][847]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Background_Sprite)
+[2014.12.10-04.30.59:793][463]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.30.59:794][463]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.30.59:795][463]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.30.59:796][463]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.30.59:796][463]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.30.59:797][463]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.30.59:798][463]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.30.59:824][463]LogEditorActor: Deleted 7 Actors (0.032 secs)
+[2014.12.10-04.31.03:814][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:815][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:816][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:817][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:818][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:820][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:821][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:822][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:823][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:823][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:824][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:824][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:825][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:826][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:826][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:827][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:827][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:828][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:828][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:829][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:830][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:830][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:831][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:831][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:832][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:832][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:833][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:834][804]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.03:857][804]LogEditorActor: Deleted 28 Actors (0.044 secs)
+[2014.12.10-04.31.10:692][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:693][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:694][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:695][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:695][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:696][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:696][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:697][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:698][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:698][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:699][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:699][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:700][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:700][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:701][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:701][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:702][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:703][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:704][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:705][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:705][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:706][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2014.12.10-04.31.10:727][421]LogEditorActor: Deleted 22 Actors (0.036 secs)
+[2014.12.10-04.31.53:886][506]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.31.53:959][507]LogEditorViewport: Clicking on Actor (double click): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.31.54:889][598]Cmd: TRANSACTION UNDO
+[2014.12.10-04.31.54:889][598]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2014.12.10-04.31.58:003][873]Cmd: TRANSACTION UNDO
+[2014.12.10-04.31.58:003][873]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.32.40:402][791]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.32.41:135][861]Cmd: TRANSACTION UNDO
+[2014.12.10-04.32.41:135][861]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.34.22:376][122]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.34.23:082][188]Cmd: TRANSACTION UNDO
+[2014.12.10-04.34.23:082][188]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.34.32:169][804]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.34.33:199][875]Cmd: TRANSACTION UNDO
+[2014.12.10-04.34.33:199][875]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.35.00:653][529]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Layout_Sprite)
+[2014.12.10-04.35.01:095][567]Cmd: TRANSACTION UNDO
+[2014.12.10-04.35.01:095][567]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.37.50:730][503]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Dirt_Sprite)
+[2014.12.10-04.38.54:464][130]LogSavePackage: Save=94.131630ms
+[2014.12.10-04.38.54:464][130]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_02_Auto4D766EC6A41FEB8514C3BEE921C5B6F87.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Autosaves/Game/Maps/Level_02_Auto4.umap'
+[2014.12.10-04.38.54:474][130]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_02' took 0.225
+[2014.12.10-04.38.54:474][130]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.225
+[2014.12.10-04.39.01:055][628]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-04.39.01:056][628]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.12.10-04.39.58:403][398]LogEditorViewport: Clicking Background
+[2014.12.10-04.40.02:504][726]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_1_PlatformMedium_Sprite_16)
+[2014.12.10-04.40.12:850][495]LogEditorViewport: Clicking Background
+[2014.12.10-04.40.20:940][286]LogEditorViewport: Clicking Background
+[2014.12.10-04.40.21:584][355]LogEditorViewport: Clicking Background
+[2014.12.10-04.40.30:229][293]LogEditorViewport: Clicking Background
+[2014.12.10-04.40.49:616][368]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/MovingPlatforms'
+[2014.12.10-04.40.50:732][501]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.10-04.41.01:166][ 94]Cmd: TRANSACTION UNDO
+[2014.12.10-04.41.01:166][ 94]LogEditorTransaction: Undo Move Actors
+[2014.12.10-04.41.01:166][ 94]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Level_02.Level_02:PersistentLevel.MovingPlatform_22.TRASH_SceneComponent_31) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.12.10-04.41.03:754][265]LogEditorActor: Deleted Actor: MovingPlatform_C
+[2014.12.10-04.41.03:754][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.12.10-04.41.03:754][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.10-04.41.03:754][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.10-04.41.03:784][265]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2014.12.10-04.41.12:469][674]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-04.41.14:191][832]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level01Sprites'
+[2014.12.10-04.41.15:164][910]LogTexture:Display: Building textures: Level_1_Cattle_Prod (BGRA8)
+[2014.12.10-04.41.29:021][849]Cmd: TRANSACTION UNDO
+[2014.12.10-04.41.29:021][849]LogEditorTransaction: Undo Marquee Select
+[2014.12.10-04.42.15:873][513]LogEditorViewport: Clicking Background
+[2014.12.10-04.42.29:479][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.12.10-04.42.29:479][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.10-04.42.29:479][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.10-04.42.29:752][852]LogSavePackage: Save=95.026688ms
+[2014.12.10-04.42.29:752][852]LogSavePackage: Moving '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Saved/Level_022409EEC0469CD1B80C6888A302E2FD60.tmp' to '../../../../../../Users/cwhitlo/Documents/GitHub/Cow-Tipping/Content/Maps/Level_02.umap'
+[2014.12.10-04.42.29:817][852]LogFileHelpers: Saving map 'Level_02' took 0.286
+[2014.12.10-04.43.29:554][895]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.12.10-04.43.29:859][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.10-04.43.33:958][182]LogEditorViewport: Clicking Background
+[2014.12.10-04.43.51:046][963]LogEditorActor: Deleted Actor: MovingPlatform_C
+[2014.12.10-04.43.51:046][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2014.12.10-04.43.51:046][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.12.10-04.43.51:046][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.12.10-04.43.51:072][963]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2014.12.10-04.43.59:040][543]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Level02Sprites'
+[2014.12.10-04.44.24:805][419]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-04.44.24:805][419]LogPlayLevel: [PIE] Compiling Level_02 before PIE...
+[2014.12.10-04.44.24:847][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2014.12.10-04.44.24:847][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.12.10-04.44.24:847][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.12.10-04.44.24:873][419]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2014.12.10-04.44.24:873][419]PIE: New page: PIE session: Level_02 (Dec 9, 2014, 6:44:24 PM)
+[2014.12.10-04.44.24:888][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015306s)
+[2014.12.10-04.44.24:889][419]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2014.12.10-04.44.24:889][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_02.Level_02 to /Game/Maps/UEDPIE_0_Level_02.Level_02 (0.016041s)
+[2014.12.10-04.44.24:920][419]LogWorld: Game class is 'CTGameMode_C'
+[2014.12.10-04.44.24:939][419]LogSlate: SRTH: 0000002C16DCE740, 1290 x 754
+[2014.12.10-04.44.24:984][419]LogAIModule: Creating AISystem for world Level_02
+[2014.12.10-04.44.24:984][419]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level02Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.12.10-04.44.25:025][419]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 0) at 2014.12.09-23.44.25
+[2014.12.10-04.44.25:037][419]LogWorld: Bringing up level for play took: 0.053214
+[2014.12.10-04.44.25:037][419]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.12.10-04.44.25:038][419]LogGameMode: RestartPlayer 256
+[2014.12.10-04.44.25:065][419]LogPlayerController: ClientRestart_Implementation Bull_Character_C_0
+[2014.12.10-04.44.25:065][419]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_0
+[2014.12.10-04.44.25:094][419]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_02 -0.445
+[2014.12.10-04.44.25:220][419]LogRenderer:Warning: Reallocating scene render targets to support 1296x896.
+[2014.12.10-04.44.25:709][419]LogSlate: SRTH: 0000002C7E5834C0, 952 x 899, prev 0000000000000000
+[2014.12.10-04.44.25:732][419]LogRenderer:Warning: Reallocating scene render targets to support 1296x904.
+[2014.12.10-04.44.25:896][419]LogSlate: SRTH: 0000002C1923E140, 1280 x 720, prev 0000000000000000
+[2014.12.10-04.44.44:200][903]LogSelection:Warning: PIE object was selected: "PlayerStart /Game/Maps/UEDPIE_0_Level_02.Level_02:PersistentLevel.PlayerStart_1"
+[2014.12.10-04.44.57:879][307]Cmd: EDIT COPY
+[2014.12.10-04.45.47:073][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002C7C98D4E0
+[2014.12.10-04.45.47:078][583]LogSlate: SRTH: 0000002C1A603880, 952 x 895, prev 0000000000000000
+[2014.12.10-04.45.48:407][685]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-04.45.48:407][685]LogPlayLevel: [PIE] Compiling Level_02 before PIE...
+[2014.12.10-04.45.48:473][685]LogPlayLevel: PIE:  Blueprint regeneration took 65 ms (1 blueprints)
+[2014.12.10-04.45.48:473][685]PIE: New page: PIE session: Level_02 (Dec 9, 2014, 6:45:48 PM)
+[2014.12.10-04.45.48:496][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023652s)
+[2014.12.10-04.45.48:497][685]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2014.12.10-04.45.48:497][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_02.Level_02 to /Game/Maps/UEDPIE_0_Level_02.Level_02 (0.024392s)
+[2014.12.10-04.45.48:497][685]LogWorld: Game class is 'CTGameMode_C'
+[2014.12.10-04.45.48:519][685]LogSlate: SRTH: 0000002C19AC9CC0, 1290 x 754
+[2014.12.10-04.45.48:543][685]LogAIModule: Creating AISystem for world Level_02
+[2014.12.10-04.45.48:544][685]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level02Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.12.10-04.45.48:587][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 0) at 2014.12.09-23.45.48
+[2014.12.10-04.45.48:598][685]LogWorld: Bringing up level for play took: 0.055426
+[2014.12.10-04.45.48:599][685]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.12.10-04.45.48:599][685]LogGameMode: RestartPlayer 257
+[2014.12.10-04.45.48:599][685]LogPlayerController: ClientRestart_Implementation Bull_Character_C_1
+[2014.12.10-04.45.48:599][685]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_1
+[2014.12.10-04.45.48:603][685]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_02 1.063
+[2014.12.10-04.45.48:798][685]LogSlate: SRTH: 0000002C1E4CA2C0, 952 x 899, prev 0000000000000000
+[2014.12.10-04.45.48:859][685]LogSlate: SRTH: 0000002C1E4CA500, 1280 x 720, prev 0000000000000000
+[2014.12.10-04.45.50:586][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002C7AEE59E0
+[2014.12.10-04.45.50:589][726]LogSlate: SRTH: 0000002C1BAEF400, 952 x 895, prev 0000000000000000
+[2014.12.10-04.45.53:749][855]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-04.45.54:952][919]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-04.45.56:013][  9]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-04.45.56:013][  9]LogPlayLevel: [PIE] Compiling Level_02 before PIE...
+[2014.12.10-04.45.56:080][  9]LogPlayLevel: PIE:  Blueprint regeneration took 67 ms (1 blueprints)
+[2014.12.10-04.45.56:080][  9]PIE: New page: PIE session: Level_02 (Dec 9, 2014, 6:45:56 PM)
+[2014.12.10-04.45.56:096][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015338s)
+[2014.12.10-04.45.56:096][  9]LogPlayLevel: PIE: World Init took: (0.000401s)
+[2014.12.10-04.45.56:096][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_02.Level_02 to /Game/Maps/UEDPIE_0_Level_02.Level_02 (0.015969s)
+[2014.12.10-04.45.56:096][  9]LogWorld: Game class is 'CTGameMode_C'
+[2014.12.10-04.45.56:119][  9]LogSlate: SRTH: 0000002C1C25D9C0, 1290 x 754
+[2014.12.10-04.45.56:146][  9]LogAIModule: Creating AISystem for world Level_02
+[2014.12.10-04.45.56:146][  9]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (67: /Game/Sprites/Level02Sprites/Level_2_Dirt_Sprite.Level_2_Dirt_Sprite:BodySetup_122)
+[2014.12.10-04.45.56:192][  9]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 0) at 2014.12.09-23.45.56
+[2014.12.10-04.45.56:203][  9]LogWorld: Bringing up level for play took: 0.056281
+[2014.12.10-04.45.56:204][  9]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.12.10-04.45.56:204][  9]LogGameMode: RestartPlayer 258
+[2014.12.10-04.45.56:204][  9]LogPlayerController: ClientRestart_Implementation Bull_Character_C_2
+[2014.12.10-04.45.56:204][  9]LogPlayerController: ServerAcknowledgePossession_Implementation Bull_Character_C_2
+[2014.12.10-04.45.56:208][  9]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_02 0.668
+[2014.12.10-04.45.56:357][  9]LogSlate: SRTH: 0000002C19ACB940, 952 x 899, prev 0000000000000000
+[2014.12.10-04.45.56:418][  9]LogSlate: SRTH: 0000002C1A5F3E80, 1280 x 720, prev 0000000000000000
+[2014.12.10-04.46.22:132][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002C6F202DE0
+[2014.12.10-04.46.22:232][687]LogSlate: SRTH: 0000002C19AD2200, 952 x 895, prev 0000000000000000
+[2014.12.10-04.46.42:209][373]LogUnrealMath: Expression Error : Unrecognized Operator
+[2014.12.10-04.46.45:403][549]LogEditorViewport: Clicking Background
+[2014.12.10-04.47.17:487][926]LogEditorViewport: Clicking Background
+[2014.12.10-04.47.22:391][350]LogEditorViewport: Clicking Background
+[2014.12.10-04.47.24:615][512]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.24:615][512]LogEditorTransaction: Undo Clicking Background
+[2014.12.10-04.47.25:007][526]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.25:007][526]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.47.25:384][551]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.25:384][551]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.47.25:757][583]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.25:757][583]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.10-04.47.26:382][632]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.26:382][632]LogEditorTransaction: Undo Clicking Background
+[2014.12.10-04.47.26:820][662]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.26:821][662]LogEditorTransaction: Undo Clicking Background
+[2014.12.10-04.47.27:249][698]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.27:249][698]LogEditorTransaction: Undo Set actor location
+[2014.12.10-04.47.27:621][727]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.27:621][727]LogEditorTransaction: Undo Set actor location
+[2014.12.10-04.47.31:046][ 63]LogEditorViewport: Clicking Background
+[2014.12.10-04.47.31:205][ 75]Cmd: TRANSACTION UNDO
+[2014.12.10-04.47.31:205][ 75]LogEditorTransaction: Undo Clicking Background
+[2014.12.10-04.47.37:381][671]Cmd: TRANSACTION REDO
+[2014.12.10-04.47.37:381][671]LogEditorTransaction: Redo Clicking Background
+[2014.12.10-04.47.40:766][973]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Background_Sprite)
+[2014.12.10-04.47.41:507][ 45]LogEditorViewport: Clicking Background
+[2014.12.10-04.47.54:654][226]LogUnrealMath: Expression Error : Unrecognized Operator
+[2014.12.10-04.47.54:654][226]LogUnrealMath: Expression Error : Unrecognized Operator
+[2014.12.10-04.48.03:884][ 19]LogEditorViewport: Clicking Background
+[2014.12.10-04.48.11:108][500]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Level_2_Background_Sprite)
+[2014.12.10-04.48.15:441][852]LogEdi
+>>>>>>> origin/master
